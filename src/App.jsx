@@ -3,7 +3,7 @@ import Navbar from './components/NavBar'
 import GameContainer from './components/GameContainer'
 
 export default function App() {
-  const [background, setBackground] = useState("/assets/backgrounds/nodkrai.png");
+  const [background, setBackground] = useState("/public/assets/backgrounds/thors.png");
 
   const changeBackground = (chosenBG) => {
     setBackground(chosenBG);
