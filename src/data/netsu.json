@@ -6,7 +6,7 @@
     "weapon": "Magic,Blade",
     "affiliation": "Class VII,Gralsritter,Four Great Houses",
     "age": "17",
-    "icon": "/assets/icons/Liliana.png"
+    "icon": "/public/assets/icons/Class VII/Liliana.png"
   },
   {
     "name": "Cecilia Richter",
@@ -15,7 +15,7 @@
     "weapon": "Blade",
     "affiliation": "Thors,Class VII",
     "age": "17",
-    "icon": "/assets/icons/Cecilia.png"
+    "icon": "/public/assets/icons/Class VII/Cecilia.png"
   },
   {
     "name": "Johan Christin",
@@ -24,7 +24,7 @@
     "weapon": "Blade",
     "affiliation": "Thors,Fools,Bracer Guild,Class VII",
     "age": "26",
-    "icon": "/assets/icons/Johan.png"
+    "icon": "/public/assets/icons/FOOLS/Johan.png"
   },
   {
     "name": "Lila Baskerville",
@@ -33,7 +33,7 @@
     "weapon": "Magic,Orbal",
     "affiliation": "Thors,Class VII",
     "age": "17",
-    "icon": "/assets/icons/Lila.png"
+    "icon": "/public/assets/icons/Class VII/Lila.png"
   },
   {
     "name": "Leticia R. Khemia",
@@ -42,7 +42,7 @@
     "weapon": "Orbal,Gun",
     "affiliation": "Thors,Class VII",
     "age": "15",
-    "icon": "/assets/icons/Leticia.png"
+    "icon": "/public/assets/icons/Class VII/Leticia.png"
   },
   {
     "name": "Juel Owayne",
@@ -51,7 +51,7 @@
     "weapon": "Blade,Bow,Magic,Orbal",
     "affiliation": "Thors,Class VII",
     "age": "17",
-    "icon": "/assets/icons/Juel.png"
+    "icon": "/public/assets/icons/Class VII/Juel.png"
   },
   {
     "name": "Soran Shihei",
@@ -60,7 +60,7 @@
     "weapon": "Blade",
     "affiliation": "Thors,Class VII,Jaeger",
     "age": "17",
-    "icon": "/assets/icons/Soran.png"
+    "icon": "/public/assets/icons/Class VII/Soran.png"
   },
   {
     "name": "Silica Worzel",
@@ -69,7 +69,7 @@
     "weapon": "Spear",
     "affiliation": "Thors,Class VII",
     "age": "15",
-    "icon": "/assets/icons/Silica.png"
+    "icon": "/public/assets/icons/Class VII/Silica.png"
   },
   {
     "name": "Stella Wright",
@@ -78,7 +78,7 @@
     "weapon": "Staff",
     "affiliation": "Bracer Guild",
     "age": "19",
-    "icon": "/assets/icons/Stella.png"
+    "icon": "/public/assets/icons/Liberl/Stella.png"
   },
   {
     "name": "Sora Wright",
@@ -87,7 +87,7 @@
     "weapon": "Blade",
     "affiliation": "Bracer Guild",
     "age": "19",
-    "icon": "/assets/icons/Sora.png"
+    "icon": "/public/assets/icons/Liberl/Sora.png"
   },
   {
     "name": "Belle",
@@ -96,7 +96,7 @@
     "weapon": "Magic",
     "affiliation": "Bracer Guild, The World's Stage",
     "age": "25",
-    "icon": "/assets/icons/Belle.png"
+    "icon": "/public/assets/icons/Liberl/Belle.png"
   },
   {
     "name": "Lara Skye",
@@ -105,7 +105,7 @@
     "weapon": "Camera, Gun",
     "affiliation": "Liberl News, Journalist",
     "age": "20",
-    "icon": "/assets/icons/Lara Skye.png"
+    "icon": "/public/assets/icons/Liberl/Lara Skye.png"
   },
   {
     "name": "Adam",
@@ -114,7 +114,7 @@
     "weapon": "Axe",
     "affiliation": "FOOLS, Jaeger",
     "age": "32",
-    "icon": "/assets/icons/Adam.png"
+    "icon": "/public/assets/icons/FOOLS/Adam.png"
   },
   {
     "name": "Dorothy Chastle",
@@ -123,6 +123,6 @@
     "weapon": "Dagger",
     "affiliation": "FOOLS, Prophetic Arms",
     "age": "32",
-    "icon": "/assets/icons/Dorothy.png"
+    "icon": "/public/assets/icons/FOOLS/Dorothy.png"
   }
 ]
