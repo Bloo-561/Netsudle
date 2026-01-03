@@ -4,45 +4,9 @@
     "gender": "Female",
     "region": "Erebonia",
     "weapon": "Magic,Blade",
-    "affiliation": "Class VII,Gralsritter,Four Great Houses",
+    "affiliation": "Class VII,Gralsritter,Four Great Houses, Septian Church",
     "age": "17",
     "icon": "/public/assets/icons/Class VII/Liliana.png"
-  },
-  {
-    "name": "Cecilia Richter",
-    "gender": "Female",
-    "region": "Erebonia",
-    "weapon": "Blade",
-    "affiliation": "Thors,Class VII",
-    "age": "17",
-    "icon": "/public/assets/icons/Class VII/Cecilia.png"
-  },
-  {
-    "name": "Johan Christin",
-    "gender": "Male",
-    "region": "Remiferia",
-    "weapon": "Blade",
-    "affiliation": "Thors,Fools,Bracer Guild,Class VII, Prophetic Arms",
-    "age": "26",
-    "icon": "/public/assets/icons/FOOLS/Johan.png"
-  },
-  {
-    "name": "Lila Baskerville",
-    "gender": "Female",
-    "region": "Erebonia",
-    "weapon": "Magic,Orbal",
-    "affiliation": "Thors,Class VII",
-    "age": "17",
-    "icon": "/public/assets/icons/Class VII/Lila.png"
-  },
-  {
-    "name": "Leticia R. Khemia",
-    "gender": "Female",
-    "region": "Erebonia",
-    "weapon": "Orbal,Gun",
-    "affiliation": "Thors,Class VII, Khemia Corp",
-    "age": "15",
-    "icon": "/public/assets/icons/Class VII/Leticia.png"
   },
   {
     "name": "Juel Owayne",
@@ -57,7 +21,7 @@
     "name": "Soran Shihei",
     "gender": "Male",
     "region": "North Ambria",
-    "weapon": "Blade",
+    "weapon": "Blade, Shield",
     "affiliation": "Thors,Class VII,Jaeger",
     "age": "17",
     "icon": "/public/assets/icons/Class VII/Soran.png"
@@ -67,45 +31,90 @@
     "gender": "Female",
     "region": "Nord Highlands",
     "weapon": "Spear",
-    "affiliation": "Thors,Class VII",
+    "affiliation": "Thors,Class VII, Prophetic Arms, Nord Village",
     "age": "15",
     "icon": "/public/assets/icons/Class VII/Silica.png"
   },
   {
-    "name": "Stella Wright",
+    "name": "Cecilia Richter",
     "gender": "Female",
-    "region": "Liberl",
-    "weapon": "Staff",
-    "affiliation": "Bracer Guild",
-    "age": "19",
-    "icon": "/public/assets/icons/Liberl/Stella.png"
-  },
-  {
-    "name": "Sora Wright",
-    "gender": "Male",
-    "region": "Liberl",
+    "region": "Erebonia",
     "weapon": "Blade",
-    "affiliation": "Bracer Guild",
+    "affiliation": "Thors,Class VII, Richter Family",
+    "age": "17",
+    "icon": "/public/assets/icons/Class VII/Cecilia.png"
+  },
+  {
+    "name": "Ronald Aegir",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Gun, Orbal",
+    "affiliation": "Thors,Class VII",
+    "age": "16",
+    "icon": "/public/assets/icons/Class VII/Ronald.png"
+  },
+  {
+    "name": "Lila Baskerville",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Magic,Orbal",
+    "affiliation": "Thors,Class VII",
+    "age": "17",
+    "icon": "/public/assets/icons/Class VII/Lila.png"
+  },
+  {
+    "name": "Eustace Sinclair",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Spear",
+    "affiliation": "Thors,Class VII, Four Great Houses",
+    "age": "17",
+    "icon": "/public/assets/icons/Class VII/Eustace.png"
+  },
+  {
+    "name": "Leticia R. Khemia",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Orbal,Gun",
+    "affiliation": "Thors,Class VII, Khemia Corp",
+    "age": "15",
+    "icon": "/public/assets/icons/Class VII/Leticia.png"
+  },
+  {
+    "name": "Noah Swallowtail",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Orbal",
+    "affiliation": "Thors,Class VII",
     "age": "19",
-    "icon": "/public/assets/icons/Liberl/Sora.png"
+    "icon": "/public/assets/icons/Class VII/Noah.png"
   },
   {
-    "name": "Belle",
+    "name": "Flan Returna",
     "gender": "Female",
     "region": "Liberl",
-    "weapon": "Magic",
-    "affiliation": "Bracer Guild, The World's Stage",
-    "age": "25",
-    "icon": "/public/assets/icons/Liberl/Belle.png"
+    "weapon": "Fists, Magic",
+    "affiliation": "Thors,Class VII, Gralsritter, Septian Church",
+    "age": "17",
+    "icon": "/public/assets/icons/Class VII/Flan.png"
   },
   {
-    "name": "Lara Skye",
+    "name": "Sara Oswell",
     "gender": "Female",
-    "region": "Liberl",
-    "weapon": "Camera, Gun",
-    "affiliation": "Liberl News, Journalist",
-    "age": "20",
-    "icon": "/public/assets/icons/Liberl/Lara Skye.png"
+    "region": "Erebonia",
+    "weapon": "Magic,Orbal,Rapier",
+    "affiliation": "Thors,Class VII,St. Astraia, Observatorium, Verne Company",
+    "age": "18",
+    "icon": "/public/assets/icons/Class VII/Sara.png"
+  },
+  {
+    "name": "Johan Christin",
+    "gender": "Male",
+    "region": "Remiferia",
+    "weapon": "Blade",
+    "affiliation": "Thors,Fools,Bracer Guild,Class VII, Prophetic Arms",
+    "age": "26",
+    "icon": "/public/assets/icons/FOOLS/Johan.png"
   },
   {
     "name": "Adam",
@@ -140,7 +149,7 @@
     "region": "Erebonia",
     "weapon": "N/A",
     "affiliation": "FOOLS, Khemia Corp",
-    "age": "22",
+    "age": "27",
     "icon": "/assets/icons/FOOLS/Heuey.png"
   },
   {
@@ -160,6 +169,843 @@
     "affiliation": "FOOLS",
     "age": "17",
     "icon": "/assets/icons/FOOLS/Linn.png"
+  },
+  {
+    "name": "Isaac Neuman",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Imperial Army, Ironbloods, Erebonian Government, Prophetic Arms",
+    "age": "52",
+    "icon": "/assets/icons/Ironbloods/Isaac Neuman.png"
+  },
+  {
+    "name": "Noelle Ingram",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Gun",
+    "affiliation": "RMP, Ironbloods, Bracer Guild",
+    "age": "24",
+    "icon": "/assets/icons/Ironbloods/Noelle Ingram.png"
+  },
+  {
+    "name": "Prish Capulet",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Orbal",
+    "affiliation": "Ironbloods",
+    "age": "19",
+    "icon": "/assets/icons/Ironbloods/Prish Capulet.png"
+  },
+  {
+    "name": "N'rin Worzel",
+    "gender": "Male",
+    "region": "Nord Highlands",
+    "weapon": "Halberd",
+    "affiliation": "Ironbloods, Nord Village",
+    "age": "21",
+    "icon": "/assets/icons/Ironbloods/Nrin Worzel.png"
+  },
+  {
+    "name": "Rudy Sinclair",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Spear",
+    "affiliation": "Ironbloods, Four Great Houses, Thors",
+    "age": "27",
+    "icon": "/assets/icons/Ironbloods/Rudy Sinclair.png"
+  },
+  {
+    "name": "Venus Daytona",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Blade",
+    "affiliation": "Ironbloods, Intelligence Division",
+    "age": "20",
+    "icon": "/assets/icons/Ironbloods/Venus Daytona.png"
+  },
+  {
+    "name": "Tobias Lysander",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Spear",
+    "affiliation": "Ironbloods",
+    "age": "19",
+    "icon": "/assets/icons/Ironbloods/Tobias Lysander.png"
+  },
+  {
+    "name": "Charles H. Astley",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Rapier",
+    "affiliation": "Thors, Four Great Houses",
+    "age": "17",
+    "icon": "/assets/icons/Class I-II/Charles.png"
+  },
+  {
+    "name": "Sebastian Antois",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Thors, Four Great Houses",
+    "age": "16",
+    "icon": "/assets/icons/Class I-II/Sebastian.png"
+  },
+  {
+    "name": "Marian Antois",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Bow",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class I-II/Marian.png"
+  },
+  {
+    "name": "Adin Cross",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Shield",
+    "affiliation": "Thors, Cross Family",
+    "age": "16",
+    "icon": "/assets/icons/Class I-II/Adin.png"
+  },
+  {
+    "name": "Cidd Riverdale",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class I-II/Cidd.png"
+  },
+  {
+    "name": "John Witherspoon",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "19",
+    "icon": "/assets/icons/Class I-II/John.png"
+  },
+  {
+    "name": "Josh Fredrickson",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class I-II/Josh.png"
+  },
+  {
+    "name": "Kyle Longhorn",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class I-II/Kyle.png"
+  },
+  {
+    "name": "Elizabeth Bernadotte",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Fists",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class I-II/Elizabeth.png"
+  },
+  {
+    "name": "Judith Rosenfeld",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Orbal",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class I-II/Judith.png"
+  },
+  {
+    "name": "Rumi Weissenberg",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Rapier",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class I-II/Rumi.png"
+  },
+  {
+    "name": "Mary Hopewell",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Orbal",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class I-II/Mary.png"
+  },
+  {
+    "name": "Haru McDowell",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Orbal, Gun",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class III-IV/Haru.png"
+  },
+  {
+    "name": "Doris McLovin",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class III-IV/Doris.png"
+  },
+  {
+    "name": "Eren Rowden",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Eren.png"
+  },
+  {
+    "name": "Falce Wickes",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "16",
+    "icon": "/assets/icons/Class III-IV/Falce.png"
+  },
+  {
+    "name": "Harie Bellby",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Fists",
+    "affiliation": "Thors",
+    "age": "18",
+    "icon": "/assets/icons/Class III-IV/Harie.png"
+  },
+  {
+    "name": "Ian Klein",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Ian.png"
+  },
+  {
+    "name": "Lots Higgenbottom",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Lots.png"
+  },
+  {
+    "name": "Lynx Cougar",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Camera",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Lynx.png"
+  },
+  {
+    "name": "Olan O'hare",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors, Khemia Corp",
+    "age": "18",
+    "icon": "/assets/icons/Class III-IV/Olan.png"
+  },
+  {
+    "name": "Vivian Pattisier'",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Vivian.png"
+  },
+  {
+    "name": "Rinne Monroe",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Rinne.png"
+  },
+  {
+    "name": "Serina Bertarelli",
+    "gender": "Female",
+    "region": "Leman",
+    "weapon": "Magic",
+    "affiliation": "Thors,Gralsritter, Septian Church",
+    "age": "33",
+    "icon": "/assets/icons/Class III-IV/Serina.png"
+  },
+  {
+    "name": "Silk Bonbon",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Silk.png"
+  },
+  {
+    "name": "Zak Satyr",
+    "gender": "Male",
+    "region": "Calvard",
+    "weapon": "Blade",
+    "affiliation": "Thors",
+    "age": "17",
+    "icon": "/assets/icons/Class III-IV/Zak.png"
+  },
+  {
+    "name": "Diana Returna",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Thors",
+    "age": "29",
+    "icon": "/assets/icons/Staff/Diana.png"
+  },
+  {
+    "name": "Tina Aesira",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Magic",
+    "affiliation": "Thors,Gralsritter, Septian Church",
+    "age": "27",
+    "icon": "/assets/icons/Staff/Tina.png"
+  },
+  {
+    "name": "Hendrix Stiles",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Gun",
+    "affiliation": "Thors",
+    "age": "40",
+    "icon": "/assets/icons/Staff/Hendrix.png"
+  },
+  {
+    "name": "Ludwig Jakes",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Orbal",
+    "affiliation": "Thors, Epstein Foundation",
+    "age": "34",
+    "icon": "/assets/icons/Staff/Ludwig.png"
+  },
+  {
+    "name": "Yan Vander",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Axe",
+    "affiliation": "Thors, Imperial Army",
+    "age": "70",
+    "icon": "/assets/icons/Staff/Vander.png"
+  },
+  {
+    "name": "Reinhardt Camelot",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Thors, Imperial Army",
+    "age": "28",
+    "icon": "/assets/icons/Staff/Reinhardt.png"
+  },
+  {
+    "name": "Lotte Cappuchino",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "Unknown",
+    "icon": "/assets/icons/Staff/Lotte.png"
+  },
+  {
+    "name": "Stan Richter",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Richter Family, Thors, Class VII",
+    "age": "46",
+    "icon": "/assets/icons/Staff/Stan.png"
+  },
+  {
+    "name": "Carlos Engels",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "RMP",
+    "age": "Unknown",
+    "icon": "/assets/icons/Trista/Carlos.png"
+  },
+  {
+    "name": "Flora",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Trista, Sales",
+    "age": "11",
+    "icon": "/assets/icons/Trista/Flora.png"
+  },
+  {
+    "name": "Lance 30",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Trista, Sales",
+    "age": "35",
+    "icon": "/assets/icons/Trista/Lance.png"
+  },
+  {
+    "name": "Mitch Wiggins",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Trista, Sales",
+    "age": "40",
+    "icon": "/assets/icons/Trista/Mitch.png"
+  },
+  {
+    "name": "Sophia",
+    "gender": "Female",
+    "region": "Remiferia",
+    "weapon": "Blade",
+    "affiliation": "Phantom Choir, Maid, Thors",
+    "age": "27",
+    "icon": "/assets/icons/Heimdallr/Sophia.png"
+  },
+  {
+    "name": "Cocolia Filius",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Four Great Houses, Erebonian Government",
+    "age": "44",
+    "icon": "/assets/icons/Heimdallr/Cocolia Filius.png"
+  },
+  {
+    "name": "Seymour Filius",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Four Great Houses, Erebonian Government",
+    "age": "34",
+    "icon": "/assets/icons/Heimdallr/seymour Filius.png"
+  },
+  {
+    "name": "Linde Patissier'",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr, Sales",
+    "age": "38",
+    "icon": "/assets/icons/Heimdallr/Linde Patissier.png"
+  },
+  {
+    "name": "Harvey Patissier'",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr, Sales",
+    "age": "44",
+    "icon": "/assets/icons/Heimdallr/Harvey Patissier.png"
+  },
+  {
+    "name": "Asha Monroe",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr",
+    "age": "38",
+    "icon": "/assets/icons/Heimdallr/Asha Monroe.png"
+  },
+  {
+    "name": "Eri Monroe",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr",
+    "age": "8",
+    "icon": "/assets/icons/Heimdallr/Eri Monroe.png"
+  },
+  {
+    "name": "Randy Monroe",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr",
+    "age": "11",
+    "icon": "/assets/icons/Heimdallr/Randy Monroe.png"
+  },
+  {
+    "name": "Lance (Library)",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr",
+    "age": "35",
+    "icon": "/assets/icons/Heimdallr/Lance (Libary).png"
+  },
+  {
+    "name": "Katia McDowell",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr, Sales",
+    "age": "32",
+    "icon": "/assets/icons/Heimdallr/Katia McDowell.png"
+  },
+  {
+    "name": "Veritas McDowell",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Heimdallr, Sales",
+    "age": "44",
+    "icon": "/assets/icons/Heimdallr/Veritas McDowell.png"
+  },
+  {
+    "name": "Marie Aegir",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Four Great Houses",
+    "age": "25",
+    "icon": "/assets/icons/Heimdallr/Marie Aegir.png"
+  },
+  {
+    "name": "Noel Chidouin",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "St. Astraia",
+    "age": "18",
+    "icon": "/assets/icons/Heimdallr/Noel Chidouin.png"
+  },
+  {
+    "name": "Mea Bastion",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Staff",
+    "affiliation": "St. Astraia",
+    "age": "44",
+    "icon": "/assets/icons/Heimdallr/Mea Bastion.png"
+  },
+  {
+    "name": "Giselle",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "14",
+    "icon": "/assets/icons/Heimdallr/Giselle.png"
+  },
+  {
+    "name": "Anna",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "31",
+    "icon": "/assets/icons/Heimdallr/Anna.png"
+  },
+  {
+    "name": "Sue",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "16",
+    "icon": "/assets/icons/Heimdallr/Sue.png"
+  },
+  {
+    "name": "Rita",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "22",
+    "icon": "/assets/icons/Heimdallr/Rita.png"
+  },
+  {
+    "name": "Nori",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "21",
+    "icon": "/assets/icons/Heimdallr/Nori.png"
+  },
+  {
+    "name": "Jess",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "21",
+    "icon": "/assets/icons/Heimdallr/Jess.png"
+  },
+  {
+    "name": "Doree",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "19",
+    "icon": "/assets/icons/Heimdallr/Doree.png"
+  },
+  {
+    "name": "Dia",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "20",
+    "icon": "/assets/icons/Heimdallr/Dia.png"
+  },
+  {
+    "name": "Henri",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "23",
+    "icon": "/assets/icons/Heimdallr/Henri.png"
+  },
+  {
+    "name": "Ducky",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Imperial Army",
+    "age": "36",
+    "icon": "/assets/icons/Heimdallr/Ducky.png"
+  },
+  {
+    "name": "Leonard",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Imperial Army",
+    "age": "45",
+    "icon": "/assets/icons/Heimdallr/Leonard.png"
+  },
+  {
+    "name": "Belia Sinclair",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Unknown",
+    "affiliation": "Four Great Houses",
+    "age": "19",
+    "icon": "/assets/icons/Bareahard/Belia.png"
+  },
+  {
+    "name": "Helmut Sinclair",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Four Great Houses",
+    "age": "48",
+    "icon": "/assets/icons/Bareahard/Helmut.png"
+  },
+  {
+    "name": "Captain Flufflekins",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "N/A",
+    "affiliation": "N/A",
+    "age": "N/A",
+    "icon": "/assets/icons/Bareahard/Flufflekins.png"
+  },
+  {
+    "name": "Sieg",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Sales",
+    "age": "37",
+    "icon": "/assets/icons/Bareahard/Sieg.png"
+  },
+  {
+    "name": "Chrom",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Parm, Imperial Army",
+    "age": "33",
+    "icon": "/assets/icons/Parm/Chrom.png"
+  },
+  {
+    "name": "Alfonse",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Parm",
+    "age": "19",
+    "icon": "/assets/icons/Parm/Alfonse.png"
+  },
+  {
+    "name": "Shareena",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Spear",
+    "affiliation": "Parm",
+    "age": "19",
+    "icon": "/assets/icons/Parm/Shareena.png"
+  },
+  {
+    "name": "Euden",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Parm",
+    "age": "19",
+    "icon": "/assets/icons/Parm/Euden.png"
+  },
+  {
+    "name": "Hubert Green",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Parm",
+    "age": "34",
+    "icon": "/assets/icons/Parm/Hubert.png"
+  },
+  {
+    "name": "Sally Green",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Parm",
+    "age": "31",
+    "icon": "/assets/icons/Parm/Sally.png"
+  },
+  {
+    "name": "Toby Green",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Parm",
+    "age": "7",
+    "icon": "/assets/icons/Parm/Toby.png"
+  },
+  {
+    "name": "Tobias",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "N/A",
+    "age": "Unknown",
+    "icon": "/assets/icons/Parm/Tobias.png"
+  },
+  {
+    "name": "Carrie Hopewell",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Saint-Arkh",
+    "age": "39",
+    "icon": "/assets/icons/Saint-Arkh/Carrie.png"
+  },
+  {
+    "name": "Erica",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Septian Church",
+    "age": "Unknown",
+    "icon": "/assets/icons/Saint-Arkh/Erica.png"
+  },
+  {
+    "name": "Marquis Astley",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Four Great Houses",
+    "age": "52",
+    "icon": "/assets/icons/Saint-Arkh/Marquis.png"
+  },
+  {
+    "name": "Sakuya Hoshino",
+    "gender": "Female",
+    "region": "Han Dynasty",
+    "weapon": "Blade, Magic",
+    "affiliation": "Witch, Witch of Origin",
+    "age": "Unknown",
+    "icon": "/assets/icons/Witches/Sakuya.png"
+  },
+  {
+    "name": "Riesel",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Magic",
+    "affiliation": "Witch, Witch of Origin, Sales",
+    "age": "Unknown",
+    "icon": "/assets/icons/Witches/Riesel.png"
+  },
+  {
+    "name": "Fraxis",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Magic",
+    "affiliation": "Witch, Witch of Origin",
+    "age": "Unknown",
+    "icon": "/assets/icons/Witches/Fraxis.png"
+  },
+  {
+    "name": "Piamo",
+    "gender": "Female",
+    "region": "Remiferia",
+    "weapon": "Magic",
+    "affiliation": "Witch, Witch of Origin",
+    "age": "Unknown",
+    "icon": "/assets/icons/Witches/Piamo.png"
+  },
+  {
+    "name": "Hildegard",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Magic",
+    "affiliation": "Witch, Witch of Origin",
+    "age": "Unknown",
+    "icon": "/assets/icons/Witches/Hildegard.png"
+  },
+  {
+    "name": "Melia ''Dawn'' ",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Magic",
+    "affiliation": "Witch, Witch of Origin",
+    "age": "Unknown",
+    "icon": "/assets/icons/Witches/Dawn.png"
+  },
+  {
+    "name": "Naoto",
+    "gender": "Male",
+    "region": "Han Dynasty",
+    "weapon": "Blade",
+    "affiliation": "Witch Ally",
+    "age": "21",
+    "icon": "/assets/icons/Witches/Naoto.png"
+  },
+  {
+    "name": "Dine Wenzel",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "Blade",
+    "affiliation": "Witch, Witch Ally",
+    "age": "Unknown",
+    "icon": "/assets/icons/Witches/Dine.png"
   },
   {
     "name": "Ahri",
@@ -324,6 +1170,42 @@
     "icon": "/assets/icons/Crossbell/Wilfred Sacred.png"
   },
   {
+    "name": "Stella Wright",
+    "gender": "Female",
+    "region": "Liberl",
+    "weapon": "Staff",
+    "affiliation": "Bracer Guild",
+    "age": "19",
+    "icon": "/public/assets/icons/Liberl/Stella.png"
+  },
+  {
+    "name": "Sora Wright",
+    "gender": "Male",
+    "region": "Liberl",
+    "weapon": "Blade",
+    "affiliation": "Bracer Guild",
+    "age": "19",
+    "icon": "/public/assets/icons/Liberl/Sora.png"
+  },
+  {
+    "name": "Belle",
+    "gender": "Female",
+    "region": "Liberl",
+    "weapon": "Magic",
+    "affiliation": "Bracer Guild, The World's Stage, Witch",
+    "age": "25",
+    "icon": "/public/assets/icons/Liberl/Belle.png"
+  },
+  {
+    "name": "Lara Skye",
+    "gender": "Female",
+    "region": "Liberl",
+    "weapon": "Camera, Gun",
+    "affiliation": "Liberl News, Journalist",
+    "age": "20",
+    "icon": "/public/assets/icons/Liberl/Lara Skye.png"
+  },
+  {
     "name": "Cynthia Lot",
     "gender": "Female",
     "region": "Erebonia",
@@ -421,5 +1303,518 @@
     "affiliation": "Sales, Celdic",
     "age": "24",
     "icon": "/assets/icons/Celdic/Samwell Owayne.png"
+  },
+  {
+    "name": "Himmel Cross",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Shield",
+    "affiliation": "Cross Family",
+    "age": "43",
+    "icon": "/assets/icons/Legram/Himmel Cross.png"
+  },
+  {
+    "name": "Carol Cross",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Shield",
+    "affiliation": "Cross Family",
+    "age": "40",
+    "icon": "/assets/icons/Legram/Carol Cross.png"
+  },
+  {
+    "name": "Alex",
+    "gender": "Female",
+    "region": "North Ambria",
+    "weapon": "Blade",
+    "affiliation": "Jaeger",
+    "age": "17",
+    "icon": "/assets/icons/North Ambria/Alex.png"
+  },
+  {
+    "name": "Cheria Belgar",
+    "gender": "Female",
+    "region": "North Ambria",
+    "weapon": "Gunblade",
+    "affiliation": "Jaeger",
+    "age": "34",
+    "icon": "/assets/icons/North Ambria/Cheria Belgar.png"
+  },
+  {
+    "name": "Jude Belgar",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Blade",
+    "affiliation": "Jaeger, The World's Stage",
+    "age": "34",
+    "icon": "/assets/icons/North Ambria/Jude Belgar.png"
+  },
+  {
+    "name": "Gunther",
+    "gender": "Male",
+    "region": "North Ambria",
+    "weapon": "N/A",
+    "affiliation": "Jaeger",
+    "age": "40",
+    "icon": "/assets/icons/North Ambria/Guntehr.png"
+  },
+  {
+    "name": "Dan",
+    "gender": "Male",
+    "region": "North Ambria",
+    "weapon": "Gauntlet",
+    "affiliation": "Jaeger",
+    "age": "36",
+    "icon": "/assets/icons/North Ambria/Dan.png"
+  },
+  {
+    "name": "Mickey",
+    "gender": "Male",
+    "region": "North Ambria",
+    "weapon": "Gunblade",
+    "affiliation": "Jaeger",
+    "age": "35",
+    "icon": "/assets/icons/North Ambria/Mickey.png"
+  },
+  {
+    "name": "Dantes Growler",
+    "gender": "Male",
+    "region": "North Ambria",
+    "weapon": "Fists",
+    "affiliation": "Royal Family",
+    "age": "44",
+    "icon": "/assets/icons/North Ambria/Dantes Growler.png"
+  },
+  {
+    "name": "Gale Worzel",
+    "gender": "Male",
+    "region": "Nord Highlands",
+    "weapon": "Axe",
+    "affiliation": "Nord Village",
+    "age": "55",
+    "icon": "/assets/icons/Nord/Gale Worzel.png"
+  },
+  {
+    "name": "Patricia Worzel",
+    "gender": "Female",
+    "region": "Nord Highlands",
+    "weapon": "N/A",
+    "affiliation": "Nord Village",
+    "age": "49",
+    "icon": "/assets/icons/Nord/Patricia Worzel.png"
+  },
+  {
+    "name": "Otis Worzel",
+    "gender": "Male",
+    "region": "Nord Highlands",
+    "weapon": "N/A",
+    "affiliation": "Nord Village",
+    "age": "11",
+    "icon": "/assets/icons/Nord/Otis Worzel.png"
+  },
+  {
+    "name": "Annette Worzel",
+    "gender": "Female",
+    "region": "Nord Highlands",
+    "weapon": "N/A",
+    "affiliation": "Nord Village",
+    "age": "90",
+    "icon": "/assets/icons/Nord/Annette Worzel.png"
+  },
+  {
+    "name": "Orissa Gotel",
+    "gender": "Female",
+    "region": "Nord Highlands",
+    "weapon": "N/A",
+    "affiliation": "Nord Village",
+    "age": "21",
+    "icon": "/assets/icons/Nord/Orissa Gotell.png"
+  },
+  {
+    "name": "Y'relef Gotel",
+    "gender": "Female",
+    "region": "Nord Highlands",
+    "weapon": "Spear",
+    "affiliation": "Nord Village, Liberl News",
+    "age": "15",
+    "icon": "/assets/icons/Nord/Y'relef Gotel.png"
+  },
+  {
+    "name": "Ivanah Muwah",
+    "gender": "Female",
+    "region": "Nord Highlands",
+    "weapon": "Spear",
+    "affiliation": "Nord Village",
+    "age": "22",
+    "icon": "/assets/icons/Nord/Ivanah Muwah.png"
+  },
+  {
+    "name": "Dauss Ehwa",
+    "gender": "Male",
+    "region": "Nord Highlands",
+    "weapon": "N/A",
+    "affiliation": "Nord Village",
+    "age": "24",
+    "icon": "/assets/icons/Nord/Dauss Ehwa.png"
+  },
+  {
+    "name": "Alice Christin",
+    "gender": "Female",
+    "region": "Remiferia",
+    "weapon": "Unknown",
+    "affiliation": "Jaeger",
+    "age": "16",
+    "icon": "/assets/icons/Remiferia/Alice Christin.png"
+  },
+  {
+    "name": "Prince Albert",
+    "gender": "Male",
+    "region": "Remiferia",
+    "weapon": "N/A",
+    "affiliation": "Royal Family",
+    "age": "46",
+    "icon": "/assets/icons/Remiferia/Prince Albert.png"
+  },
+  {
+    "name": "Vita R. Khemia",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "38",
+    "icon": "/assets/icons/Roer/Vita R Khemia.png"
+  },
+  {
+    "name": "Will R. Khemia",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "39",
+    "icon": "/assets/icons/Roer/Will R Khemia.png"
+  },
+  {
+    "name": "May March",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "31",
+    "icon": "/assets/icons/Roer/May March.png"
+  },
+  {
+    "name": "Nicholas Fulmore",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "21",
+    "icon": "/assets/icons/Roer/Nicholas Fulmore.png"
+  },
+  {
+    "name": "Einz Howard",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "45",
+    "icon": "/assets/icons/Roer/Einz Howard.png"
+  },
+  {
+    "name": "Daniel Thurston",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "21",
+    "icon": "/assets/icons/Roer/Daniel Thurston.png"
+  },
+  {
+    "name": "Dolla Pollock",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "26",
+    "icon": "/assets/icons/Roer/Dolla Pollock.png"
+  },
+  {
+    "name": "Vince Pollock",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "16",
+    "icon": "/assets/icons/Roer/Vince Pollock.png"
+  },
+  {
+    "name": "Etie Tarks",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Khemia Corp",
+    "age": "51",
+    "icon": "/assets/icons/Roer/Etie Tarks.png"
+  },
+  {
+    "name": "Elric Reise Arnor",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Gun, Blade",
+    "affiliation": "Royal Family",
+    "age": "25",
+    "icon": "/assets/icons/Royal Family/Elric Reise Arnor.png"
+  },
+  {
+    "name": "Nina Reise Arnor",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Royal Family",
+    "age": "20",
+    "icon": "/assets/icons/Royal Family/Nina Reise Arnor.png"
+  },
+  {
+    "name": "Gilbert Reise Arnor",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Gun, Blade",
+    "affiliation": "Royal Family",
+    "age": "13",
+    "icon": "/assets/icons/Royal Family/Gilbert Reise Arnor.png"
+  },
+  {
+    "name": "Henry Reise Arnor III",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Royal Family, Erebonian Government",
+    "age": "48",
+    "icon": "/assets/icons/Royal Family/Henry Reise Arnor.png"
+  },
+  {
+    "name": "Beatrix Reise Arnor",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Royal Family",
+    "age": "36",
+    "icon": "/assets/icons/Royal Family/Beatrix Reise Arnor.png"
+  },
+  {
+    "name": "Elaneer Lockett",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Unknown",
+    "affiliation": "Gralsritter, Septian Church",
+    "age": "Unknown",
+    "icon": "/assets/icons/Septian Church/Elaneer Lockett.png"
+  },
+  {
+    "name": "Caius Lorien",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Unknown",
+    "affiliation": "Gralsritter, Septian Church",
+    "age": "Unknown",
+    "icon": "/assets/icons/Septian Church/Caius Lorien.png"
+  },
+  {
+    "name": "Rudolf Barnes",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Fists",
+    "affiliation": "Gralsritter, Septian Church",
+    "age": "64",
+    "icon": "/assets/icons/Septian Church/Rudolf Barnes.png"
+  },
+  {
+    "name": "Philia Barnes",
+    "gender": "Female",
+    "region": "Leman",
+    "weapon": "Blade, Shield",
+    "affiliation": "Gralsritter, Septian Church",
+    "age": "26",
+    "icon": "/assets/icons/Septian Church/Philia Barnes.png"
+  },
+  {
+    "name": "Yubel Hawtt",
+    "gender": "Male",
+    "region": "Leman",
+    "weapon": "Unknown",
+    "affiliation": "Gralsritter, Septian Church",
+    "age": "Unknown",
+    "icon": "/assets/icons/Septian Church/Yubel Hawtt.png"
+  },
+  {
+    "name": "ALICE",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Magic",
+    "affiliation": "FOOLS, The World's Stage, Witch",
+    "age": "Unknown",
+    "icon": "/assets/icons/The World Stage/ALICE.png"
+  },
+  {
+    "name": "Gideon Rosenberg",
+    "gender": "Male",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "The World's Stage, Rosenberg Studio",
+    "age": "Unknown",
+    "icon": "/assets/icons/The World Stage/Gideon.png"
+  },
+  {
+    "name": "Nacht",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Magic, Fists",
+    "affiliation": "The World's Stage",
+    "age": "Unknown",
+    "icon": "/assets/icons/The World Stage/Nacht.png"
+  },
+  {
+    "name": "Tenebria",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Lance",
+    "affiliation": "The World's Stage",
+    "age": "Unknown",
+    "icon": "/assets/icons/The World Stage/Tenebria.png"
+  },
+  {
+    "name": "Lapis",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "Magic",
+    "affiliation": "The World's Stage",
+    "age": "Unknown",
+    "icon": "/assets/icons/The World Stage/Lapis.png"
+  },
+  {
+    "name": "V",
+    "gender": "Female",
+    "region": "N/A",
+    "weapon": "Blade",
+    "affiliation": "The World's Stage, Rosenberg Studio",
+    "age": "Unknown",
+    "icon": "/assets/icons/The World Stage/V.png"
+  },
+  {
+    "name": "Elio",
+    "gender": "Male",
+    "region": "Leman",
+    "weapon": "Blade",
+    "affiliation": "Unknown",
+    "age": "Unknown",
+    "icon": "/assets/icons/Unknown/Elio.png"
+  },
+  {
+    "name": "Richard Silvers",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Unknown",
+    "affiliation": "Unknown",
+    "age": "Unknown",
+    "icon": "/assets/icons/Unknown/Richard Silvers.png"
+  },
+  {
+    "name": "Sotheby Antois",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Four Great Houses",
+    "age": "38",
+    "icon": "/assets/icons/Ordis/Sotheby.png"
+  },
+  {
+    "name": "Jhonathan Antois",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Four Great Houses",
+    "age": "47",
+    "icon": "/assets/icons/Ordis/Jhonathan.png"
+  },
+  {
+    "name": "Hector",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Informant",
+    "age": "37",
+    "icon": "/assets/icons/Raquel/Hector.png"
+  },
+  {
+    "name": "Ren",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Axe",
+    "affiliation": "N/A",
+    "age": "14",
+    "icon": "/assets/icons/Raquel/Ren.png"
+  },
+  {
+    "name": "Sister Pascal",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Septian Church",
+    "age": "Unknown",
+    "icon": "/assets/icons/Raquel/Sister Pascal.png"
+  },
+  {
+    "name": "Sister Lina",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Septian Church",
+    "age": "Unknown",
+    "icon": "/assets/icons/Raquel/Sister Lina.png"
+  },
+  {
+    "name": "Aurelius De Fermont",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Imperial Army",
+    "age": "30",
+    "icon": "/assets/icons/Imperial Army/Aurelius De Fermont.png"
+  },
+  {
+    "name": "Barreta Xander",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Imperial Army",
+    "age": "40",
+    "icon": "/assets/icons/Imperial Army/Barreta Xander.png"
+  },
+  {
+    "name": "Finn",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Imperial Army",
+    "age": "23",
+    "icon": "/assets/icons/Imperial Army/Finn.png"
+  },
+  {
+    "name": "Finnette",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Imperial Army",
+    "age": "22",
+    "icon": "/assets/icons/Imperial Army/Finnette.png"
+  },
+  {
+    "name": "Piolo Aegir",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Spear, Shield",
+    "affiliation": "Imperial Army",
+    "age": "49",
+    "icon": "/assets/icons/Imperial Army/Piolo Aegir.png"
   }
 ]
