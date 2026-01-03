@@ -122,7 +122,7 @@
     "region": "Erebonia",
     "weapon": "Dagger",
     "affiliation": "FOOLS, Prophetic Arms",
-    "age": "32",
+    "age": "18",
     "icon": "/public/assets/icons/FOOLS/Dorothy.png"
   },
   {
@@ -195,7 +195,7 @@
     "weapon": "Gun",
     "affiliation": "Crossbell Police, SSS,",
     "age": "38",
-    "icon": "/assets/icons/Crossbell/Auguste.png"
+    "icon": "/assets/icons/Crossbell/Auguste Wenzel.png"
   },
   {
     "name": "Chitose Roswell",
@@ -275,7 +275,142 @@
     "region": "Calvard",
     "weapon": "N/A",
     "affiliation": "Crossbell Government",
-    "age": "18",
-    "icon": "/assets/icons/Crossbell/Genesis Trainer.png"
+    "age": "40",
+    "icon": "/assets/icons/Crossbell/Saori Shihei.png"
+  },
+  {
+    "name": "Yuki Shihei",
+    "gender": "Male",
+    "region": "Calvard",
+    "weapon": "N/A",
+    "affiliation": "Crossbell Government",
+    "age": "42",
+    "icon": "/assets/icons/Crossbell/Yuki Shihei.png"
+  },
+  {
+    "name": "Teio Freyja",
+    "gender": "Female",
+    "region": "Remiferia",
+    "weapon": "Orbal",
+    "affiliation": "SSS, Epstein Foundation",
+    "age": "16",
+    "icon": "/assets/icons/Crossbell/Teio Freyja.png"
+  },
+  {
+    "name": "Trista MacKlein",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "Crossbell Government",
+    "age": "22",
+    "icon": "/assets/icons/Crossbell/Trista MacKlein.png"
+  },
+  {
+    "name": "Vane Brando",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "Halberd",
+    "affiliation": "SSS, Jaeger",
+    "age": "23",
+    "icon": "/assets/icons/Crossbell/Vane Brando.png"
+  },
+  {
+    "name": "Wilfred Sacred",
+    "gender": "Male",
+    "region": "Lemanian",
+    "weapon": "N/A",
+    "affiliation": "Epstein Foundation",
+    "age": "13",
+    "icon": "/assets/icons/Crossbell/Wilfred Sacred.png"
+  },
+  {
+    "name": "Cynthia Lot",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Aragon",
+    "age": "10",
+    "icon": "/assets/icons/Aragon/Cynthia Lot.png"
+  },
+  {
+    "name": "Lancrest Lot",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Aragon, Lance Family",
+    "age": "12",
+    "icon": "/assets/icons/Aragon/Lancrest Lot.png"
+  },
+  {
+    "name": "Lance Lot",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "N/A",
+    "affiliation": "Aragon, Lance Family",
+    "age": "35",
+    "icon": "/assets/icons/Aragon/Lance Lot.png"
+  },
+  {
+    "name": "Grace Owayne",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Blade, Magic",
+    "affiliation": "Celdic, Sales",
+    "age": "43",
+    "icon": "/assets/icons/Celdic/Grace Owayne.png"
+  },
+  {
+    "name": "Lance 10",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "N/A",
+    "affiliation": "Sales, Celdic",
+    "age": "35",
+    "icon": "/assets/icons/Celdic/Lance 10.png"
+  },
+  {
+    "name": "Lance 11",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "N/A",
+    "affiliation": "Sales, Celdic",
+    "age": "35",
+    "icon": "/assets/icons/Celdic/Lance 11.png"
+  },
+  {
+    "name": "Lance 13",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "N/A",
+    "affiliation": "Sales, Celdic",
+    "age": "35",
+    "icon": "/assets/icons/Celdic/Lance 13.png"
+  },
+  {
+    "name": "Rebecca Bonbon",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Sales, Celdic, Erebonian Government",
+    "age": "20",
+    "icon": "/assets/icons/Celdic/Rebecca Bonbon.png"
+  },
+  {
+    "name": "Taffeta Bonbon",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Sales, Celdic",
+    "age": "39",
+    "icon": "/assets/icons/Celdic/Lance 10.png"
+  },
+  {
+    "name": "Ulrich Bonbon",
+    "gender": "Male",
+    "region": "Unknown",
+    "weapon": "N/A",
+    "affiliation": "Sales, Celdic",
+    "age": "41",
+    "icon": "/assets/icons/Celdic/Ulrich Bonbon.png"
   }
 ]
