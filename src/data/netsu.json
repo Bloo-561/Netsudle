@@ -4,7 +4,7 @@
     "gender": "Female",
     "region": "Erebonia",
     "weapon": "Magic,Blade",
-    "affiliation": "Class VII,Gralsritter,Four Great Houses, Septian Church",
+    "affiliation": "Thors, Class VII,Gralsritter,Four Great Houses, Septian Church",
     "age": "17",
     "icon": "/public/assets/icons/Class VII/Liliana.png"
   },
@@ -129,7 +129,7 @@
     "name": "Dorothy Chastle",
     "gender": "Female",
     "region": "Erebonia",
-    "weapon": "Dagger",
+    "weapon": "Blade",
     "affiliation": "FOOLS, Prophetic Arms",
     "age": "18",
     "icon": "/public/assets/icons/FOOLS/Dorothy.png"
