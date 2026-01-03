@@ -59,7 +59,7 @@ export default function GameInfo({limit, streak, prevAnswer, prevAnswerImage, is
                     
                     <div className="space-y-1 sm:px-15 text-lg sm:text-2xl font-semibold">
                         <h2 className="text-3xl sm:text-5xl font-bold mb-6 sm:mb-10 ">Netsudle</h2>
-                        <h3>Guesses: {limit} / 5</h3>
+                        <h3>Guesses: {limit} / 10</h3>
                         <h3>Win Streak: {streak} 🔥</h3>
                         <h3>High Score: {highScore} 🔥</h3>
                         <h3 className="flex items-center gap-2">
@@ -82,7 +82,7 @@ export default function GameInfo({limit, streak, prevAnswer, prevAnswerImage, is
 					<button onClick={handleReplay} className="border-2 border-black p-4 cursor-pointer"> Play again </button>
 				</div>
 			)}
-			{!isGuessed && limit >= 5 && (
+			{!isGuessed && limit >= 10 && (
 				<div className="bg-red-400/95 w-full py-6 sm:py-10 px-4 sm:px-20 flex flex-col gap-6 sm:gap-10 items-center text-black text-lg sm:text-2xl rounded-md">
 					<p> You didn't manage to guess the set. The answer was <span className="text-green-300">{answer.name}</span>.{" "} </p>
 					<button onClick={handleReplay} className="border-2 border-black p-4 cursor-pointer"> Play again </button>

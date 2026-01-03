@@ -24,7 +24,7 @@ export default function GameContainer() {
   }, [streak, highScore]);
 
   const handleGuess = (artifact) => {
-    if (isGuessed || limit >= 5)
+    if (isGuessed || limit >= 10)
       // Check for if the artifact set has been guessed or the limit of guesses has been exceeded
       return;
     if (guesses.find((g) => g.name === artifact.name))
@@ -32,7 +32,7 @@ export default function GameContainer() {
       return;
     if (artifact.name === answer.name) setStreak((prev) => prev + 1);
     // Increment the win streak if the guess was correct
-    else if (limit + 1 >= 5) setStreak(0); // If the artifact set isn't guessed, reset the streak
+    else if (limit + 1 >= 10) setStreak(0); // If the artifact set isn't guessed, reset the streak
     setGuesses((prev) => [artifact, ...prev]); // Otherwise, add the new guess to the start of the list
     setLimit((prev) => prev + 1); // Increment the limit counter
   };
@@ -53,7 +53,7 @@ export default function GameContainer() {
         streak={streak}
         prevAnswer={prevAnswer}
         prevAnswerImage={prevAnswerImage}
-        isDisabled={isGuessed || limit >= 5}
+        isDisabled={isGuessed || limit >= 10}
         isGuessed={isGuessed}
         onGuess={handleGuess}
         onReplay={handleReplay}
