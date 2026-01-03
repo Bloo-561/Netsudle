@@ -20,6 +20,7 @@ export default function Navbar({ onBackgroundChange }) {
             <h2 className="text-sm sm:text-lg">Background:</h2>
             <select onChange={handleChange} className="bg-neutral-800 text-sm sm:text-base px-2 py-1 rounded cursor-pointer">
               <option value={backgrounds[0]}>Thors</option>
+              <option value={backgrounds[1]}>Test</option>
             </select>
           </div>
         </div>
