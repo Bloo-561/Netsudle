@@ -402,15 +402,24 @@
     "weapon": "N/A",
     "affiliation": "Sales, Celdic",
     "age": "39",
-    "icon": "/assets/icons/Celdic/Lance 10.png"
+    "icon": "/assets/icons/Celdic/Taffeta.png"
   },
   {
     "name": "Ulrich Bonbon",
     "gender": "Male",
-    "region": "Unknown",
+    "region": "Erebonia",
     "weapon": "N/A",
     "affiliation": "Sales, Celdic",
     "age": "41",
     "icon": "/assets/icons/Celdic/Ulrich Bonbon.png"
+  },
+  {
+    "name": "Samwell Owayne",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "Sales, Celdic",
+    "age": "24",
+    "icon": "/assets/icons/Celdic/Samwell Owayne.png"
   }
 ]
