@@ -1,74 +1,128 @@
 [
-	{
-		"name": "Liliana Filius",
-        "gender": "Female",
-		"region": "Erebonia",
-		"weapon": "Magic,Blade",
-		"affiliation": "Class VII,Gralsritter,Four Great Houses",
-		"age": "17",
-		"icon": "/assets/icons/Liliana.png"
-	},
-	{
-		"name": "Cecilia Richter",
-        "gender": "Female",
-		"region": "Erebonia",
-		"weapon": "Blade",
-		"affiliation": "Thors,Class VII",
-		"age": "17",
-		"icon": "/assets/icons/Cecilia.png"
-	},
-	{
-		"name": "Johan Christin",
-        "gender": "Male",
-		"region": "Remiferia",
-		"weapon": "Blade",
-		"affiliation": "Thors,Fools,Bracer Guild,Class VII",
-		"age": "26",
-		"icon": "/assets/icons/Johan.png"
-	},
-	{
-		"name": "Lila Baskerville",
-        "gender": "Female",
-		"region": "Erebonia",
-		"weapon": "Magic,Orbal",
-		"affiliation": "Thors,Class VII",
-		"age": "17",
-		"icon": "/assets/icons/Lila.png"
-	},
-	{
-		"name": "Leticia R. Khemia",
-        "gender": "Female",
-		"region": "Erebonia",
-		"weapon": "Orbal,Gun",
-		"affiliation": "Thors,Class VII",
-		"age": "15",
-		"icon": "/assets/icons/Leticia.png"
-	},
-	{
-		"name": "Juel Owayne",
-        "gender": "Male",
-		"region": "Erebonia",
-		"weapon": "Blade,Bow,Magic,Orbal",
-		"affiliation": "Thors,Class VII",
-		"age": "17",
-		"icon": "/assets/icons/Juel.png"
-	},
-	{
-		"name": "Soran Shihei",
-        "gender": "Male",
-		"region": "North Ambria",
-		"weapon": "Blade",
-		"affiliation": "Thors,Class VII,Jaeger",
-		"age": "17",
-		"icon": "/assets/icons/Soran.png"
-	},
-	{
-		"name": "Silica Worzel",
-        "gender": "Female",
-		"region": "Nord Highlands",
-		"weapon": "Spear",
-		"affiliation": "Thors,Class VII",
-		"age": "15",
-		"icon": "/assets/icons/Silica.png"
-	}
+  {
+    "name": "Liliana Filius",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Magic,Blade",
+    "affiliation": "Class VII,Gralsritter,Four Great Houses",
+    "age": "17",
+    "icon": "/assets/icons/Liliana.png"
+  },
+  {
+    "name": "Cecilia Richter",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "Thors,Class VII",
+    "age": "17",
+    "icon": "/assets/icons/Cecilia.png"
+  },
+  {
+    "name": "Johan Christin",
+    "gender": "Male",
+    "region": "Remiferia",
+    "weapon": "Blade",
+    "affiliation": "Thors,Fools,Bracer Guild,Class VII",
+    "age": "26",
+    "icon": "/assets/icons/Johan.png"
+  },
+  {
+    "name": "Lila Baskerville",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Magic,Orbal",
+    "affiliation": "Thors,Class VII",
+    "age": "17",
+    "icon": "/assets/icons/Lila.png"
+  },
+  {
+    "name": "Leticia R. Khemia",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Orbal,Gun",
+    "affiliation": "Thors,Class VII",
+    "age": "15",
+    "icon": "/assets/icons/Leticia.png"
+  },
+  {
+    "name": "Juel Owayne",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "Blade,Bow,Magic,Orbal",
+    "affiliation": "Thors,Class VII",
+    "age": "17",
+    "icon": "/assets/icons/Juel.png"
+  },
+  {
+    "name": "Soran Shihei",
+    "gender": "Male",
+    "region": "North Ambria",
+    "weapon": "Blade",
+    "affiliation": "Thors,Class VII,Jaeger",
+    "age": "17",
+    "icon": "/assets/icons/Soran.png"
+  },
+  {
+    "name": "Silica Worzel",
+    "gender": "Female",
+    "region": "Nord Highlands",
+    "weapon": "Spear",
+    "affiliation": "Thors,Class VII",
+    "age": "15",
+    "icon": "/assets/icons/Silica.png"
+  },
+  {
+    "name": "Stella Wright",
+    "gender": "Female",
+    "region": "Liberl",
+    "weapon": "Staff",
+    "affiliation": "Bracer Guild",
+    "age": "19",
+    "icon": "/assets/icons/Stella.png"
+  },
+  {
+    "name": "Sora Wright",
+    "gender": "Male",
+    "region": "Liberl",
+    "weapon": "Blade",
+    "affiliation": "Bracer Guild",
+    "age": "19",
+    "icon": "/assets/icons/Sora.png"
+  },
+  {
+    "name": "Belle",
+    "gender": "Female",
+    "region": "Liberl",
+    "weapon": "Magic",
+    "affiliation": "Bracer Guild, The World's Stage",
+    "age": "25",
+    "icon": "/assets/icons/Belle.png"
+  },
+  {
+    "name": "Lara Skye",
+    "gender": "Female",
+    "region": "Liberl",
+    "weapon": "Camera, Gun",
+    "affiliation": "Liberl News, Journalist",
+    "age": "20",
+    "icon": "/assets/icons/Lara Skye.png"
+  },
+  {
+    "name": "Adam",
+    "gender": "Male",
+    "region": "North Ambria",
+    "weapon": "Axe",
+    "affiliation": "FOOLS, Jaeger",
+    "age": "32",
+    "icon": "/assets/icons/Adam.png"
+  },
+  {
+    "name": "Dorothy Chastle",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Dagger",
+    "affiliation": "FOOLS, Prophetic Arms",
+    "age": "32",
+    "icon": "/assets/icons/Dorothy.png"
+  }
 ]
