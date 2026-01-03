@@ -10,6 +10,7 @@ export default function GameContainer() {
     artifacts[Math.floor(Math.random() * artifacts.length)]
   ); // Generate the answer
   const [prevAnswer, setPrevAnswer] = useState("N/A"); // Initialise previous answer
+  const [prevAnswerImage, setPrevAnswerImage] = useState(""); // Initialise the image of the previous answer
   const [limit, setLimit] = useState(0); // Initialise guess limit
   const [streak, setStreak] = useState(0); // Initialise win streak
   const [highScore, setHighScore] = useState(streak); //Initialise high score
@@ -40,6 +41,7 @@ export default function GameContainer() {
     // Resets the guesses, answer and guess limit in order to replay the game
     setGuesses([]);
     setPrevAnswer(answer.name);
+    setPrevAnswerImage(answer.icon);
     setAnswer(artifacts[Math.floor(Math.random() * artifacts.length)]);
     setLimit(0);
   };
@@ -50,6 +52,7 @@ export default function GameContainer() {
         limit={limit}
         streak={streak}
         prevAnswer={prevAnswer}
+        prevAnswerImage={prevAnswerImage}
         isDisabled={isGuessed || limit >= 5}
         isGuessed={isGuessed}
         onGuess={handleGuess}
