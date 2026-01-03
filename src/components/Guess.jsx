@@ -56,6 +56,19 @@ export default function Guess({ guess, answer }) {
           "camera",
           "liberl news",
           "journalist",
+          "axe",
+          "septian church",
+          "khemia corp",
+          "sss",
+          "spear",
+          "informant",
+          "eternity",
+          "crossbell",
+          "crossbell police",
+          "maid",
+          "prophetic arms",
+          "unknown",
+          "crossbell government",
         ];
         const checkBuffs =
           (key === "weapon" || key === "affiliation") &&

@@ -22,7 +22,7 @@
     "gender": "Male",
     "region": "Remiferia",
     "weapon": "Blade",
-    "affiliation": "Thors,Fools,Bracer Guild,Class VII",
+    "affiliation": "Thors,Fools,Bracer Guild,Class VII, Prophetic Arms",
     "age": "26",
     "icon": "/assets/icons/Johan.png"
   },
@@ -40,7 +40,7 @@
     "gender": "Female",
     "region": "Erebonia",
     "weapon": "Orbal,Gun",
-    "affiliation": "Thors,Class VII",
+    "affiliation": "Thors,Class VII, Khemia Corp",
     "age": "15",
     "icon": "/assets/icons/Leticia.png"
   },
@@ -114,7 +114,7 @@
     "weapon": "Axe",
     "affiliation": "FOOLS, Jaeger",
     "age": "32",
-    "icon": "/assets/icons/Adam.png"
+    "icon": "/assets/icons/FOOLS/Adam.png"
   },
   {
     "name": "Dorothy Chastle",
@@ -123,6 +123,159 @@
     "weapon": "Dagger",
     "affiliation": "FOOLS, Prophetic Arms",
     "age": "32",
-    "icon": "/assets/icons/Dorothy.png"
+    "icon": "/assets/icons/FOOLS/Dorothy.png"
+  },
+  {
+    "name": "Emeraude",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "FOOLS, Septian Church",
+    "age": "24",
+    "icon": "/assets/icons/FOOLS/Emeraude.png"
+  },
+  {
+    "name": "Heuey Engandar",
+    "gender": "Male",
+    "region": "Erebonia",
+    "weapon": "N/A",
+    "affiliation": "FOOLS, Khemia Corp",
+    "age": "22",
+    "icon": "/assets/icons/FOOLS/Heuey.png"
+  },
+  {
+    "name": "Nixi",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "Magic",
+    "affiliation": "FOOLS",
+    "age": "10",
+    "icon": "/assets/icons/FOOLS/Lathna.png"
+  },
+  {
+    "name": "Linn Kurota",
+    "gender": "Female",
+    "region": "Erebonia",
+    "weapon": "Blade",
+    "affiliation": "FOOLS",
+    "age": "17",
+    "icon": "/assets/icons/FOOLS/Linn.png"
+  },
+  {
+    "name": "Ahri",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "24",
+    "icon": "/assets/icons/Crossbell/Ahri.png"
+  },
+  {
+    "name": "Eimi",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "26",
+    "icon": "/assets/icons/Crossbell/Eimi.png"
+  },
+  {
+    "name": "Valerie",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "Maid",
+    "age": "20",
+    "icon": "/assets/icons/Crossbell/Valerie.png"
+  },
+  {
+    "name": "Auguste Wenzel",
+    "gender": "Male",
+    "region": "Crossbell",
+    "weapon": "Gun",
+    "affiliation": "Crossbell Police, SSS,",
+    "age": "38",
+    "icon": "/assets/icons/Crossbell/Auguste.png"
+  },
+  {
+    "name": "Chitose Roswell",
+    "gender": "Male",
+    "region": "Remiferia",
+    "weapon": "Blade",
+    "affiliation": "Bracer Guild",
+    "age": "19",
+    "icon": "/assets/icons/Crossbell/Chitose Roswell.png"
+  },
+  {
+    "name": "Elise Wenzel",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "Spear",
+    "affiliation": "SSS",
+    "age": "19",
+    "icon": "/assets/icons/Crossbell/Elise Wenzel.png"
+  },
+  {
+    "name": "Genesis Trainer",
+    "gender": "Female",
+    "region": "Unknown",
+    "weapon": "N/A",
+    "affiliation": "Informant, Eternity",
+    "age": "18",
+    "icon": "/assets/icons/Crossbell/Genesis Trainer.png"
+  },
+  {
+    "name": "Mari",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "SSS",
+    "age": "10",
+    "icon": "/assets/icons/Crossbell/Mari.png"
+  },
+  {
+    "name": "Nigel Walters",
+    "gender": "Male",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "Crossbell Police",
+    "age": "41",
+    "icon": "/assets/icons/Crossbell/Nigel Walters.png"
+  },
+  {
+    "name": "Nina the Receptionist",
+    "gender": "Female",
+    "region": "Crossbell",
+    "weapon": "N/A",
+    "affiliation": "Bracer Guild",
+    "age": "23",
+    "icon": "/assets/icons/Crossbell/Nina The Receptionist.png"
+  },
+  {
+    "name": "Rook Mathis",
+    "gender": "Male",
+    "region": "Crossbell",
+    "weapon": "Blade",
+    "affiliation": "Bracer Guild",
+    "age": "30",
+    "icon": "/assets/icons/Crossbell/Rook Mathis.png"
+  },
+  {
+    "name": "Roy Sterlings",
+    "gender": "Male",
+    "region": "Crossbell",
+    "weapon": "Tonfas",
+    "affiliation": "SSS",
+    "age": "19",
+    "icon": "/assets/icons/Crossbell/Roy Sterlings.png"
+  },
+  {
+    "name": "Saori Shihei",
+    "gender": "Female",
+    "region": "Calvard",
+    "weapon": "N/A",
+    "affiliation": "Crossbell Government",
+    "age": "18",
+    "icon": "/assets/icons/Crossbell/Genesis Trainer.png"
   }
 ]
