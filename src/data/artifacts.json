@@ -1,0 +1,322 @@
+[
+	{
+		"name": "Archaic Petra",
+		"region": "Liyue",
+		"2pc": "Elemental DMG",
+		"4pc": "Elemental DMG",
+		"version": "1.x",
+		"icon": "/assets/icons/petra.webp"
+	},
+	{
+		"name": "Blizzard Strayer",
+		"region": "Mondstadt",
+		"2pc": "Elemental DMG",
+		"4pc": "Crit Rate",
+		"version": "1.x",
+		"icon": "/assets/icons/blizzard.webp"
+	},
+	{
+		"name": "Bloodstained Chivalry",
+		"region": "Liyue",
+		"2pc": "Physical DMG",
+		"4pc": "Charged ATK",
+		"version": "2.x",
+		"icon": "/assets/icons/chivalry.webp"
+	},
+	{
+		"name": "Crimson Witch of Flames",
+		"region": "Liyue",
+		"2pc": "Elemental DMG",
+		"4pc": "Reaction DMG",
+		"version": "1.x",
+		"icon": "/assets/icons/crimson.webp"
+	},
+	{
+		"name": "Deepwood Memories",
+		"region": "Sumeru",
+		"2pc": "Elemental DMG",
+		"4pc": "RES shred",
+		"version": "3.x",
+		"icon": "/assets/icons/deepwood.webp"
+	},
+	{
+		"name": "Desert Pavilion Chronicle",
+		"region": "Sumeru",
+		"2pc": "Elemental DMG",
+		"4pc": "Normal + Charged + Plunge ATK",
+		"version": "3.x",
+		"icon": "/assets/icons/desertPavilion.webp"
+	},
+	{
+		"name": "Echoes of an Offering",
+		"region": "Liyue",
+		"2pc": "ATK%",
+		"4pc": "Normal ATK",
+		"version": "2.x",
+		"icon": "/assets/icons/echoes.webp"
+	},
+	{
+		"name": "Emblem of Severed Fate",
+		"region": "Inazuma",
+		"2pc": "ER",
+		"4pc": "Burst DMG",
+		"version": "2.x",
+		"icon": "/assets/icons/emblem.webp"
+	},
+	{
+		"name": "Finale of the Deep Galleries",
+		"region": "Natlan",
+		"2pc": "Elemental DMG",
+		"4pc": "Normal ATK + Burst DMG",
+		"version": "5.x",
+		"icon": "/assets/icons/finale.webp"
+	},
+	{
+		"name": "Flower of Paradise Lost",
+		"region": "Sumeru",
+		"2pc": "EM",
+		"4pc": "Reaction DMG",
+		"version": "3.x",
+		"icon": "/assets/icons/paradiseLost.webp"
+	},
+	{
+		"name": "Fragment of Harmonic Whimsy",
+		"region": "Fontaine",
+		"2pc": "ATK%",
+		"4pc": "Character DMG",
+		"version": "4.x",
+		"icon": "/assets/icons/whimsy.webp"
+	},
+	{
+		"name": "Gilded Dreams",
+		"region": "Sumeru",
+		"2pc": "EM",
+		"4pc": "ATK% + EM",
+		"version": "3.x",
+		"icon": "/assets/icons/gilded.webp"
+	},
+	{
+		"name": "Gladiator's Finale",
+		"region": "All",
+		"2pc": "ATK%",
+		"4pc": "Normal ATK",
+		"version": "1.x",
+		"icon": "/assets/icons/glad.webp"
+	},
+	{
+		"name": "Golden Troupe",
+		"region": "Fontaine",
+		"2pc": "Skill DMG",
+		"4pc": "Skill DMG",
+		"version": "4.x",
+		"icon": "/assets/icons/goldenTroupe.webp"
+	},
+	{
+		"name": "Heart of Depth",
+		"region": "Mondstadt",
+		"2pc": "Elemental DMG",
+		"4pc": "Normal ATK + Charged ATK",
+		"version": "1.x",
+		"icon": "/assets/icons/heartOfDepth.webp"
+	},
+	{
+		"name": "Husk of Opulent Dreams",
+		"region": "Inazuma",
+		"2pc": "DEF%",
+		"4pc": "DEF% + Elemental DMG",
+		"version": "2.x",
+		"icon": "/assets/icons/husk.webp"
+	},
+	{
+		"name": "Lavawalker",
+		"region": "Liyue",
+		"2pc": "Elemental RES",
+		"4pc": "Elemental DMG",
+		"version": "1.x",
+		"icon": "/assets/icons/lavawalker.webp"
+	},
+	{
+		"name": "Long Night's Oath",
+		"region": "Natlan",
+		"2pc": "Plunge ATK",
+		"4pc": "Plunge ATK",
+		"version": "5.x",
+		"icon": "/assets/icons/lno.webp"
+	},
+	{
+		"name": "Maiden Beloved",
+		"region": "Mondstadt",
+		"2pc": "Healing",
+		"4pc": "Healing",
+		"version": "1.x",
+		"icon": "/assets/icons/maidens.webp"
+	},
+	{
+		"name": "Marechaussee Hunter",
+		"region": "Fontaine",
+		"2pc": "Normal ATK + Charged ATK",
+		"4pc": "Crit Rate",
+		"version": "4.x",
+		"icon": "/assets/icons/marechaussee.webp"
+	},
+	{
+		"name": "Night of the Sky's Unveiling",
+		"region": "Nod Krai",
+		"2pc": "EM",
+		"4pc": "Crit Rate + Reaction DMG",
+		"version": "6.x",
+		"icon": "/assets/icons/skysUnveiling.webp"
+	},
+	{
+		"name": "Nighttime Whispers in the Echoing Woods",
+		"region": "Fontaine",
+		"2pc": "ATK%",
+		"4pc": "Elemental DMG",
+		"version": "4.x",
+		"icon": "/assets/icons/nighttime.webp"
+	},
+	{
+		"name": "Noblesse Oblige",
+		"region": "Liyue",
+		"2pc": "Burst DMG",
+		"4pc": "ATK%",
+		"version": "1.x",
+		"icon": "/assets/icons/noblesse.webp"
+	},
+	{
+		"name": "Nymph's Dream",
+		"region": "Sumeru",
+		"2pc": "Elemental DMG",
+		"4pc": "ATK% + Elemental DMG",
+		"version": "3.x",
+		"icon": "/assets/icons/nymphs.webp"
+	},
+	{
+		"name": "Obsidian Codex",
+		"region": "Natlan",
+		"2pc": "Character DMG",
+		"4pc": "Crit Rate",
+		"version": "5.x",
+		"icon": "/assets/icons/codex.webp"
+	},
+	{
+		"name": "Ocean-Hued Clam",
+		"region": "Inazuma",
+		"2pc": "Healing",
+		"4pc": "Healing",
+		"version": "2.x",
+		"icon": "/assets/icons/clam.webp"
+	},
+	{
+		"name": "Pale Flame",
+		"region": "Liyue",
+		"2pc": "Elemental DMG",
+		"4pc": "ATK%",
+		"version": "1.x",
+		"icon": "/assets/icons/paleFlame.webp"
+	},
+	{
+		"name": "Retracing Bolide",
+		"region": "Liyue",
+		"2pc": "Shield",
+		"4pc": "Normal ATK + Charged ATK",
+		"version": "1.x",
+		"icon": "/assets/icons/bolide.webp"
+	},
+	{
+		"name": "Scroll of the Hero of Cinder City",
+		"region": "Natlan",
+		"2pc": "ER",
+		"4pc": "Elemental DMG",
+		"version": "5.x",
+		"icon": "/assets/icons/scroll.webp"
+	},
+	{
+		"name": "Shimenawa's Reminiscence",
+		"region": "Inazuma",
+		"2pc": "ATK%",
+		"4pc": "Normal + Charged + Plunge ATK",
+		"version": "2.x",
+		"icon": "/assets/icons/shimenawas.webp"
+	},
+	{
+		"name": "Silken Moon's Serenade",
+		"region": "Nod Krai",
+		"2pc": "ER",
+		"4pc": "EM + Reaction DMG",
+		"version": "6.x",
+		"icon": "/assets/icons/silkenMoons.webp"
+	},
+	{
+		"name": "Song of Days Past",
+		"region": "Fontaine",
+		"2pc": "Healing",
+		"4pc": "Character DMG",
+		"version": "4.x",
+		"icon": "/assets/icons/song.webp"
+	},
+	{
+		"name": "Tenacity of the Milileth",
+		"region": "Liyue",
+		"2pc": "HP%",
+		"4pc": "ATK% + Shield",
+		"version": "6.x",
+		"icon": "/assets/icons/milileth.webp"
+	},
+	{
+		"name": "Thundering Fury",
+		"region": "Mondstadt",
+		"2pc": "Elemental DMG",
+		"4pc": "Reaction DMG",
+		"version": "1.x",
+		"icon": "/assets/icons/thunderingFury.webp"
+	},
+	{
+		"name": "Thundersoother",
+		"region": "Mondstadt",
+		"2pc": "Elemental RES",
+		"4pc": "Reaction DMG",
+		"version": "1.x",
+		"icon": "/assets/icons/thundersoother.webp"
+	},
+	{
+		"name": "Unfinished Reverie",
+		"region": "Fontaine",
+		"2pc": "ATK%",
+		"4pc": "Character DMG",
+		"version": "4.x",
+		"icon": "/assets/icons/reverie.webp"
+	},
+	{
+		"name": "Vermillion Hereafter",
+		"region": "Liyue",
+		"2pc": "ATK%",
+		"4pc": "ATK%",
+		"version": "2.x",
+		"icon": "/assets/icons/vermillion.webp"
+	},
+	{
+		"name": "Virdescent Venerer",
+		"region": "Mondstadt",
+		"2pc": "Elemental DMG",
+		"4pc": "RES shred",
+		"version": "1.x",
+		"icon": "/assets/icons/virdescent.webp"
+	},
+	{
+		"name": "Vorushaka's Glow",
+		"region": "Sumeru",
+		"2pc": "HP%",
+		"4pc": "Skill DMG + Burst DMG",
+		"version": "3.x",
+		"icon": "/assets/icons/vorushakas.webp"
+	},
+	{
+		"name": "Wanderer's Troupe",
+		"region": "All",
+		"2pc": "EM",
+		"4pc": "Charged ATK",
+		"version": "1.x",
+		"icon": "/assets/icons/wanderers.webp"
+	}
+]
