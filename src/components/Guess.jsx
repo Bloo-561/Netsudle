@@ -134,7 +134,7 @@ export default function Guess({ guess, answer }) {
             className={`${size} flex items-center justify-center text-white rounded ${bgColor} flex-shrink-0`}
             initial={{ rotateY: 90, opacity: 0 }}
             animate={{ rotateY: 0, opacity: 1 }}
-            transition={{ delay: i * 0.2, duration: 0.2, ease: "easeOut" }}
+            transition={{ delay: i * 0.4, duration: 0.4, ease: "easeOut" }}
             style={{ transformOrigin: "center" }}
           >
             {key === "icon" ? (
