@@ -56,7 +56,7 @@ export default function Search({onGuess, artifacts, disabled}) {
 			<input type="text" name="fake-name" style={{display: "none"}} /> {/* Dummy field to stop safari autofill */}
 			<input type="password" name="fake-password" style={{display: "none"}} /> {/* Dummy field to stop safari autofill */}
 			<div className="relative w-3/4">
-				<input type="text" name="artifact-search" placeholder="Enter artifact name..." autoComplete="off" value={input} onClick={handleSearchClick} onChange={handleChange} disabled={disabled} className="focus:outline-0 p-2.5 bg-neutral-800 rounded w-full"/>{/* Search bar */}
+				<input type="text" name="artifact-search" placeholder="Enter character name..." autoComplete="off" value={input} onClick={handleSearchClick} onChange={handleChange} disabled={disabled} className="focus:outline-0 p-2.5 bg-neutral-800 rounded w-full"/>{/* Search bar */}
 				<button onClick={handleButtonClick}>
 				<ChevronDown
 					size={20}

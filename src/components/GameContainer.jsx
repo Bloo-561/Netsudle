@@ -9,7 +9,7 @@ export default function GameContainer() {
   const [answer, setAnswer] = useState(
     artifacts[Math.floor(Math.random() * artifacts.length)]
   ); // Generate the answer
-  const [prevAnswer, setPrevAnswer] = useState("N/A"); // Initialise previous answer
+  const [prevAnswer, setPrevAnswer] = useState(""); // Initialise previous answer
   const [prevAnswerImage, setPrevAnswerImage] = useState(""); // Initialise the image of the previous answer
   const [limit, setLimit] = useState(0); // Initialise guess limit
   const [streak, setStreak] = useState(0); // Initialise win streak
@@ -47,7 +47,7 @@ export default function GameContainer() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center text-center gap-y-5">
+    <div className="flex flex-col bg-[] items-center justify-center text-center gap-y-5">
       <GameInfo
         limit={limit}
         streak={streak}
@@ -61,7 +61,7 @@ export default function GameContainer() {
         highScore={highScore}
         artifacts={artifacts}
       />
-      <div className="flex flex-col gap-1 mt-4 p-2 rounded bg-neutral-800 w-11/12 sm:w-auto overflow-x-auto sm:overflow-visible">
+      <div className="flex flex-col gap-5 mt-4 p-2 rounded bg-neutral-800 w-11/12 sm:w-auto overflow-x-auto sm:overflow-visible">
         {" "}
         {/* Div containing all the current guesses and the guess headings */}
         <div className="min-w-min">
