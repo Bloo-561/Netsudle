@@ -18,7 +18,7 @@ export default function Navbar({ onBackgroundChange }) {
           <div className="flex flex-row items-center gap-2">
             <h2 className="text-sm sm:text-lg">Background:</h2>
             <select onChange={handleChange} className="bg-neutral-800 text-sm sm:text-base px-2 py-1 rounded cursor-pointer">
-              <option value={backgrounds[0]}>thors</option>
+              <option value={backgrounds[0]}>Thors</option>
             </select>
           </div>
         </div>
