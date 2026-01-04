@@ -544,7 +544,7 @@
     "gender": "Male",
     "region": "Erebonia",
     "weapon": "N/A",
-    "affiliation": "RMP",
+    "affiliation": "RMP, Trista",
     "age": "24",
     "icon": "/assets/icons/Trista/Carlos.png"
   },
@@ -1714,7 +1714,7 @@
     "gender": "Male",
     "region": "Unknown",
     "weapon": "Unknown",
-    "affiliation": "Unknown",
+    "affiliation": "Phantom Choir",
     "age": "Unknown",
     "icon": "/assets/icons/Unknown/Richard Silvers.png"
   },
