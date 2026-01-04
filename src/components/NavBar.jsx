@@ -1,6 +1,6 @@
 export default function Navbar({ onBackgroundChange }) {
   const backgrounds = [
-    "/public/assets/backgrounds/thors.png",
+    "/assets/backgrounds/thors.png",
   ];
 
   const handleChange = (e) => {
