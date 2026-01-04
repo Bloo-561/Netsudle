@@ -12,7 +12,7 @@ export default function GuessHeader() {
           size = "h-12 w-25";
         }
         return (
-          <span key={header} className={`border border-gray-400 flex items-center justify-center bg-blue-900 rounded ${size} flex-shrink-0`}>
+          <span key={header} className={`border-5 border-[#974256] flex items-center justify-center bg-[#c24d68] rounded ${size} flex-shrink-0`}>
             {header}
           </span>
         );

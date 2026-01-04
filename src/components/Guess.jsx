@@ -119,19 +119,19 @@ export default function Guess({ guess, answer }) {
 
         let bgColor;
         if (key === "icon") {
-          bgColor = "transparent";
+          bgColor = "#transparent";
         } else if (checkField) {
-          bgColor = "bg-green-600";
+          bgColor = "border-5 border-[#0d7835] bg-green-600";
         } else if (checkBuffs) {
-          bgColor = "bg-yellow-500";
+          bgColor = "border-5 border-[#ad8413] bg-yellow-500";
         } else {
-          bgColor = "bg-red-800";
+          bgColor = "border-5 border-[#6e3343] bg-[#93374f]";
         }
 
         return (
           <motion.span
             key={key}
-            className={`${size} border border-gray-400 flex items-center justify-center text-white rounded ${bgColor} flex-shrink-0`}
+            className={`${size} flex items-center justify-center text-white rounded ${bgColor} flex-shrink-0`}
             initial={{ rotateY: 90, opacity: 0 }}
             animate={{ rotateY: 0, opacity: 1 }}
             transition={{ delay: i * 0.2, duration: 0.2, ease: "easeOut" }}
