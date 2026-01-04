@@ -19,14 +19,14 @@ export default function GameInfo({
 
   const generateRandomLogo = () => {
     const logos = [
-      "Icon1.webp",
-      "Icon2.webp",
-      "Icon3.webp",
-      "Icon4.webp",
-      "Icon5.webp",
-      "Icon6.webp",
-      "Icon7.webp",
-      "Icon8.webp",
+      "Icon1.png",
+      "Icon2.png",
+      "Icon3.png",
+      "Icon4.png",
+      "Icon5.png",
+      "Icon6.png",
+      "Icon7.png",
+      "Icon8.png",
     ];
 
     const randomIndex = Math.floor(Math.random() * logos.length);
