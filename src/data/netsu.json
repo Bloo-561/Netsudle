@@ -256,7 +256,7 @@
     "gender": "Female",
     "region": "Erebonia",
     "weapon": "Bow",
-    "affiliation": "Thors",
+    "affiliation": "Thors, Four Great Houses",
     "age": "18",
     "icon": "/assets/icons/Class I-II/Marian.png"
   },
@@ -679,7 +679,7 @@
     "gender": "Female",
     "region": "Erebonia",
     "weapon": "N/A",
-    "affiliation": "Four Great Houses",
+    "affiliation": "Heimdallr",
     "age": "25",
     "icon": "/assets/icons/Heimdallr/Marie Aegir.png"
   },
