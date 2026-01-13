@@ -13,7 +13,7 @@ Old README.md from Artificatdle
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](./LICENSE)
 
-Netsu is a Wordle-style game for guessing characters from Netsu No Kiseki. You pick an character set from the list of character, and get guess feedback based on the character's region, gender, weapon, affiliation and age, with the aim of guessing the randomly selected character within ten guesses. Built with React, Tailwind and Framer Motion, the project is heavily inspired by the already exisitng [Genshindle](https://genshindle.com), but for our personal DnD Champaign.
+Netsu is a Wordle-style game for guessing characters from Netsu No Kiseki. You pick an character set from the list of characters, and get guess feedback based on the character's region, gender, weapon, affiliation and age, with the aim of guessing the randomly selected character within ten guesses. Built with React, Tailwind and Framer Motion, the project is heavily inspired by the already exisitng [Genshindle](https://genshindle.com), but for our personal DnD Champaign.
 
 ## How To Play
 
