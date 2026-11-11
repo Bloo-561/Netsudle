@@ -1,0 +1,607 @@
+[
+ {
+  "key": "cecilia-divider",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c001.webp"
+ },
+ {
+  "key": "cecilia-edge",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c002.webp"
+ },
+ {
+  "key": "cecilia-focus",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c003.webp"
+ },
+ {
+  "key": "cecilia-fujin",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c004.webp"
+ },
+ {
+  "key": "cecilia-morningmoon",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c005.webp"
+ },
+ {
+  "key": "cecilia-raijin",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c006.webp"
+ },
+ {
+  "key": "cecilia-stance",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c007.webp"
+ },
+ {
+  "key": "cecilia-thunder",
+  "char": "cecilia-richter",
+  "src": "/assets/cards/c008.webp"
+ },
+ {
+  "key": "eustace-bp",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c009.webp"
+ },
+ {
+  "key": "eustace-control",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c010.webp"
+ },
+ {
+  "key": "eustace-fuzzy",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c011.webp"
+ },
+ {
+  "key": "eustace-ggr",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c012.webp"
+ },
+ {
+  "key": "eustace-guard",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c013.webp"
+ },
+ {
+  "key": "eustace-rallying",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c014.webp"
+ },
+ {
+  "key": "eustace-spear",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c015.webp"
+ },
+ {
+  "key": "eustace-ygt",
+  "char": "eustace-sinclair",
+  "src": "/assets/cards/c016.webp"
+ },
+ {
+  "key": "flan-cross",
+  "char": "flan-returna",
+  "src": "/assets/cards/c017.webp"
+ },
+ {
+  "key": "flan-dipper",
+  "char": "flan-returna",
+  "src": "/assets/cards/c018.webp"
+ },
+ {
+  "key": "flan-iron",
+  "char": "flan-returna",
+  "src": "/assets/cards/c019.webp"
+ },
+ {
+  "key": "flan-polaris",
+  "char": "flan-returna",
+  "src": "/assets/cards/c020.webp"
+ },
+ {
+  "key": "flan-shield",
+  "char": "flan-returna",
+  "src": "/assets/cards/c021.webp"
+ },
+ {
+  "key": "flan-shining",
+  "char": "flan-returna",
+  "src": "/assets/cards/c022.webp"
+ },
+ {
+  "key": "flan-star",
+  "char": "flan-returna",
+  "src": "/assets/cards/c023.webp"
+ },
+ {
+  "key": "flan-stellar",
+  "char": "flan-returna",
+  "src": "/assets/cards/c024.webp"
+ },
+ {
+  "key": "juel-blue",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c025.webp"
+ },
+ {
+  "key": "juel-bow",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c026.webp"
+ },
+ {
+  "key": "juel-fatal",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c027.webp"
+ },
+ {
+  "key": "juel-horizon",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c028.webp"
+ },
+ {
+  "key": "juel-manifest",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c029.webp"
+ },
+ {
+  "key": "juel-red",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c030.webp"
+ },
+ {
+  "key": "juel-relay",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c031.webp"
+ },
+ {
+  "key": "juel-silent",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c032.webp"
+ },
+ {
+  "key": "juel-smoke",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c033.webp"
+ },
+ {
+  "key": "juel-whispers",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c034.webp"
+ },
+ {
+  "key": "juel-yellow",
+  "char": "juel-owayne",
+  "src": "/assets/cards/c035.webp"
+ },
+ {
+  "key": "leticia-barrier",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c036.webp"
+ },
+ {
+  "key": "leticia-battery",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c037.webp"
+ },
+ {
+  "key": "leticia-blaze",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c038.webp"
+ },
+ {
+  "key": "leticia-board",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c039.webp"
+ },
+ {
+  "key": "leticia-energy",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c040.webp"
+ },
+ {
+  "key": "leticia-fire",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c041.webp"
+ },
+ {
+  "key": "leticia-osex",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c042.webp"
+ },
+ {
+  "key": "leticia-rainstorm",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c043.webp"
+ },
+ {
+  "key": "leticia-rainstormog",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c044.webp"
+ },
+ {
+  "key": "leticia-rapid",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c045.webp"
+ },
+ {
+  "key": "leticia-scarlet",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c046.webp"
+ },
+ {
+  "key": "leticia-siege",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c047.webp"
+ },
+ {
+  "key": "leticia-sparkling",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c048.webp"
+ },
+ {
+  "key": "leticia-twinshot",
+  "char": "leticia-r-khemia",
+  "src": "/assets/cards/c049.webp"
+ },
+ {
+  "key": "lila-caller",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c050.webp"
+ },
+ {
+  "key": "lila-clones",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c051.webp"
+ },
+ {
+  "key": "lila-cure",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c052.webp"
+ },
+ {
+  "key": "lila-healing",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c053.webp"
+ },
+ {
+  "key": "lila-lyre",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c054.webp"
+ },
+ {
+  "key": "lila-pcheck",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c055.webp"
+ },
+ {
+  "key": "lila-touch",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c056.webp"
+ },
+ {
+  "key": "lila-twilight",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c057.webp"
+ },
+ {
+  "key": "lila-wounds",
+  "char": "lila-baskerville",
+  "src": "/assets/cards/c058.webp"
+ },
+ {
+  "key": "liliana-bless",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c059.webp"
+ },
+ {
+  "key": "liliana-cinder",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c060.webp"
+ },
+ {
+  "key": "liliana-crane",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c061.webp"
+ },
+ {
+  "key": "liliana-fireball",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c062.webp"
+ },
+ {
+  "key": "liliana-flame",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c063.webp"
+ },
+ {
+  "key": "liliana-gladiolus",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c064.webp"
+ },
+ {
+  "key": "liliana-rending",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c065.webp"
+ },
+ {
+  "key": "liliana-rep",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c066.webp"
+ },
+ {
+  "key": "liliana-scorching",
+  "char": "liliana-filius",
+  "src": "/assets/cards/c067.webp"
+ },
+ {
+  "key": "noah-black",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c068.webp"
+ },
+ {
+  "key": "noah-burst",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c069.webp"
+ },
+ {
+  "key": "noah-devour",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c070.webp"
+ },
+ {
+  "key": "noah-fang",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c071.webp"
+ },
+ {
+  "key": "noah-fist",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c072.webp"
+ },
+ {
+  "key": "noah-hopeless",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c073.webp"
+ },
+ {
+  "key": "noah-nihil",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c074.webp"
+ },
+ {
+  "key": "noah-sacrifice",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c075.webp"
+ },
+ {
+  "key": "noah-self",
+  "char": "noah-swallowtail",
+  "src": "/assets/cards/c076.webp"
+ },
+ {
+  "key": "ronald-artisteye",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c077.webp"
+ },
+ {
+  "key": "ronald-artisticinspiration",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c078.webp"
+ },
+ {
+  "key": "ronald-bleedingshot",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c079.webp"
+ },
+ {
+  "key": "ronald-breakshot",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c080.webp"
+ },
+ {
+  "key": "ronald-breakshotex",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c081.webp"
+ },
+ {
+  "key": "ronald-peaceofmind",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c082.webp"
+ },
+ {
+  "key": "ronald-quickshot",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c083.webp"
+ },
+ {
+  "key": "ronald-recoil",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c084.webp"
+ },
+ {
+  "key": "ronald-slowsteady",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c085.webp"
+ },
+ {
+  "key": "ronald-slowsteadyex",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c086.webp"
+ },
+ {
+  "key": "ronald-stunningink",
+  "char": "ronald-aegir",
+  "src": "/assets/cards/c087.webp"
+ },
+ {
+  "key": "sara-ark",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c088.webp"
+ },
+ {
+  "key": "sara-final",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c089.webp"
+ },
+ {
+  "key": "sara-flying",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c090.webp"
+ },
+ {
+  "key": "sara-misdirect",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c091.webp"
+ },
+ {
+  "key": "sara-observer",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c092.webp"
+ },
+ {
+  "key": "sara-peak",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c093.webp"
+ },
+ {
+  "key": "sara-pillow",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c094.webp"
+ },
+ {
+  "key": "sara-powernap",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c095.webp"
+ },
+ {
+  "key": "sara-thrust",
+  "char": "sara-oswell",
+  "src": "/assets/cards/c096.webp"
+ },
+ {
+  "key": "silica-aero",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c097.webp"
+ },
+ {
+  "key": "silica-rage",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c098.webp"
+ },
+ {
+  "key": "silica-scar",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c099.webp"
+ },
+ {
+  "key": "silica-shield",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c100.webp"
+ },
+ {
+  "key": "silica-spiral",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c101.webp"
+ },
+ {
+  "key": "silica-strike",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c102.webp"
+ },
+ {
+  "key": "silica-wind",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c103.webp"
+ },
+ {
+  "key": "silica-zephyr",
+  "char": "silica-worzel",
+  "src": "/assets/cards/c104.webp"
+ },
+ {
+  "key": "sophia-composure",
+  "char": "sophia",
+  "src": "/assets/cards/c105.webp"
+ },
+ {
+  "key": "sophia-fullcourse",
+  "char": "sophia",
+  "src": "/assets/cards/c106.webp"
+ },
+ {
+  "key": "sophia-redstring",
+  "char": "sophia",
+  "src": "/assets/cards/c107.webp"
+ },
+ {
+  "key": "sophia-s-craft",
+  "char": "sophia",
+  "src": "/assets/cards/c108.webp"
+ },
+ {
+  "key": "sophia-stiletto",
+  "char": "sophia",
+  "src": "/assets/cards/c109.webp"
+ },
+ {
+  "key": "sophia-tautline",
+  "char": "sophia",
+  "src": "/assets/cards/c110.webp"
+ },
+ {
+  "key": "sophia-tea",
+  "char": "sophia",
+  "src": "/assets/cards/c111.webp"
+ },
+ {
+  "key": "sophia-throatline",
+  "char": "sophia",
+  "src": "/assets/cards/c112.webp"
+ },
+ {
+  "key": "sophia-wovenvigil",
+  "char": "sophia",
+  "src": "/assets/cards/c113.webp"
+ },
+ {
+  "key": "soran-aqua",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c114.webp"
+ },
+ {
+  "key": "soran-echo",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c115.webp"
+ },
+ {
+  "key": "soran-lovers",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c116.webp"
+ },
+ {
+  "key": "soran-passion",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c117.webp"
+ },
+ {
+  "key": "soran-protect",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c118.webp"
+ },
+ {
+  "key": "soran-rhythm",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c119.webp"
+ },
+ {
+  "key": "soran-throw",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c120.webp"
+ },
+ {
+  "key": "soran-trace",
+  "char": "soran-shihei",
+  "src": "/assets/cards/c121.webp"
+ }
+]

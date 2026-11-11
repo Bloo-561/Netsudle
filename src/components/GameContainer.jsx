@@ -1,76 +1,96 @@
-import { useState, useEffect } from "react";
+import { useRef } from "react";
 import GameInfo from "./GameInfo";
 import Guess from "./Guess";
 import GuessHeader from "./GuessHeader";
-import artifacts from "../data/netsu.json";
+import { byId } from "../lib/characters";
+import { columnsFor } from "../lib/compare";
+import { candidatesFor, puzzlesFor } from "../lib/modes";
+import { pickDaily } from "../lib/daily";
+import { variantKey } from "../lib/engine";
+import { useGame } from "../lib/hooks";
+import Icon from "./Icon";
 
-export default function GameContainer() {
-  const [guesses, setGuesses] = useState([]); // Initialise list of guesses
-  const [answer, setAnswer] = useState(
-    artifacts[Math.floor(Math.random() * artifacts.length)]
-  ); // Generate the answer
-  const [prevAnswer, setPrevAnswer] = useState(""); // Initialise previous answer
-  const [prevAnswerImage, setPrevAnswerImage] = useState(""); // Initialise the image of the previous answer
-  const [limit, setLimit] = useState(0); // Initialise guess limit
-  const [streak, setStreak] = useState(0); // Initialise win streak
-  const [highScore, setHighScore] = useState(streak); //Initialise high score
-  const isGuessed = guesses.some((g) => g.name === answer.name); // Check for if the word has been guessed
+export default function GameContainer({ mode, clock, onMode }) {
+  const g = useGame(mode, clock.day);
+  const { game, puzzle, play, season1Only } = g;
+  const answer = byId[puzzle.char];
+  const candidates = candidatesFor(mode, season1Only);
+  const columns = columnsFor(season1Only);
+  const guesses = [...game.guesses].reverse().map((id) => byId[id]); // newest first
 
-  useEffect(() => {
-    // Update the high score whenever the streak is updated, and is higher than the current high score
-    if (streak > highScore) {
-      setHighScore(streak);
-    }
-  }, [streak, highScore]);
+  // Only the guess that was just made flips in; restored guesses appear at once.
+  const seen = useRef({ key: `${play}:${game.key}`, count: game.guesses.length });
+  if (seen.current.key !== `${play}:${game.key}`) {
+    seen.current = { key: `${play}:${game.key}`, count: game.guesses.length };
+  }
+  const isNew = (index) => game.guesses.length - index > seen.current.count;
 
-  const handleGuess = (artifact) => {
-    if (isGuessed || limit >= 10)
-      // Check for if the artifact set has been guessed or the limit of guesses has been exceeded
-      return;
-    if (guesses.find((g) => g.name === artifact.name))
-      // Don't add the new guess to the list of guesses if it's name is already within the list
-      return;
-    if (artifact.name === answer.name) setStreak((prev) => prev + 1);
-    // Increment the win streak if the guess was correct
-    else if (limit + 1 >= 10) setStreak(0); // If the artifact set isn't guessed, reset the streak
-    setGuesses((prev) => [artifact, ...prev]); // Otherwise, add the new guess to the start of the list
-    setLimit((prev) => prev + 1); // Increment the limit counter
-  };
-
-  const handleReplay = () => {
-    // Resets the guesses, answer and guess limit in order to replay the game
-    setGuesses([]);
-    setPrevAnswer(answer.name);
-    setPrevAnswerImage(answer.icon);
-    setAnswer(artifacts[Math.floor(Math.random() * artifacts.length)]);
-    setLimit(0);
-  };
+  const yesterday =
+    play === "daily" && clock.day > 1
+      ? pickDaily(puzzlesFor(mode, season1Only), variantKey(mode.id, season1Only), clock.day - 1)
+      : null;
 
   return (
-    <div className="flex flex-col bg-[] items-center justify-center text-center gap-y-5">
+    <div className="flex flex-col items-center justify-center text-center gap-y-5 text-white">
       <GameInfo
-        limit={limit}
-        streak={streak}
-        prevAnswer={prevAnswer}
-        prevAnswerImage={prevAnswerImage}
-        isDisabled={isGuessed || limit >= 10}
-        isGuessed={isGuessed}
-        onGuess={handleGuess}
-        onReplay={handleReplay}
+        mode={mode}
+        g={g}
         answer={answer}
-        highScore={highScore}
-        artifacts={artifacts}
+        candidates={candidates}
+        clock={clock}
+        onMode={onMode}
       />
-      <div className="flex flex-col gap-5 mt-4 p-2 rounded bg-neutral-800 w-11/12 sm:w-auto overflow-x-auto sm:overflow-visible">
-        {" "}
-        {/* Div containing all the current guesses and the guess headings */}
-        <div className="min-w-min">
-          <GuessHeader />
-          {guesses.map((guess, index) => (
-            <Guess key={limit - index} guess={guess} answer={answer} />
-          ))}
+
+      {guesses.length > 0 && mode.id === "classic" && (
+        <div className="flex flex-col p-2 rounded bg-neutral-800 w-11/12 sm:w-auto max-w-[95vw] overflow-x-auto">
+          <div className="min-w-min">
+            <GuessHeader columns={columns} />
+            {guesses.map((guess, index) => (
+              <Guess
+                key={guess.id}
+                guess={guess}
+                answer={answer}
+                columns={columns}
+                animate={isNew(index)}
+              />
+            ))}
+          </div>
+          <p className="text-sm text-neutral-300 mt-2 text-left">
+            <span className="text-green-400">Green</span> is correct,{" "}
+            <span className="text-yellow-400">yellow</span> is partly correct,{" "}
+            <span className="text-[#e58aa0]">red</span> is wrong. Arrows point towards the
+            answer&apos;s age.
+          </p>
         </div>
-      </div>
+      )}
+
+      {guesses.length > 0 && mode.id !== "classic" && (
+        <ul className="flex flex-row flex-wrap justify-center gap-2 w-11/12 sm:w-8/12">
+          {guesses.map((guess) => {
+            const right = guess.id === answer.id;
+            return (
+              <li
+                key={guess.id}
+                className={`flex items-center gap-2 rounded border-4 pr-3 ${
+                  right ? "border-[#0d7835] bg-green-600" : "border-[#6e3343] bg-[#93374f]"
+                }`}
+              >
+                <Icon char={guess} className="h-12 w-12 rounded-l-sm" />
+                <span>{guess.name}</span>
+                <span aria-label={right ? "correct" : "wrong"}>{right ? "✓" : "✗"}</span>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+
+      {yesterday && (
+        <p className="flex items-center gap-2 bg-neutral-900/90 rounded px-4 py-2 text-sm sm:text-base">
+          Yesterday&apos;s {mode.name} answer (#{clock.day - 1}) was
+          <Icon char={byId[yesterday.char]} className="h-8 w-8 rounded" />
+          <strong>{byId[yesterday.char].name}</strong>
+        </p>
+      )}
     </div>
   );
 }

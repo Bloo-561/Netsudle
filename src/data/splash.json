@@ -1,0 +1,940 @@
+{
+ "alice": {
+  "src": "/assets/splash/s001.webp",
+  "fx": 36.5,
+  "fy": 53.9,
+  "w": 1200,
+  "h": 1200
+ },
+ "adam": {
+  "src": "/assets/splash/s002.webp",
+  "fx": 44.8,
+  "fy": 66.4,
+  "w": 1024,
+  "h": 1024
+ },
+ "adin-cross": {
+  "src": "/assets/splash/s003.webp",
+  "fx": 44.8,
+  "fy": 39.8,
+  "w": 570,
+  "h": 690
+ },
+ "alex": {
+  "src": "/assets/splash/s004.webp",
+  "fx": 51.0,
+  "fy": 39.8,
+  "w": 1024,
+  "h": 1024
+ },
+ "alfonse": {
+  "src": "/assets/splash/s005.webp",
+  "fx": 51.0,
+  "fy": 71.1,
+  "w": 1024,
+  "h": 1024
+ },
+ "auguste-wenzel": {
+  "src": "/assets/splash/s006.webp",
+  "fx": 46.9,
+  "fy": 66.4,
+  "w": 897,
+  "h": 1200
+ },
+ "aurelius-de-fermont": {
+  "src": "/assets/splash/s007.webp",
+  "fx": 59.4,
+  "fy": 52.3,
+  "w": 614,
+  "h": 1200
+ },
+ "barreta-xander": {
+  "src": "/assets/splash/s008.webp",
+  "fx": 38.5,
+  "fy": 41.4,
+  "w": 1024,
+  "h": 1024
+ },
+ "belia-sinclair": {
+  "src": "/assets/splash/s009.webp",
+  "fx": 34.4,
+  "fy": 52.3,
+  "w": 1018,
+  "h": 1200
+ },
+ "caius-lorien": {
+  "src": "/assets/splash/s010.webp",
+  "fx": 57.3,
+  "fy": 72.7,
+  "w": 1024,
+  "h": 1024
+ },
+ "carlos-engels": {
+  "src": "/assets/splash/s011.webp",
+  "fx": 42.9,
+  "fy": 56.1,
+  "w": 518,
+  "h": 621
+ },
+ "carol-cross": {
+  "src": "/assets/splash/s012.webp",
+  "fx": 64.2,
+  "fy": 43.4,
+  "w": 849,
+  "h": 1200
+ },
+ "carrie-hopewell": {
+  "src": "/assets/splash/s013.webp",
+  "fx": 40.6,
+  "fy": 32.0,
+  "w": 640,
+  "h": 688
+ },
+ "cecilia-richter": {
+  "src": "/assets/splash/s014.webp",
+  "fx": 38.5,
+  "fy": 28.9,
+  "w": 707,
+  "h": 1200
+ },
+ "charles-h-astley": {
+  "src": "/assets/splash/s015.webp",
+  "fx": 51.0,
+  "fy": 50.8,
+  "w": 570,
+  "h": 690
+ },
+ "chrom": {
+  "src": "/assets/splash/s016.webp",
+  "fx": 40.6,
+  "fy": 43.0,
+  "w": 1024,
+  "h": 1024
+ },
+ "cidd-riverdale": {
+  "src": "/assets/splash/s017.webp",
+  "fx": 78.1,
+  "fy": 24.2,
+  "w": 570,
+  "h": 690
+ },
+ "cocolia-filius": {
+  "src": "/assets/splash/s018.webp",
+  "fx": 38.5,
+  "fy": 41.4,
+  "w": 640,
+  "h": 688
+ },
+ "dauss-ehwa": {
+  "src": "/assets/splash/s019.webp",
+  "fx": 24.0,
+  "fy": 49.2,
+  "w": 670,
+  "h": 880
+ },
+ "diana-returna": {
+  "src": "/assets/splash/s020.webp",
+  "fx": 51.0,
+  "fy": 33.6,
+  "w": 1082,
+  "h": 1200
+ },
+ "dine-wenzel": {
+  "src": "/assets/splash/s021.webp",
+  "fx": 32.3,
+  "fy": 66.4,
+  "w": 1026,
+  "h": 1200
+ },
+ "dolla-pollock": {
+  "src": "/assets/splash/s022.webp",
+  "fx": 61.5,
+  "fy": 55.5,
+  "w": 640,
+  "h": 688
+ },
+ "doris-mclovin": {
+  "src": "/assets/splash/s023.webp",
+  "fx": 57.3,
+  "fy": 25.8,
+  "w": 711,
+  "h": 1200
+ },
+ "dorothy-chastle": {
+  "src": "/assets/splash/s024.webp",
+  "fx": 46.9,
+  "fy": 58.6,
+  "w": 1024,
+  "h": 1024
+ },
+ "einz-howard": {
+  "src": "/assets/splash/s025.webp",
+  "fx": 40.6,
+  "fy": 61.7,
+  "w": 640,
+  "h": 688
+ },
+ "elaneer-lockett": {
+  "src": "/assets/splash/s026.webp",
+  "fx": 55.2,
+  "fy": 39.8,
+  "w": 549,
+  "h": 632
+ },
+ "elio": {
+  "src": "/assets/splash/s027.webp",
+  "fx": 40.6,
+  "fy": 36.7,
+  "w": 640,
+  "h": 920
+ },
+ "elise-wenzel": {
+  "src": "/assets/splash/s028.webp",
+  "fx": 44.8,
+  "fy": 14.8,
+  "w": 335,
+  "h": 530
+ },
+ "elizabeth-bernadotte": {
+  "src": "/assets/splash/s029.webp",
+  "fx": 63.5,
+  "fy": 35.2,
+  "w": 570,
+  "h": 690
+ },
+ "emeraude": {
+  "src": "/assets/splash/s030.webp",
+  "fx": 51.0,
+  "fy": 38.3,
+  "w": 1024,
+  "h": 1024
+ },
+ "eren-rowden": {
+  "src": "/assets/splash/s031.webp",
+  "fx": 32.3,
+  "fy": 47.7,
+  "w": 936,
+  "h": 1200
+ },
+ "erica": {
+  "src": "/assets/splash/s032.webp",
+  "fx": 53.1,
+  "fy": 68.0,
+  "w": 960,
+  "h": 800
+ },
+ "euden": {
+  "src": "/assets/splash/s033.webp",
+  "fx": 51.0,
+  "fy": 60.2,
+  "w": 1024,
+  "h": 1024
+ },
+ "eustace-sinclair": {
+  "src": "/assets/splash/s034.webp",
+  "fx": 51.0,
+  "fy": 41.4,
+  "w": 882,
+  "h": 1200
+ },
+ "falce-wickes": {
+  "src": "/assets/splash/s035.webp",
+  "fx": 51.0,
+  "fy": 24.2,
+  "w": 877,
+  "h": 1200
+ },
+ "flan-returna": {
+  "src": "/assets/splash/s036.webp",
+  "fx": 69.8,
+  "fy": 58.6,
+  "w": 1050,
+  "h": 1050
+ },
+ "flora": {
+  "src": "/assets/splash/s037.webp",
+  "fx": 53.1,
+  "fy": 69.5,
+  "w": 640,
+  "h": 688
+ },
+ "fraxis": {
+  "src": "/assets/splash/s038.webp",
+  "fx": 46.9,
+  "fy": 24.2,
+  "w": 912,
+  "h": 1200
+ },
+ "gale-worzel": {
+  "src": "/assets/splash/s039.webp",
+  "fx": 51.0,
+  "fy": 43.0,
+  "w": 1024,
+  "h": 1024
+ },
+ "gilbert-reise-arnor": {
+  "src": "/assets/splash/s040.webp",
+  "fx": 57.3,
+  "fy": 63.3,
+  "w": 640,
+  "h": 688
+ },
+ "grace-owayne": {
+  "src": "/assets/splash/s041.webp",
+  "fx": 44.8,
+  "fy": 49.2,
+  "w": 849,
+  "h": 1200
+ },
+ "harie-bellby": {
+  "src": "/assets/splash/s042.webp",
+  "fx": 49.0,
+  "fy": 44.5,
+  "w": 570,
+  "h": 690
+ },
+ "haru-mcdowell": {
+  "src": "/assets/splash/s043.webp",
+  "fx": 42.7,
+  "fy": 32.0,
+  "w": 1050,
+  "h": 1050
+ },
+ "harvey-patissier": {
+  "src": "/assets/splash/s044.webp",
+  "fx": 42.7,
+  "fy": 53.9,
+  "w": 1024,
+  "h": 1024
+ },
+ "helmut-sinclair": {
+  "src": "/assets/splash/s045.webp",
+  "fx": 51.0,
+  "fy": 43.0,
+  "w": 960,
+  "h": 800
+ },
+ "hendrix-stiles": {
+  "src": "/assets/splash/s046.webp",
+  "fx": 9.4,
+  "fy": 55.5,
+  "w": 813,
+  "h": 1200
+ },
+ "heuey-engandar": {
+  "src": "/assets/splash/s047.webp",
+  "fx": 57.3,
+  "fy": 71.1,
+  "w": 640,
+  "h": 688
+ },
+ "hildegard": {
+  "src": "/assets/splash/s048.webp",
+  "fx": 53.1,
+  "fy": 35.2,
+  "w": 1200,
+  "h": 843
+ },
+ "himmel-cross": {
+  "src": "/assets/splash/s049.webp",
+  "fx": 48.3,
+  "fy": 23.4,
+  "w": 849,
+  "h": 1200
+ },
+ "hubert-green": {
+  "src": "/assets/splash/s050.webp",
+  "fx": 63.5,
+  "fy": 41.4,
+  "w": 640,
+  "h": 688
+ },
+ "ian-klein": {
+  "src": "/assets/splash/s051.webp",
+  "fx": 51.0,
+  "fy": 33.6,
+  "w": 754,
+  "h": 1200
+ },
+ "isaac-neuman": {
+  "src": "/assets/splash/s052.webp",
+  "fx": 42.7,
+  "fy": 30.5,
+  "w": 960,
+  "h": 800
+ },
+ "ivanah-muwah": {
+  "src": "/assets/splash/s053.webp",
+  "fx": 55.2,
+  "fy": 44.5,
+  "w": 1024,
+  "h": 1024
+ },
+ "jhonathan-antois": {
+  "src": "/assets/splash/s054.webp",
+  "fx": 78.1,
+  "fy": 32.0,
+  "w": 1059,
+  "h": 1079
+ },
+ "johan-christin": {
+  "src": "/assets/splash/s055.webp",
+  "fx": 59.4,
+  "fy": 52.3,
+  "w": 1024,
+  "h": 1024
+ },
+ "john-witherspoon": {
+  "src": "/assets/splash/s056.webp",
+  "fx": 80.2,
+  "fy": 60.2,
+  "w": 648,
+  "h": 1200
+ },
+ "josh-fredrickson": {
+  "src": "/assets/splash/s057.webp",
+  "fx": 65.6,
+  "fy": 25.8,
+  "w": 313,
+  "h": 1180
+ },
+ "judith-rosenfeld": {
+  "src": "/assets/splash/s058.webp",
+  "fx": 51.0,
+  "fy": 49.2,
+  "w": 570,
+  "h": 690
+ },
+ "juel-owayne": {
+  "src": "/assets/splash/s059.webp",
+  "fx": 51.0,
+  "fy": 22.7,
+  "w": 900,
+  "h": 1200
+ },
+ "kyle-longhorn": {
+  "src": "/assets/splash/s060.webp",
+  "fx": 36.5,
+  "fy": 53.9,
+  "w": 570,
+  "h": 690
+ },
+ "lance-30": {
+  "src": "/assets/splash/s061.webp",
+  "fx": 42.7,
+  "fy": 60.2,
+  "w": 640,
+  "h": 688
+ },
+ "lara-skye": {
+  "src": "/assets/splash/s062.webp",
+  "fx": 71.9,
+  "fy": 61.7,
+  "w": 340,
+  "h": 449
+ },
+ "leticia-r-khemia": {
+  "src": "/assets/splash/s063.webp",
+  "fx": 40.6,
+  "fy": 49.2,
+  "w": 808,
+  "h": 1105
+ },
+ "lila-baskerville": {
+  "src": "/assets/splash/s064.webp",
+  "fx": 44.8,
+  "fy": 36.7,
+  "w": 877,
+  "h": 1200
+ },
+ "liliana-filius": {
+  "src": "/assets/splash/s065.webp",
+  "fx": 51.0,
+  "fy": 33.6,
+  "w": 900,
+  "h": 1200
+ },
+ "linde-patissier": {
+  "src": "/assets/splash/s066.webp",
+  "fx": 55.2,
+  "fy": 66.4,
+  "w": 1024,
+  "h": 1024
+ },
+ "linn-kurota": {
+  "src": "/assets/splash/s067.webp",
+  "fx": 46.9,
+  "fy": 46.1,
+  "w": 1024,
+  "h": 1024
+ },
+ "lots-higgenbottom": {
+  "src": "/assets/splash/s068.webp",
+  "fx": 49.0,
+  "fy": 57.0,
+  "w": 1024,
+  "h": 1024
+ },
+ "lotte-cappuchino": {
+  "src": "/assets/splash/s069.webp",
+  "fx": 53.1,
+  "fy": 58.6,
+  "w": 640,
+  "h": 688
+ },
+ "ludwig-jakes": {
+  "src": "/assets/splash/s070.webp",
+  "fx": 61.5,
+  "fy": 28.9,
+  "w": 353,
+  "h": 450
+ },
+ "lynx-cougar": {
+  "src": "/assets/splash/s071.webp",
+  "fx": 17.7,
+  "fy": 68.0,
+  "w": 570,
+  "h": 690
+ },
+ "mari": {
+  "src": "/assets/splash/s072.webp",
+  "fx": 45.7,
+  "fy": 54.9,
+  "w": 979,
+  "h": 1036
+ },
+ "marian-antois": {
+  "src": "/assets/splash/s073.webp",
+  "fx": 28.1,
+  "fy": 49.2,
+  "w": 1050,
+  "h": 1050
+ },
+ "marie-aegir": {
+  "src": "/assets/splash/s074.webp",
+  "fx": 61.5,
+  "fy": 38.3,
+  "w": 869,
+  "h": 1200
+ },
+ "marquis-astley": {
+  "src": "/assets/splash/s075.webp",
+  "fx": 49.0,
+  "fy": 64.8,
+  "w": 640,
+  "h": 688
+ },
+ "mary-hopewell": {
+  "src": "/assets/splash/s076.webp",
+  "fx": 55.2,
+  "fy": 33.6,
+  "w": 570,
+  "h": 690
+ },
+ "may-march": {
+  "src": "/assets/splash/s077.webp",
+  "fx": 44.8,
+  "fy": 47.7,
+  "w": 960,
+  "h": 800
+ },
+ "melia-dawn": {
+  "src": "/assets/splash/s078.webp",
+  "fx": 44.8,
+  "fy": 50.8,
+  "w": 500,
+  "h": 500
+ },
+ "mitch-wiggins": {
+  "src": "/assets/splash/s079.webp",
+  "fx": 38.5,
+  "fy": 68.0,
+  "w": 640,
+  "h": 688
+ },
+ "nrin-worzel": {
+  "src": "/assets/splash/s080.webp",
+  "fx": 71.9,
+  "fy": 39.8,
+  "w": 373,
+  "h": 450
+ },
+ "naoto": {
+  "src": "/assets/splash/s081.webp",
+  "fx": 17.7,
+  "fy": 71.1,
+  "w": 810,
+  "h": 1044
+ },
+ "nicholas-fulmore": {
+  "src": "/assets/splash/s082.webp",
+  "fx": 32.3,
+  "fy": 53.9,
+  "w": 640,
+  "h": 688
+ },
+ "nina-reise-arnor": {
+  "src": "/assets/splash/s083.webp",
+  "fx": 44.8,
+  "fy": 33.6,
+  "w": 1024,
+  "h": 1024
+ },
+ "nixi": {
+  "src": "/assets/splash/s084.webp",
+  "fx": 51.0,
+  "fy": 52.3,
+  "w": 1024,
+  "h": 1024
+ },
+ "noah-swallowtail": {
+  "src": "/assets/splash/s085.webp",
+  "fx": 78.1,
+  "fy": 30.5,
+  "w": 1050,
+  "h": 1050
+ },
+ "noelle-ingram": {
+  "src": "/assets/splash/s086.webp",
+  "fx": 42.7,
+  "fy": 58.6,
+  "w": 1024,
+  "h": 1024
+ },
+ "olan-ohare": {
+  "src": "/assets/splash/s087.webp",
+  "fx": 53.1,
+  "fy": 61.7,
+  "w": 1024,
+  "h": 1024
+ },
+ "orissa-gotel": {
+  "src": "/assets/splash/s088.webp",
+  "fx": 53.1,
+  "fy": 24.2,
+  "w": 1024,
+  "h": 1024
+ },
+ "otis-worzel": {
+  "src": "/assets/splash/s089.webp",
+  "fx": 67.7,
+  "fy": 36.7,
+  "w": 477,
+  "h": 796
+ },
+ "patricia-worzel": {
+  "src": "/assets/splash/s090.webp",
+  "fx": 51.0,
+  "fy": 53.9,
+  "w": 481,
+  "h": 836
+ },
+ "philia-barnes": {
+  "src": "/assets/splash/s091.webp",
+  "fx": 49.0,
+  "fy": 35.2,
+  "w": 375,
+  "h": 450
+ },
+ "piamo": {
+  "src": "/assets/splash/s092.webp",
+  "fx": 32.3,
+  "fy": 48.0,
+  "w": 912,
+  "h": 1200
+ },
+ "piolo-aegir": {
+  "src": "/assets/splash/s093.webp",
+  "fx": 30.2,
+  "fy": 43.0,
+  "w": 640,
+  "h": 688
+ },
+ "prish-capulet": {
+  "src": "/assets/splash/s094.webp",
+  "fx": 46.9,
+  "fy": 38.3,
+  "w": 854,
+  "h": 1200
+ },
+ "rebecca-bonbon": {
+  "src": "/assets/splash/s095.webp",
+  "fx": 34.4,
+  "fy": 58.6,
+  "w": 741,
+  "h": 1200
+ },
+ "reinhardt-camelot": {
+  "src": "/assets/splash/s096.webp",
+  "fx": 55.2,
+  "fy": 30.5,
+  "w": 714,
+  "h": 1200
+ },
+ "riesel": {
+  "src": "/assets/splash/s097.webp",
+  "fx": 9.4,
+  "fy": 55.5,
+  "w": 911,
+  "h": 1200
+ },
+ "rinne-monroe": {
+  "src": "/assets/splash/s098.webp",
+  "fx": 26.0,
+  "fy": 41.4,
+  "w": 735,
+  "h": 1200
+ },
+ "ronald-aegir": {
+  "src": "/assets/splash/s099.webp",
+  "fx": 55.2,
+  "fy": 43.0,
+  "w": 882,
+  "h": 1200
+ },
+ "roy-sterlings": {
+  "src": "/assets/splash/s100.webp",
+  "fx": 51.0,
+  "fy": 38.3,
+  "w": 960,
+  "h": 800
+ },
+ "rudolf-barnes": {
+  "src": "/assets/splash/s101.webp",
+  "fx": 63.5,
+  "fy": 39.8,
+  "w": 640,
+  "h": 688
+ },
+ "rudy-sinclair": {
+  "src": "/assets/splash/s102.webp",
+  "fx": 46.9,
+  "fy": 71.1,
+  "w": 600,
+  "h": 600
+ },
+ "rumi-weissenberg": {
+  "src": "/assets/splash/s103.webp",
+  "fx": 59.4,
+  "fy": 69.5,
+  "w": 570,
+  "h": 690
+ },
+ "sakuya-hoshino": {
+  "src": "/assets/splash/s104.webp",
+  "fx": 61.5,
+  "fy": 21.1,
+  "w": 705,
+  "h": 1200
+ },
+ "sally-green": {
+  "src": "/assets/splash/s105.webp",
+  "fx": 55.2,
+  "fy": 39.8,
+  "w": 640,
+  "h": 688
+ },
+ "saori-shihei": {
+  "src": "/assets/splash/s106.webp",
+  "fx": 44.8,
+  "fy": 50.8,
+  "w": 1024,
+  "h": 1024
+ },
+ "sara-oswell": {
+  "src": "/assets/splash/s107.webp",
+  "fx": 38.5,
+  "fy": 43.0,
+  "w": 1050,
+  "h": 1050
+ },
+ "sebastian-antois": {
+  "src": "/assets/splash/s108.webp",
+  "fx": 51.0,
+  "fy": 33.6,
+  "w": 1024,
+  "h": 1024
+ },
+ "serina-bertarelli": {
+  "src": "/assets/splash/s109.webp",
+  "fx": 80.2,
+  "fy": 71.1,
+  "w": 570,
+  "h": 690
+ },
+ "seymour-filius": {
+  "src": "/assets/splash/s110.webp",
+  "fx": 51.0,
+  "fy": 47.7,
+  "w": 640,
+  "h": 688
+ },
+ "shareena": {
+  "src": "/assets/splash/s111.webp",
+  "fx": 49.0,
+  "fy": 33.6,
+  "w": 1024,
+  "h": 1024
+ },
+ "sieg": {
+  "src": "/assets/splash/s112.webp",
+  "fx": 40.6,
+  "fy": 60.2,
+  "w": 640,
+  "h": 688
+ },
+ "silica-worzel": {
+  "src": "/assets/splash/s113.webp",
+  "fx": 44.8,
+  "fy": 32.0,
+  "w": 900,
+  "h": 1200
+ },
+ "silk-bonbon": {
+  "src": "/assets/splash/s114.webp",
+  "fx": 21.9,
+  "fy": 53.9,
+  "w": 570,
+  "h": 690
+ },
+ "sophia": {
+  "src": "/assets/splash/s115.webp",
+  "fx": 59.4,
+  "fy": 44.5,
+  "w": 635,
+  "h": 1200
+ },
+ "soran-shihei": {
+  "src": "/assets/splash/s116.webp",
+  "fx": 46.9,
+  "fy": 33.6,
+  "w": 900,
+  "h": 1200
+ },
+ "sotheby-antois": {
+  "src": "/assets/splash/s117.webp",
+  "fx": 36.5,
+  "fy": 53.9,
+  "w": 700,
+  "h": 1200
+ },
+ "stan-richter": {
+  "src": "/assets/splash/s118.webp",
+  "fx": 49.0,
+  "fy": 49.2,
+  "w": 960,
+  "h": 800
+ },
+ "taffeta-bonbon": {
+  "src": "/assets/splash/s119.webp",
+  "fx": 44.8,
+  "fy": 69.5,
+  "w": 1024,
+  "h": 1024
+ },
+ "teio-freyja": {
+  "src": "/assets/splash/s120.webp",
+  "fx": 40.6,
+  "fy": 47.7,
+  "w": 1024,
+  "h": 1024
+ },
+ "tina-aesira": {
+  "src": "/assets/splash/s121.webp",
+  "fx": 32.3,
+  "fy": 49.2,
+  "w": 953,
+  "h": 1200
+ },
+ "tobias-lysander": {
+  "src": "/assets/splash/s122.webp",
+  "fx": 78.1,
+  "fy": 57.0,
+  "w": 1024,
+  "h": 1024
+ },
+ "toby-green": {
+  "src": "/assets/splash/s123.webp",
+  "fx": 49.0,
+  "fy": 44.5,
+  "w": 640,
+  "h": 688
+ },
+ "ulrich-bonbon": {
+  "src": "/assets/splash/s124.webp",
+  "fx": 36.5,
+  "fy": 21.1,
+  "w": 802,
+  "h": 1200
+ },
+ "vane-brando": {
+  "src": "/assets/splash/s125.webp",
+  "fx": 44.8,
+  "fy": 36.7,
+  "w": 1024,
+  "h": 1024
+ },
+ "venus-daytona": {
+  "src": "/assets/splash/s126.webp",
+  "fx": 40.6,
+  "fy": 14.8,
+  "w": 703,
+  "h": 1200
+ },
+ "vince-pollock": {
+  "src": "/assets/splash/s127.webp",
+  "fx": 55.2,
+  "fy": 58.6,
+  "w": 640,
+  "h": 688
+ },
+ "vita-r-khemia": {
+  "src": "/assets/splash/s128.webp",
+  "fx": 44.8,
+  "fy": 38.3,
+  "w": 615,
+  "h": 789
+ },
+ "vivian-pattisier": {
+  "src": "/assets/splash/s129.webp",
+  "fx": 57.3,
+  "fy": 38.3,
+  "w": 541,
+  "h": 1200
+ },
+ "will-r-khemia": {
+  "src": "/assets/splash/s130.webp",
+  "fx": 34.4,
+  "fy": 36.7,
+  "w": 840,
+  "h": 1200
+ },
+ "yrelef-gotel": {
+  "src": "/assets/splash/s131.webp",
+  "fx": 55.2,
+  "fy": 63.3,
+  "w": 1024,
+  "h": 1024
+ },
+ "yan-vander": {
+  "src": "/assets/splash/s132.webp",
+  "fx": 19.8,
+  "fy": 33.6,
+  "w": 866,
+  "h": 1200
+ },
+ "yubel-hawtt": {
+  "src": "/assets/splash/s133.webp",
+  "fx": 63.5,
+  "fy": 39.8,
+  "w": 640,
+  "h": 688
+ },
+ "yuki-shihei": {
+  "src": "/assets/splash/s134.webp",
+  "fx": 44.8,
+  "fy": 61.7,
+  "w": 1024,
+  "h": 1024
+ }
+}

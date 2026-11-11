@@ -1,41 +1,50 @@
 # Netsudle
-A Wordle/Genshindle like game for our DnD Campaign, Trails Along the Hot Chills / Netsu No Kiseki
+A daily guessing game for our DnD campaign, Trails Along the Hot Chills / Netsu No Kiseki, in the style of LoLdle, Pokédle and friends.
 
-Deez
+Built with React, Vite, Tailwind and Framer Motion. Originally based on [Genshindle](https://genshindle.com).
 
-Old README.md from Artificatdle
+## Game modes
 
-# Netsudle
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](./LICENSE)
+| Mode | Guesses | How it plays |
+|---|---|---|
+| **Classic** | 10 | Each guess shows which attributes match the answer: gender, region, group, weapon, affiliation, age and debut season. |
+| **Splash** | 6 | A zoomed-in piece of character art that zooms out with each wrong guess. |
+| **Card** | 6 | A zoomed-in Netsu iF card. Guess whose card it is. |
+| **Lore** | 6 | Wiki clues with the name blanked out. Each wrong guess reveals another clue. |
 
-Netsu is a Wordle-style game for guessing characters from Netsu No Kiseki. You pick an character set from the list of character, and get guess feedback based on the character's region, gender, weapon, affiliation and age, with the aim of guessing the randomly selected character within ten guesses. Built with React, Tailwind and Framer Motion, the project is heavily inspired by the already exisitng [Genshindle](https://genshindle.com), but for our personal DnD Champaign.
+Every mode has:
 
-## How To Play
+- **Daily** play: one puzzle a day, the same for everyone, resetting at midnight Eastern time, with a countdown to the next one.
+- **Unlimited** play: random rounds, as many as you like, with their own win streak.
+- Saved progress, streaks and statistics (in the browser, per mode).
+- Optional **hints** that unlock after a few guesses.
+- A spoiler-free **share** text and yesterday's answer.
+- A **Season I only** switch that hides Season II characters and gives a separate daily puzzle.
 
-1. A random, unknown character is selected.
-2. Type and select a character from the given list.
-3. The game compares your guess and tells you which attributes (name, gender, region, weapon, affiliation & age) are a match or close match to the answer.
-4. Keep guessing until either you guess the correct character or hit 10 guesses.
-5. Try to build up a streak of wins and aim for a high score.
+## Editing the game
 
-## Upcoming Features
+| To change | Edit |
+|---|---|
+| Characters and their attributes | `src/data/netsu.json` |
+| Classic columns (add, remove, reorder) | `COLUMNS` in `src/lib/compare.js` |
+| Guess limits, hints, mode text | `src/lib/modes.js` |
+| Splash art | `public/assets/splash/` and `src/data/splash.json` |
+| Cards | `public/assets/cards/` and `src/data/cards.json` |
+| Lore clues | `src/data/lore.json` |
+| Daily reset time zone and puzzle #1 date | `src/lib/daily.js` |
 
-- [ ] Daily challenges
-- [ ] More Backgrounds
+Adding a character: add an entry to `netsu.json` with a unique `id`, put the icon in `public/assets/icons/<Group>/`, and set `debut` to `"1"` or `"2"`. The icon's folder name becomes the character's Group in Classic. Optional extras, all keyed by the character's `id`: a small portrait at `public/assets/thumbs/<id>.webp` (the full icon is used if it is missing), an entry in `splash.json`, and clues in `lore.json`.
 
+`weapon` and `affiliation` are comma-separated lists. In Classic a list that matches exactly is green and a list that shares at least one entry is yellow.
 
-## Download and Run
+Changing the character list reshuffles which puzzle lands on which day, so avoid doing it mid-day once people are playing.
 
-### Prerequisites
+See `NOTES.md` for open questions and characters that still need data.
 
-- **Node.js** 18+ and npm
-  
-### Run Locally
+## Download and run
+
+Needs Node.js 18+ and npm.
+
 ```bash
 git clone https://github.com/Bloo-561/Netsudle.git
 cd netsudle
@@ -43,31 +52,22 @@ npm install
 npm run dev
 ```
 
+While running `npm run dev`, add `?day=5` to the address to preview another day's puzzles.
+
 ## Contributing
 
 Contributions are welcome! :]
 
-If you’d like to help improve Netsudle, please follow these steps:
 1. Fork the repository and create a new branch from main.
 2. For UI changes, screenshots or short clips are encouraged.
-3. Make sure the project runs locally:
-```bash
-npm install
-npm run dev
-```
-4. Open a Pull Request with:
-- A clear description of what you changed or added 
-- The reasoning behind it
-
-If you’re unsure about an idea or want feedback before starting, feel free to open an issue to discuss it first.
+3. Make sure the project runs locally with `npm install` and `npm run dev`.
+4. Open a Pull Request with a clear description of what you changed and why.
 
 Thanks for helping make Netsudle better! 💜
 
 ## License
 
-This is a fan-made project based on Netsu No Kiseki/Trails Along the Hot Chills.    
+This is a fan-made project based on Netsu No Kiseki/Trails Along the Hot Chills.
 This project is **not affiliated with or endorsed by Falcom**.
 
 This software is licensed under the MIT license.
-
-

@@ -1,22 +1,16 @@
-export default function GuessHeader() {
-  const headers = ["Icon", "Name", "Gender", "Region", "Weapon", "Affiliation", "Age"];
+export const CELL = "w-28 sm:w-32 flex-shrink-0";
 
+export default function GuessHeader({ columns }) {
   return (
     <div className="flex gap-1 font-bold text-white">
-      {headers.map((header) => {
-        let size = "h-12 w-50";
-        if (header === "Name") {
-          size = "h-12 w-75";
-        }
-        if (header === "Icon") {
-          size = "h-12 w-25";
-        }
-        return (
-          <span key={header} className={`border-5 border-[#974256] flex items-center justify-center bg-[#c24d68] rounded ${size} flex-shrink-0`}>
-            {header}
-          </span>
-        );
-      })}
+      {[{ key: "character", label: "Character" }, ...columns].map((col) => (
+        <span
+          key={col.key}
+          className={`border-4 border-[#974256] flex items-center justify-center bg-[#c24d68] rounded h-12 ${CELL}`}
+        >
+          {col.label}
+        </span>
+      ))}
     </div>
   );
 }
