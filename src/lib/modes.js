@@ -1,7 +1,7 @@
 import { characters, byId, splash, cards, lore } from "./characters";
 
-// Lore clues: five hand-written lines from lore.json (hardest first),
-// then the character's group as a last clue.
+// Lore clues: six hand-written lines from lore.json, most obscure first.
+// The character's group fills in only if a character has fewer than six.
 function loreClues(char) {
   return [...(lore[char.id] || []), `Group: ${char.group}.`].slice(0, 6);
 }
