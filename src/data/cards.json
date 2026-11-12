@@ -1,607 +1,2559 @@
 [
  {
+  "key": "skill-axiom",
+  "char": "prish-capulet",
+  "chars": [
+   "prish-capulet"
+  ],
+  "src": "/assets/cards/c001.webp",
+  "fx": 55.2,
+  "fy": 18.0,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-brace",
+  "char": "adin-cross",
+  "chars": [
+   "adin-cross"
+  ],
+  "src": "/assets/cards/c002.webp",
+  "fx": 90.6,
+  "fy": 19.5,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-calculatedmove",
+  "char": "rudy-sinclair",
+  "chars": [
+   "rudy-sinclair"
+  ],
+  "src": "/assets/cards/c003.webp",
+  "fx": 51.0,
+  "fy": 41.4,
+  "w": 536,
+  "h": 768
+ },
+ {
   "key": "cecilia-divider",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c001.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c004.webp",
+  "fx": 55.2,
+  "fy": 13.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "cecilia-edge",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c002.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c005.webp",
+  "fx": 69.8,
+  "fy": 22.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "cecilia-focus",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c003.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c006.webp",
+  "fx": 40.6,
+  "fy": 30.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "cecilia-fujin",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c004.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c007.webp",
+  "fx": 90.6,
+  "fy": 64.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "cecilia-morningmoon",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c005.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c008.webp",
+  "fx": 84.4,
+  "fy": 61.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "cecilia-raijin",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c006.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c009.webp",
+  "fx": 67.7,
+  "fy": 36.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "cecilia-stance",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c007.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c010.webp",
+  "fx": 86.5,
+  "fy": 27.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "cecilia-thunder",
   "char": "cecilia-richter",
-  "src": "/assets/cards/c008.webp"
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c011.webp",
+  "fx": 49.0,
+  "fy": 30.5,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-cue2cue",
+  "char": "emily-thatcher",
+  "chars": [
+   "emily-thatcher"
+  ],
+  "src": "/assets/cards/c012.webp",
+  "fx": 44.8,
+  "fy": 24.2,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-dragonfist",
+  "char": "elizabeth-bernadotte",
+  "chars": [
+   "elizabeth-bernadotte"
+  ],
+  "src": "/assets/cards/c013.webp",
+  "fx": 84.4,
+  "fy": 49.2,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-endurancetraining",
+  "char": "harie-bellby",
+  "chars": [
+   "harie-bellby"
+  ],
+  "src": "/assets/cards/c014.webp",
+  "fx": 80.2,
+  "fy": 52.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-bp",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c009.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c015.webp",
+  "fx": 82.3,
+  "fy": 60.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-control",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c010.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c016.webp",
+  "fx": 90.6,
+  "fy": 57.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-fuzzy",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c011.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c017.webp",
+  "fx": 49.0,
+  "fy": 14.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-ggr",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c012.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c018.webp",
+  "fx": 82.3,
+  "fy": 25.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-guard",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c013.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c019.webp",
+  "fx": 82.3,
+  "fy": 64.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-rallying",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c014.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c020.webp",
+  "fx": 13.5,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-spear",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c015.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c021.webp",
+  "fx": 67.7,
+  "fy": 69.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "eustace-ygt",
   "char": "eustace-sinclair",
-  "src": "/assets/cards/c016.webp"
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c022.webp",
+  "fx": 55.2,
+  "fy": 55.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-cross",
   "char": "flan-returna",
-  "src": "/assets/cards/c017.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c023.webp",
+  "fx": 53.1,
+  "fy": 30.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-dipper",
   "char": "flan-returna",
-  "src": "/assets/cards/c018.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c024.webp",
+  "fx": 71.9,
+  "fy": 36.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-iron",
   "char": "flan-returna",
-  "src": "/assets/cards/c019.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c025.webp",
+  "fx": 61.5,
+  "fy": 53.9,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-polaris",
   "char": "flan-returna",
-  "src": "/assets/cards/c020.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c026.webp",
+  "fx": 53.1,
+  "fy": 14.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-shield",
   "char": "flan-returna",
-  "src": "/assets/cards/c021.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c027.webp",
+  "fx": 7.3,
+  "fy": 71.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-shining",
   "char": "flan-returna",
-  "src": "/assets/cards/c022.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c028.webp",
+  "fx": 49.0,
+  "fy": 30.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-star",
   "char": "flan-returna",
-  "src": "/assets/cards/c023.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c029.webp",
+  "fx": 30.2,
+  "fy": 64.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "flan-stellar",
   "char": "flan-returna",
-  "src": "/assets/cards/c024.webp"
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c030.webp",
+  "fx": 92.7,
+  "fy": 58.6,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-fortunereading",
+  "char": "falce-wickes",
+  "chars": [
+   "falce-wickes"
+  ],
+  "src": "/assets/cards/c031.webp",
+  "fx": 26.0,
+  "fy": 25.8,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-gamblerchance",
+  "char": "noah-swallowtail",
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c032.webp",
+  "fx": 13.5,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-blue",
   "char": "juel-owayne",
-  "src": "/assets/cards/c025.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c033.webp",
+  "fx": 36.5,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-bow",
   "char": "juel-owayne",
-  "src": "/assets/cards/c026.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c034.webp",
+  "fx": 59.4,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-fatal",
   "char": "juel-owayne",
-  "src": "/assets/cards/c027.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c035.webp",
+  "fx": 40.6,
+  "fy": 19.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-horizon",
   "char": "juel-owayne",
-  "src": "/assets/cards/c028.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c036.webp",
+  "fx": 30.2,
+  "fy": 66.4,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-manifest",
   "char": "juel-owayne",
-  "src": "/assets/cards/c029.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c037.webp",
+  "fx": 51.0,
+  "fy": 71.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-red",
   "char": "juel-owayne",
-  "src": "/assets/cards/c030.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c038.webp",
+  "fx": 90.6,
+  "fy": 25.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-relay",
   "char": "juel-owayne",
-  "src": "/assets/cards/c031.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c039.webp",
+  "fx": 63.5,
+  "fy": 13.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-silent",
   "char": "juel-owayne",
-  "src": "/assets/cards/c032.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c040.webp",
+  "fx": 67.7,
+  "fy": 27.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-smoke",
   "char": "juel-owayne",
-  "src": "/assets/cards/c033.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c041.webp",
+  "fx": 55.2,
+  "fy": 52.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-whispers",
   "char": "juel-owayne",
-  "src": "/assets/cards/c034.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c042.webp",
+  "fx": 57.3,
+  "fy": 43.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "juel-yellow",
   "char": "juel-owayne",
-  "src": "/assets/cards/c035.webp"
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c043.webp",
+  "fx": 26.0,
+  "fy": 16.4,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-barrier",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c036.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c044.webp",
+  "fx": 17.7,
+  "fy": 24.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-battery",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c037.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c045.webp",
+  "fx": 51.0,
+  "fy": 33.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-blaze",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c038.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c046.webp",
+  "fx": 71.9,
+  "fy": 22.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-board",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c039.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c047.webp",
+  "fx": 17.7,
+  "fy": 16.4,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-energy",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c040.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c048.webp",
+  "fx": 76.0,
+  "fy": 18.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-fire",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c041.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c049.webp",
+  "fx": 80.2,
+  "fy": 18.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-osex",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c042.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c050.webp",
+  "fx": 34.4,
+  "fy": 64.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-rainstorm",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c043.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c051.webp",
+  "fx": 11.5,
+  "fy": 43.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-rainstormog",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c044.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c052.webp",
+  "fx": 34.4,
+  "fy": 43.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-rapid",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c045.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c053.webp",
+  "fx": 7.3,
+  "fy": 44.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-scarlet",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c046.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c054.webp",
+  "fx": 17.7,
+  "fy": 58.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-siege",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c047.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c055.webp",
+  "fx": 78.1,
+  "fy": 49.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-sparkling",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c048.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c056.webp",
+  "fx": 11.5,
+  "fy": 16.4,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "leticia-twinshot",
   "char": "leticia-r-khemia",
-  "src": "/assets/cards/c049.webp"
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c057.webp",
+  "fx": 32.3,
+  "fy": 22.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-caller",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c050.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c058.webp",
+  "fx": 26.0,
+  "fy": 38.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-clones",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c051.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c059.webp",
+  "fx": 53.1,
+  "fy": 28.9,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-cure",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c052.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c060.webp",
+  "fx": 32.3,
+  "fy": 71.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-healing",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c053.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c061.webp",
+  "fx": 86.5,
+  "fy": 22.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-lyre",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c054.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c062.webp",
+  "fx": 65.6,
+  "fy": 55.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-pcheck",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c055.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c063.webp",
+  "fx": 42.7,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-touch",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c056.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c064.webp",
+  "fx": 71.9,
+  "fy": 61.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-twilight",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c057.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c065.webp",
+  "fx": 24.0,
+  "fy": 38.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "lila-wounds",
   "char": "lila-baskerville",
-  "src": "/assets/cards/c058.webp"
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c066.webp",
+  "fx": 24.0,
+  "fy": 69.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-bless",
   "char": "liliana-filius",
-  "src": "/assets/cards/c059.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c067.webp",
+  "fx": 71.9,
+  "fy": 27.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-cinder",
   "char": "liliana-filius",
-  "src": "/assets/cards/c060.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c068.webp",
+  "fx": 13.5,
+  "fy": 47.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-crane",
   "char": "liliana-filius",
-  "src": "/assets/cards/c061.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c069.webp",
+  "fx": 13.5,
+  "fy": 16.4,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-fireball",
   "char": "liliana-filius",
-  "src": "/assets/cards/c062.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c070.webp",
+  "fx": 26.0,
+  "fy": 33.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-flame",
   "char": "liliana-filius",
-  "src": "/assets/cards/c063.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c071.webp",
+  "fx": 49.0,
+  "fy": 22.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-gladiolus",
   "char": "liliana-filius",
-  "src": "/assets/cards/c064.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c072.webp",
+  "fx": 9.4,
+  "fy": 28.9,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-rending",
   "char": "liliana-filius",
-  "src": "/assets/cards/c065.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c073.webp",
+  "fx": 53.1,
+  "fy": 18.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-rep",
   "char": "liliana-filius",
-  "src": "/assets/cards/c066.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c074.webp",
+  "fx": 92.7,
+  "fy": 25.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "liliana-scorching",
   "char": "liliana-filius",
-  "src": "/assets/cards/c067.webp"
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c075.webp",
+  "fx": 61.5,
+  "fy": 35.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-black",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c068.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c076.webp",
+  "fx": 19.8,
+  "fy": 33.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-burst",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c069.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c077.webp",
+  "fx": 69.8,
+  "fy": 63.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-devour",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c070.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c078.webp",
+  "fx": 65.6,
+  "fy": 32.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-fang",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c071.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c079.webp",
+  "fx": 92.7,
+  "fy": 69.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-fist",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c072.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c080.webp",
+  "fx": 42.7,
+  "fy": 52.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-hopeless",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c073.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c081.webp",
+  "fx": 59.4,
+  "fy": 61.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-nihil",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c074.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c082.webp",
+  "fx": 7.3,
+  "fy": 33.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-sacrifice",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c075.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c083.webp",
+  "fx": 82.3,
+  "fy": 13.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "noah-self",
   "char": "noah-swallowtail",
-  "src": "/assets/cards/c076.webp"
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c084.webp",
+  "fx": 53.1,
+  "fy": 35.2,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-perfectservice",
+  "char": "sophia",
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c085.webp",
+  "fx": 34.4,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-prank",
+  "char": "rinne-monroe",
+  "chars": [
+   "rinne-monroe"
+  ],
+  "src": "/assets/cards/c086.webp",
+  "fx": 7.3,
+  "fy": 47.7,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-quietresolve",
+  "char": "juel-owayne",
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c087.webp",
+  "fx": 53.1,
+  "fy": 41.4,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-raginggale",
+  "char": "nrin-worzel",
+  "chars": [
+   "nrin-worzel"
+  ],
+  "src": "/assets/cards/c088.webp",
+  "fx": 38.5,
+  "fy": 55.5,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-researchnotes",
+  "char": "doris-mclovin",
+  "chars": [
+   "doris-mclovin"
+  ],
+  "src": "/assets/cards/c089.webp",
+  "fx": 46.9,
+  "fy": 41.4,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-rhapsody2",
+  "char": "lila-baskerville",
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c090.webp",
+  "fx": 44.8,
+  "fy": 30.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-artisteye",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c077.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c091.webp",
+  "fx": 67.7,
+  "fy": 36.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-artisticinspiration",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c078.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c092.webp",
+  "fx": 13.5,
+  "fy": 27.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-bleedingshot",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c079.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c093.webp",
+  "fx": 32.3,
+  "fy": 57.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-breakshot",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c080.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c094.webp",
+  "fx": 84.4,
+  "fy": 30.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-breakshotex",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c081.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c095.webp",
+  "fx": 61.5,
+  "fy": 69.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-peaceofmind",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c082.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c096.webp",
+  "fx": 9.4,
+  "fy": 39.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-quickshot",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c083.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c097.webp",
+  "fx": 28.1,
+  "fy": 64.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-recoil",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c084.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c098.webp",
+  "fx": 13.5,
+  "fy": 38.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-slowsteady",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c085.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c099.webp",
+  "fx": 13.5,
+  "fy": 69.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-slowsteadyex",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c086.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c100.webp",
+  "fx": 15.6,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "ronald-stunningink",
   "char": "ronald-aegir",
-  "src": "/assets/cards/c087.webp"
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c101.webp",
+  "fx": 44.8,
+  "fy": 64.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-ark",
   "char": "sara-oswell",
-  "src": "/assets/cards/c088.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c102.webp",
+  "fx": 53.1,
+  "fy": 19.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-final",
   "char": "sara-oswell",
-  "src": "/assets/cards/c089.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c103.webp",
+  "fx": 57.3,
+  "fy": 63.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-flying",
   "char": "sara-oswell",
-  "src": "/assets/cards/c090.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c104.webp",
+  "fx": 57.3,
+  "fy": 33.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-misdirect",
   "char": "sara-oswell",
-  "src": "/assets/cards/c091.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c105.webp",
+  "fx": 82.3,
+  "fy": 24.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-observer",
   "char": "sara-oswell",
-  "src": "/assets/cards/c092.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c106.webp",
+  "fx": 34.4,
+  "fy": 13.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-peak",
   "char": "sara-oswell",
-  "src": "/assets/cards/c093.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c107.webp",
+  "fx": 69.8,
+  "fy": 39.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-pillow",
   "char": "sara-oswell",
-  "src": "/assets/cards/c094.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c108.webp",
+  "fx": 21.9,
+  "fy": 58.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-powernap",
   "char": "sara-oswell",
-  "src": "/assets/cards/c095.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c109.webp",
+  "fx": 76.0,
+  "fy": 38.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sara-thrust",
   "char": "sara-oswell",
-  "src": "/assets/cards/c096.webp"
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c110.webp",
+  "fx": 17.7,
+  "fy": 18.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-aero",
   "char": "silica-worzel",
-  "src": "/assets/cards/c097.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c111.webp",
+  "fx": 90.6,
+  "fy": 36.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-rage",
   "char": "silica-worzel",
-  "src": "/assets/cards/c098.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c112.webp",
+  "fx": 51.0,
+  "fy": 36.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-scar",
   "char": "silica-worzel",
-  "src": "/assets/cards/c099.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c113.webp",
+  "fx": 92.7,
+  "fy": 47.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-shield",
   "char": "silica-worzel",
-  "src": "/assets/cards/c100.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c114.webp",
+  "fx": 32.3,
+  "fy": 60.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-spiral",
   "char": "silica-worzel",
-  "src": "/assets/cards/c101.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c115.webp",
+  "fx": 24.0,
+  "fy": 58.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-strike",
   "char": "silica-worzel",
-  "src": "/assets/cards/c102.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c116.webp",
+  "fx": 19.8,
+  "fy": 27.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-wind",
   "char": "silica-worzel",
-  "src": "/assets/cards/c103.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c117.webp",
+  "fx": 90.6,
+  "fy": 18.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "silica-zephyr",
   "char": "silica-worzel",
-  "src": "/assets/cards/c104.webp"
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c118.webp",
+  "fx": 7.3,
+  "fy": 41.4,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-silvercommand",
+  "char": "noelle-ingram",
+  "chars": [
+   "noelle-ingram"
+  ],
+  "src": "/assets/cards/c119.webp",
+  "fx": 90.6,
+  "fy": 58.6,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-composure",
   "char": "sophia",
-  "src": "/assets/cards/c105.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c120.webp",
+  "fx": 90.6,
+  "fy": 69.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-fullcourse",
   "char": "sophia",
-  "src": "/assets/cards/c106.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c121.webp",
+  "fx": 82.3,
+  "fy": 50.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-redstring",
   "char": "sophia",
-  "src": "/assets/cards/c107.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c122.webp",
+  "fx": 30.2,
+  "fy": 71.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-s-craft",
   "char": "sophia",
-  "src": "/assets/cards/c108.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c123.webp",
+  "fx": 78.1,
+  "fy": 49.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-stiletto",
   "char": "sophia",
-  "src": "/assets/cards/c109.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c124.webp",
+  "fx": 26.0,
+  "fy": 21.1,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-tautline",
   "char": "sophia",
-  "src": "/assets/cards/c110.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c125.webp",
+  "fx": 11.5,
+  "fy": 32.0,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-tea",
   "char": "sophia",
-  "src": "/assets/cards/c111.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c126.webp",
+  "fx": 80.2,
+  "fy": 13.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-throatline",
   "char": "sophia",
-  "src": "/assets/cards/c112.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c127.webp",
+  "fx": 90.6,
+  "fy": 19.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "sophia-wovenvigil",
   "char": "sophia",
-  "src": "/assets/cards/c113.webp"
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c128.webp",
+  "fx": 61.5,
+  "fy": 27.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-aqua",
   "char": "soran-shihei",
-  "src": "/assets/cards/c114.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c129.webp",
+  "fx": 24.0,
+  "fy": 36.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-echo",
   "char": "soran-shihei",
-  "src": "/assets/cards/c115.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c130.webp",
+  "fx": 63.5,
+  "fy": 22.7,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-lovers",
   "char": "soran-shihei",
-  "src": "/assets/cards/c116.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c131.webp",
+  "fx": 63.5,
+  "fy": 44.5,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-passion",
   "char": "soran-shihei",
-  "src": "/assets/cards/c117.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c132.webp",
+  "fx": 26.0,
+  "fy": 53.9,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-protect",
   "char": "soran-shihei",
-  "src": "/assets/cards/c118.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c133.webp",
+  "fx": 59.4,
+  "fy": 60.2,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-rhythm",
   "char": "soran-shihei",
-  "src": "/assets/cards/c119.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c134.webp",
+  "fx": 76.0,
+  "fy": 52.3,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-throw",
   "char": "soran-shihei",
-  "src": "/assets/cards/c120.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c135.webp",
+  "fx": 57.3,
+  "fy": 39.8,
+  "w": 536,
+  "h": 768
  },
  {
   "key": "soran-trace",
   "char": "soran-shihei",
-  "src": "/assets/cards/c121.webp"
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c136.webp",
+  "fx": 67.7,
+  "fy": 63.3,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-sweet",
+  "char": "vivian-pattisier",
+  "chars": [
+   "vivian-pattisier"
+  ],
+  "src": "/assets/cards/c137.webp",
+  "fx": 30.2,
+  "fy": 36.7,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-undyingresolve",
+  "char": "tobias-lysander",
+  "chars": [
+   "tobias-lysander"
+  ],
+  "src": "/assets/cards/c138.webp",
+  "fx": 49.0,
+  "fy": 52.3,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-upstaging",
+  "char": "sebastian-antois",
+  "chars": [
+   "sebastian-antois"
+  ],
+  "src": "/assets/cards/c139.webp",
+  "fx": 69.8,
+  "fy": 47.7,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "skill-venomchance",
+  "char": "venus-daytona",
+  "chars": [
+   "venus-daytona"
+  ],
+  "src": "/assets/cards/c140.webp",
+  "fx": 19.8,
+  "fy": 39.8,
+  "w": 536,
+  "h": 768
+ },
+ {
+  "key": "mo-actor-1",
+  "char": "cecilia-richter",
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c141.webp",
+  "fx": 44.8,
+  "fy": 61.7,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-10",
+  "char": "soran-shihei",
+  "chars": [
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c142.webp",
+  "fx": 36.5,
+  "fy": 13.3,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-11",
+  "char": "juel-owayne",
+  "chars": [
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c143.webp",
+  "fx": 59.4,
+  "fy": 68.0,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-12",
+  "char": "silica-worzel",
+  "chars": [
+   "silica-worzel"
+  ],
+  "src": "/assets/cards/c144.webp",
+  "fx": 49.0,
+  "fy": 35.2,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-2",
+  "char": "lila-baskerville",
+  "chars": [
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c145.webp",
+  "fx": 61.5,
+  "fy": 44.5,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-3",
+  "char": "eustace-sinclair",
+  "chars": [
+   "eustace-sinclair"
+  ],
+  "src": "/assets/cards/c146.webp",
+  "fx": 42.7,
+  "fy": 50.8,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-30",
+  "char": "sophia",
+  "chars": [
+   "sophia"
+  ],
+  "src": "/assets/cards/c147.webp",
+  "fx": 92.7,
+  "fy": 64.8,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-4",
+  "char": "ronald-aegir",
+  "chars": [
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c148.webp",
+  "fx": 74.0,
+  "fy": 64.8,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-5",
+  "char": "leticia-r-khemia",
+  "chars": [
+   "leticia-r-khemia"
+  ],
+  "src": "/assets/cards/c149.webp",
+  "fx": 19.8,
+  "fy": 64.8,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-6",
+  "char": "flan-returna",
+  "chars": [
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c150.webp",
+  "fx": 46.9,
+  "fy": 47.7,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-7",
+  "char": "noah-swallowtail",
+  "chars": [
+   "noah-swallowtail"
+  ],
+  "src": "/assets/cards/c151.webp",
+  "fx": 42.7,
+  "fy": 53.9,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-8",
+  "char": "sara-oswell",
+  "chars": [
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c152.webp",
+  "fx": 49.0,
+  "fy": 44.5,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-actor-9",
+  "char": "liliana-filius",
+  "chars": [
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c153.webp",
+  "fx": 24.0,
+  "fy": 66.4,
+  "w": 400,
+  "h": 900
+ },
+ {
+  "key": "mo-adin",
+  "char": "adin-cross",
+  "chars": [
+   "adin-cross"
+  ],
+  "src": "/assets/cards/c154.webp",
+  "fx": 69.8,
+  "fy": 25.8,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-adin2",
+  "char": "adin-cross",
+  "chars": [
+   "adin-cross"
+  ],
+  "src": "/assets/cards/c155.webp",
+  "fx": 74.0,
+  "fy": 35.2,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-ceciliashizuka",
+  "char": "cecilia-richter",
+  "chars": [
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c156.webp",
+  "fx": 38.5,
+  "fy": 60.2,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-ceciliastan",
+  "char": "cecilia-richter",
+  "chars": [
+   "cecilia-richter",
+   "stan-richter"
+  ],
+  "src": "/assets/cards/c157.webp",
+  "fx": 65.6,
+  "fy": 64.8,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-charles",
+  "char": "charles-h-astley",
+  "chars": [
+   "charles-h-astley"
+  ],
+  "src": "/assets/cards/c158.webp",
+  "fx": 26.0,
+  "fy": 47.7,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-doris",
+  "char": "doris-mclovin",
+  "chars": [
+   "doris-mclovin"
+  ],
+  "src": "/assets/cards/c159.webp",
+  "fx": 65.6,
+  "fy": 66.4,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-dorisjuel",
+  "char": "doris-mclovin",
+  "chars": [
+   "doris-mclovin",
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c160.webp",
+  "fx": 57.3,
+  "fy": 53.9,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-elricao",
+  "char": "elric-reise-arnor",
+  "chars": [
+   "elric-reise-arnor"
+  ],
+  "src": "/assets/cards/c161.webp",
+  "fx": 28.1,
+  "fy": 47.7,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-emily",
+  "char": "emily-thatcher",
+  "chars": [
+   "emily-thatcher"
+  ],
+  "src": "/assets/cards/c162.webp",
+  "fx": 30.2,
+  "fy": 58.6,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-eren",
+  "char": "eren-rowden",
+  "chars": [
+   "eren-rowden"
+  ],
+  "src": "/assets/cards/c163.webp",
+  "fx": 21.9,
+  "fy": 52.3,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-eustacerudy",
+  "char": "eustace-sinclair",
+  "chars": [
+   "eustace-sinclair",
+   "rudy-sinclair"
+  ],
+  "src": "/assets/cards/c164.webp",
+  "fx": 57.3,
+  "fy": 68.0,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-falce",
+  "char": "falce-wickes",
+  "chars": [
+   "falce-wickes"
+  ],
+  "src": "/assets/cards/c165.webp",
+  "fx": 69.8,
+  "fy": 13.3,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-flanserina",
+  "char": "flan-returna",
+  "chars": [
+   "flan-returna",
+   "serina-bertarelli"
+  ],
+  "src": "/assets/cards/c166.webp",
+  "fx": 55.2,
+  "fy": 22.7,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-harie",
+  "char": "harie-bellby",
+  "chars": [
+   "harie-bellby"
+  ],
+  "src": "/assets/cards/c167.webp",
+  "fx": 44.8,
+  "fy": 55.5,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-haru",
+  "char": "haru-mcdowell",
+  "chars": [
+   "haru-mcdowell"
+  ],
+  "src": "/assets/cards/c168.webp",
+  "fx": 65.6,
+  "fy": 41.4,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-ian",
+  "char": "ian-klein",
+  "chars": [
+   "ian-klein"
+  ],
+  "src": "/assets/cards/c169.webp",
+  "fx": 59.4,
+  "fy": 27.3,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-john",
+  "char": "john-witherspoon",
+  "chars": [
+   "john-witherspoon"
+  ],
+  "src": "/assets/cards/c170.webp",
+  "fx": 32.3,
+  "fy": 41.4,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-judith",
+  "char": "judith-rosenfeld",
+  "chars": [
+   "judith-rosenfeld"
+  ],
+  "src": "/assets/cards/c171.webp",
+  "fx": 55.2,
+  "fy": 55.5,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-judithcecilia",
+  "char": "judith-rosenfeld",
+  "chars": [
+   "judith-rosenfeld",
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c172.webp",
+  "fx": 24.0,
+  "fy": 30.5,
+  "w": 389,
+  "h": 236
+ },
+ {
+  "key": "mo-jueldoris",
+  "char": "juel-owayne",
+  "chars": [
+   "juel-owayne",
+   "doris-mclovin"
+  ],
+  "src": "/assets/cards/c173.webp",
+  "fx": 34.4,
+  "fy": 60.2,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-juelrinne",
+  "char": "juel-owayne",
+  "chars": [
+   "juel-owayne",
+   "rinne-monroe"
+  ],
+  "src": "/assets/cards/c174.webp",
+  "fx": 36.5,
+  "fy": 46.1,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-juelrumi",
+  "char": "juel-owayne",
+  "chars": [
+   "juel-owayne",
+   "rumi-weissenberg"
+  ],
+  "src": "/assets/cards/c175.webp",
+  "fx": 40.6,
+  "fy": 27.3,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-kyle",
+  "char": "kyle-longhorn",
+  "chars": [
+   "kyle-longhorn"
+  ],
+  "src": "/assets/cards/c176.webp",
+  "fx": 71.9,
+  "fy": 49.2,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-leticiaolan",
+  "char": "leticia-r-khemia",
+  "chars": [
+   "leticia-r-khemia",
+   "olan-ohare"
+  ],
+  "src": "/assets/cards/c177.webp",
+  "fx": 78.1,
+  "fy": 44.5,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-lilianamarian",
+  "char": "liliana-filius",
+  "chars": [
+   "liliana-filius",
+   "marian-antois"
+  ],
+  "src": "/assets/cards/c178.webp",
+  "fx": 61.5,
+  "fy": 46.1,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-lilianaserina",
+  "char": "liliana-filius",
+  "chars": [
+   "liliana-filius",
+   "serina-bertarelli"
+  ],
+  "src": "/assets/cards/c179.webp",
+  "fx": 49.0,
+  "fy": 61.7,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-lynx",
+  "char": "lynx-cougar",
+  "chars": [
+   "lynx-cougar"
+  ],
+  "src": "/assets/cards/c180.webp",
+  "fx": 32.3,
+  "fy": 36.7,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-marian",
+  "char": "marian-antois",
+  "chars": [
+   "marian-antois"
+  ],
+  "src": "/assets/cards/c181.webp",
+  "fx": 59.4,
+  "fy": 47.7,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-marie",
+  "char": "marie-aegir",
+  "chars": [
+   "marie-aegir"
+  ],
+  "src": "/assets/cards/c182.webp",
+  "fx": 49.0,
+  "fy": 41.4,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-marieronald",
+  "char": "marie-aegir",
+  "chars": [
+   "marie-aegir",
+   "ronald-aegir"
+  ],
+  "src": "/assets/cards/c183.webp",
+  "fx": 49.0,
+  "fy": 38.3,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-mary",
+  "char": "mary-hopewell",
+  "chars": [
+   "mary-hopewell"
+  ],
+  "src": "/assets/cards/c184.webp",
+  "fx": 46.9,
+  "fy": 27.3,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-marylila",
+  "char": "mary-hopewell",
+  "chars": [
+   "mary-hopewell",
+   "lila-baskerville"
+  ],
+  "src": "/assets/cards/c185.webp",
+  "fx": 26.0,
+  "fy": 61.7,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-naoto",
+  "char": "naoto",
+  "chars": [
+   "naoto"
+  ],
+  "src": "/assets/cards/c186.webp",
+  "fx": 55.2,
+  "fy": 55.5,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-noahharu",
+  "char": "noah-swallowtail",
+  "chars": [
+   "noah-swallowtail",
+   "haru-mcdowell"
+  ],
+  "src": "/assets/cards/c187.webp",
+  "fx": 67.7,
+  "fy": 19.5,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-noelmea",
+  "char": "noel-chidouin",
+  "chars": [
+   "noel-chidouin",
+   "mea-bastion"
+  ],
+  "src": "/assets/cards/c188.webp",
+  "fx": 19.8,
+  "fy": 50.8,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-olan",
+  "char": "olan-ohare",
+  "chars": [
+   "olan-ohare"
+  ],
+  "src": "/assets/cards/c189.webp",
+  "fx": 74.0,
+  "fy": 27.3,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-princessnina",
+  "char": "nina-reise-arnor",
+  "chars": [
+   "nina-reise-arnor"
+  ],
+  "src": "/assets/cards/c190.webp",
+  "fx": 24.0,
+  "fy": 50.8,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-rinne",
+  "char": "rinne-monroe",
+  "chars": [
+   "rinne-monroe"
+  ],
+  "src": "/assets/cards/c191.webp",
+  "fx": 42.7,
+  "fy": 28.9,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-rinnececilia",
+  "char": "rinne-monroe",
+  "chars": [
+   "rinne-monroe",
+   "cecilia-richter"
+  ],
+  "src": "/assets/cards/c192.webp",
+  "fx": 17.7,
+  "fy": 38.3,
+  "w": 389,
+  "h": 236
+ },
+ {
+  "key": "mo-ronaldemily",
+  "char": "ronald-aegir",
+  "chars": [
+   "ronald-aegir",
+   "emily-thatcher"
+  ],
+  "src": "/assets/cards/c193.webp",
+  "fx": 59.4,
+  "fy": 16.4,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-rudy",
+  "char": "rudy-sinclair",
+  "chars": [
+   "rudy-sinclair"
+  ],
+  "src": "/assets/cards/c194.webp",
+  "fx": 34.4,
+  "fy": 36.7,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-rumi",
+  "char": "rumi-weissenberg",
+  "chars": [
+   "rumi-weissenberg"
+  ],
+  "src": "/assets/cards/c195.webp",
+  "fx": 44.8,
+  "fy": 30.5,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-saranoelmea",
+  "char": "sara-oswell",
+  "chars": [
+   "sara-oswell",
+   "noel-chidouin",
+   "mea-bastion"
+  ],
+  "src": "/assets/cards/c196.webp",
+  "fx": 44.8,
+  "fy": 24.2,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-sebastian",
+  "char": "sebastian-antois",
+  "chars": [
+   "sebastian-antois"
+  ],
+  "src": "/assets/cards/c197.webp",
+  "fx": 69.8,
+  "fy": 57.0,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-serinav1",
+  "char": "serina-bertarelli",
+  "chars": [
+   "serina-bertarelli"
+  ],
+  "src": "/assets/cards/c198.webp",
+  "fx": 67.7,
+  "fy": 14.8,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-silk",
+  "char": "silk-bonbon",
+  "chars": [
+   "silk-bonbon"
+  ],
+  "src": "/assets/cards/c199.webp",
+  "fx": 38.5,
+  "fy": 49.2,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-silkjuel",
+  "char": "silk-bonbon",
+  "chars": [
+   "silk-bonbon",
+   "juel-owayne"
+  ],
+  "src": "/assets/cards/c200.webp",
+  "fx": 44.8,
+  "fy": 35.2,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-soranharie",
+  "char": "soran-shihei",
+  "chars": [
+   "soran-shihei",
+   "harie-bellby"
+  ],
+  "src": "/assets/cards/c201.webp",
+  "fx": 61.5,
+  "fy": 25.8,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-stan",
+  "char": "stan-richter",
+  "chars": [
+   "stan-richter"
+  ],
+  "src": "/assets/cards/c202.webp",
+  "fx": 38.5,
+  "fy": 64.8,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-tina",
+  "char": "tina-aesira",
+  "chars": [
+   "tina-aesira"
+  ],
+  "src": "/assets/cards/c203.webp",
+  "fx": 51.0,
+  "fy": 33.6,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-tinaflan",
+  "char": "tina-aesira",
+  "chars": [
+   "tina-aesira",
+   "flan-returna"
+  ],
+  "src": "/assets/cards/c204.webp",
+  "fx": 63.5,
+  "fy": 68.0,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-tinaliliana",
+  "char": "tina-aesira",
+  "chars": [
+   "tina-aesira",
+   "liliana-filius"
+  ],
+  "src": "/assets/cards/c205.webp",
+  "fx": 69.8,
+  "fy": 28.9,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-vivian",
+  "char": "vivian-pattisier",
+  "chars": [
+   "vivian-pattisier"
+  ],
+  "src": "/assets/cards/c206.webp",
+  "fx": 65.6,
+  "fy": 36.7,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-viviansoran",
+  "char": "vivian-pattisier",
+  "chars": [
+   "vivian-pattisier",
+   "soran-shihei"
+  ],
+  "src": "/assets/cards/c207.webp",
+  "fx": 44.8,
+  "fy": 43.0,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-yrelef2",
+  "char": "yrelef-gotel",
+  "chars": [
+   "yrelef-gotel"
+  ],
+  "src": "/assets/cards/c208.webp",
+  "fx": 65.6,
+  "fy": 30.5,
+  "w": 900,
+  "h": 546
+ },
+ {
+  "key": "mo-yrelif",
+  "char": "yrelef-gotel",
+  "chars": [
+   "yrelef-gotel"
+  ],
+  "src": "/assets/cards/c209.webp",
+  "fx": 38.5,
+  "fy": 53.9,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-zak",
+  "char": "zak-satyr",
+  "chars": [
+   "zak-satyr"
+  ],
+  "src": "/assets/cards/c210.webp",
+  "fx": 51.0,
+  "fy": 69.5,
+  "w": 759,
+  "h": 900
+ },
+ {
+  "key": "mo-zaksara",
+  "char": "zak-satyr",
+  "chars": [
+   "zak-satyr",
+   "sara-oswell"
+  ],
+  "src": "/assets/cards/c211.webp",
+  "fx": 15.6,
+  "fy": 55.5,
+  "w": 900,
+  "h": 546
  }
 ]

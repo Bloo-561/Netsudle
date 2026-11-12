@@ -1,5 +1,6 @@
 // Shows a zoomed-in piece of an image and zooms out a little with each wrong guess.
-const SCALES = [6, 4.4, 3.2, 2.3, 1.6, 1.2];
+// Starts very close and opens up with each wrong guess. Edit to tune difficulty.
+const SCALES = [11, 8, 5.5, 3.8, 2.5, 1.6];
 const BOX = 3 / 4; // width / height of the frame
 
 export default function ZoomImage({ src, fx, fy, w, h, step, revealed, alt }) {

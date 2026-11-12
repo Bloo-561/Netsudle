@@ -49,7 +49,10 @@ export const MODES = [
       { after: 2, kind: "weapon", label: "Weapon" },
       { after: 4, kind: "letter", label: "First letter" },
     ],
-    build: () => cards.filter((c) => byId[c.char]).map((c) => ({ ...c })),
+    build: () =>
+      cards
+        .filter((c) => byId[c.char])
+        .map((c) => ({ ...c, chars: (c.chars || [c.char]).filter((id) => byId[id]) })),
   },
   {
     id: "lore",
@@ -69,13 +72,18 @@ export const MODES = [
 
 export const modeById = Object.fromEntries(MODES.map((m) => [m.id, m]));
 
+// Characters that count as a correct guess (pair cards accept either person).
+export const answersOf = (puzzle) => puzzle.chars || [puzzle.char];
+
 const cache = {};
 // Puzzles a mode can pick as the answer. "Season I only" removes Season II characters.
 export function puzzlesFor(mode, season1Only) {
   const k = `${mode.id}:${season1Only ? 1 : 0}`;
   if (!cache[k]) {
     const all = mode.build();
-    cache[k] = season1Only ? all.filter((p) => byId[p.char].debut === 1) : all;
+    cache[k] = season1Only
+      ? all.filter((p) => answersOf(p).every((id) => byId[id].debut === 1))
+      : all;
   }
   return cache[k];
 }
@@ -83,7 +91,7 @@ export function puzzlesFor(mode, season1Only) {
 // Characters offered in the search box.
 export function candidatesFor(mode, season1Only) {
   if (mode.ownersOnly) {
-    const owners = new Set(puzzlesFor(mode, season1Only).map((p) => p.char));
+    const owners = new Set(puzzlesFor(mode, season1Only).flatMap((p) => answersOf(p)));
     return characters.filter((c) => owners.has(c.id));
   }
   return season1Only ? characters.filter((c) => c.debut === 1) : characters;

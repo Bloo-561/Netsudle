@@ -1,5 +1,5 @@
 // Game rules as plain functions over the saved state, so they are easy to test.
-import { puzzlesFor } from "./modes";
+import { puzzlesFor, answersOf } from "./modes";
 import { pickDaily } from "./daily";
 
 export const variantKey = (modeId, season1Only) => (season1Only ? `${modeId}:s1` : modeId);
@@ -81,7 +81,7 @@ export function applyGuess(state, mode, s1, play, day, charId) {
   if (game.status !== "playing" || game.guesses.includes(charId)) return st;
   const puzzle = puzzleOf(mode, s1, game.key);
   const guesses = [...game.guesses, charId];
-  const won = charId === puzzle.char;
+  const won = answersOf(puzzle).includes(charId);
   const lost = !won && guesses.length >= mode.max;
   const next = { ...game, guesses, status: won ? "won" : lost ? "lost" : "playing" };
   const vk = variantKey(mode.id, s1);

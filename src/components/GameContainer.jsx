@@ -4,7 +4,7 @@ import Guess from "./Guess";
 import GuessHeader from "./GuessHeader";
 import { byId } from "../lib/characters";
 import { columnsFor } from "../lib/compare";
-import { candidatesFor, puzzlesFor } from "../lib/modes";
+import { candidatesFor, puzzlesFor, answersOf } from "../lib/modes";
 import { pickDaily } from "../lib/daily";
 import { variantKey } from "../lib/engine";
 import { useGame } from "../lib/hooks";
@@ -13,7 +13,9 @@ import Icon from "./Icon";
 export default function GameContainer({ mode, clock, onMode }) {
   const g = useGame(mode, clock.day);
   const { game, puzzle, play, season1Only } = g;
-  const answer = byId[puzzle.char];
+  const answers = answersOf(puzzle);
+  // On a pair card the character you named counts as the answer.
+  const answer = byId[game.guesses.find((id) => answers.includes(id)) || puzzle.char];
   const candidates = candidatesFor(mode, season1Only);
   const columns = columnsFor(season1Only);
   const guesses = [...game.guesses].reverse().map((id) => byId[id]); // newest first
@@ -67,7 +69,7 @@ export default function GameContainer({ mode, clock, onMode }) {
       {guesses.length > 0 && mode.id !== "classic" && (
         <ul className="flex flex-row flex-wrap justify-center gap-2 w-11/12 sm:w-8/12">
           {guesses.map((guess) => {
-            const right = guess.id === answer.id;
+            const right = answers.includes(guess.id);
             return (
               <li
                 key={guess.id}
@@ -88,7 +90,11 @@ export default function GameContainer({ mode, clock, onMode }) {
         <p className="flex items-center gap-2 bg-neutral-900/90 rounded px-4 py-2 text-sm sm:text-base">
           Yesterday&apos;s {mode.name} answer (#{clock.day - 1}) was
           <Icon char={byId[yesterday.char]} className="h-8 w-8 rounded" />
-          <strong>{byId[yesterday.char].name}</strong>
+          <strong>
+            {answersOf(yesterday)
+              .map((id) => byId[id].name)
+              .join(" & ")}
+          </strong>
         </p>
       )}
     </div>

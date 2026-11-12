@@ -20,7 +20,7 @@ export default function HelpModal({ onClose }) {
             with each wrong guess.
           </li>
           <li>
-            <strong>Card</strong> (6 guesses): a zoomed-in Netsu iF card. Guess whose card it is.
+            <strong>Card</strong> (6 guesses): a zoomed-in Netsu iF card or Memory Order. Guess who is on it. If two people are on the card, either one counts.
           </li>
           <li>
             <strong>Lore</strong> (6 guesses): wiki clues with the name blanked out. Each wrong

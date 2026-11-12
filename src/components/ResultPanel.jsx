@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Share2 } from "lucide-react";
-import { MODES } from "../lib/modes";
+import { MODES, answersOf } from "../lib/modes";
+import { byId } from "../lib/characters";
 import { dailyDone } from "../lib/engine";
 import { shareText, copyText } from "../lib/share";
 import Icon from "./Icon";
@@ -36,7 +37,21 @@ export default function ResultPanel({ mode, g, answer, clock, onMode }) {
             ? `You got it in ${game.guesses.length} ${game.guesses.length === 1 ? "guess" : "guesses"}!`
             : "Out of guesses."}
           <br />
-          The character was <strong>{answer.name}</strong>.
+          {answersOf(puzzle).length > 1 ? (
+            <>
+              The card shows{" "}
+              <strong>
+                {answersOf(puzzle)
+                  .map((id) => byId[id].name)
+                  .join(" and ")}
+              </strong>
+              . Either one counts.
+            </>
+          ) : (
+            <>
+              The character was <strong>{answer.name}</strong>.
+            </>
+          )}
         </p>
       </div>
 

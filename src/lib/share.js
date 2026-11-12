@@ -1,5 +1,6 @@
 import { byId } from "./characters";
 import { columnsFor, compare } from "./compare";
+import { answersOf } from "./modes";
 
 const SQUARE = { match: "🟩", partial: "🟨", miss: "🟥" };
 
@@ -25,7 +26,7 @@ export function shareText({ mode, game, puzzle, day, play, season1Only }) {
       );
     }
   } else {
-    lines.push(game.guesses.map((id) => (id === puzzle.char ? "🟩" : "🟥")).join(""));
+    lines.push(game.guesses.map((id) => (answersOf(puzzle).includes(id) ? "🟩" : "🟥")).join(""));
   }
   if (typeof location !== "undefined") lines.push(location.origin + location.pathname);
   return lines.join("\n");

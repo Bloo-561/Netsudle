@@ -15,7 +15,7 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
   const { game, puzzle, play, season1Only, state } = g;
   const [logo] = useState(() => LOGOS[Math.floor(Math.random() * LOGOS.length)]);
   const finished = game.status !== "playing";
-  const wrong = game.guesses.filter((id) => id !== answer.id).length;
+  const wrong = game.guesses.filter((id) => !(puzzle.chars || [puzzle.char]).includes(id)).length;
   const stats = statsFor(state, mode.id, season1Only);
   const streak = play === "daily" ? currentStreak(stats, clock.day) : stats.uStreak;
   const best = play === "daily" ? stats.best : stats.uBest;
