@@ -1,3 +1,4 @@
+import { SEASONS_ENABLED } from "./features";
 // Classic mode columns. To add or remove a category, edit this list.
 //   type "exact"  - green when equal
 //   type "set"    - green when the lists are the same, yellow when they share an entry
@@ -15,11 +16,14 @@ export const COLUMNS = [
     type: "exact",
     format: (v) => (v === 1 ? "Season I" : "Season II"),
     hideWhenSeason1Only: true,
+    needsSeasons: true,
   },
 ];
 
 export const columnsFor = (season1Only) =>
-  COLUMNS.filter((c) => !(season1Only && c.hideWhenSeason1Only));
+  COLUMNS.filter(
+    (c) => !(season1Only && c.hideWhenSeason1Only) && !(c.needsSeasons && !SEASONS_ENABLED)
+  );
 
 const norm = (v) => String(v).trim().toLowerCase();
 

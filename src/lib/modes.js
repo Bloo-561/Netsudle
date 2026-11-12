@@ -1,16 +1,9 @@
 import { characters, byId, splash, cards, lore } from "./characters";
 
-// Lore clues: wiki lines first, then plain facts so every puzzle has
-// enough clues to last the whole game.
+// Lore clues: five hand-written lines from lore.json (hardest first),
+// then the character's group as a last clue.
 function loreClues(char) {
-  const facts = [
-    `Gender: ${char.gender}. Region: ${char.region}.`,
-    `Weapon: ${char.weapons.join(", ")}.`,
-    `Affiliation: ${char.affiliations.join(", ")}.`,
-    `Group: ${char.group}.`,
-    `Age: ${char.age}.`,
-  ];
-  return [...(lore[char.id] || []), ...facts].slice(0, 6);
+  return [...(lore[char.id] || []), `Group: ${char.group}.`].slice(0, 6);
 }
 
 export const MODES = [
@@ -30,6 +23,7 @@ export const MODES = [
     name: "Splash",
     blurb: "Guess the character from a zoomed-in piece of their art.",
     max: 6,
+    zoom: [11, 8, 5.5, 3.8, 2.5, 1.6],
     hints: [
       { after: 2, kind: "region", label: "Region" },
       { after: 4, kind: "group", label: "Group" },
@@ -44,6 +38,8 @@ export const MODES = [
     name: "Card",
     blurb: "Whose Netsu iF card is this?",
     max: 6,
+    // The card images are small, so the first steps stop short of the Splash zoom.
+    zoom: [8, 6, 4.2, 3, 2.1, 1.5],
     ownersOnly: true,
     hints: [
       { after: 2, kind: "weapon", label: "Weapon" },

@@ -7,7 +7,6 @@ import Hints from "./Hints";
 import ResultPanel from "./ResultPanel";
 import { setSetting } from "../lib/store";
 import { statsFor, currentStreak } from "../lib/engine";
-import { seeded } from "../lib/daily";
 
 const LOGOS = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => `/assets/misc/Icon${n}.png`);
 
@@ -20,12 +19,8 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
   const streak = play === "daily" ? currentStreak(stats, clock.day) : stats.uStreak;
   const best = play === "daily" ? stats.best : stats.uBest;
 
-  // Cards have no stored focal point: derive a steady one from the card itself.
-  let focal = puzzle;
-  if (mode.id === "card") {
-    const rnd = seeded(puzzle.key);
-    focal = { fx: 25 + rnd() * 50, fy: 25 + rnd() * 50, w: 536, h: 768 };
-  }
+  // Where the zoom is aimed, stored per image in splash.json / cards.json.
+  const focal = puzzle;
 
   const toggle = (value, label, Icon) => (
     <button
@@ -82,6 +77,7 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
             w={focal.w}
             h={focal.h}
             step={wrong}
+            scales={mode.zoom}
             revealed={finished}
             alt={mode.id === "card" ? `${answer.name}'s card` : `Art of ${answer.name}`}
           />

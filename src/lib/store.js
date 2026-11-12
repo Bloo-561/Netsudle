@@ -1,3 +1,4 @@
+import { SEASONS_ENABLED } from "./features";
 // Saved progress (this browser only). Falls back to memory if storage is blocked.
 import { useSyncExternalStore } from "react";
 
@@ -12,7 +13,9 @@ function load() {
   try {
     const saved = JSON.parse(localStorage.getItem(KEY) || "null");
     if (saved && typeof saved === "object") {
-      return { ...DEFAULTS, ...saved, settings: { ...DEFAULTS.settings, ...saved.settings } };
+      const settings = { ...DEFAULTS.settings, ...saved.settings };
+      if (!SEASONS_ENABLED) settings.season1Only = false;
+      return { ...DEFAULTS, ...saved, settings };
     }
   } catch {
     /* ignore */

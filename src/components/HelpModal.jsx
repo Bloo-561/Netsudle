@@ -1,3 +1,4 @@
+import { SEASONS_ENABLED } from "../lib/features";
 import Modal from "./Modal";
 
 export default function HelpModal({ onClose }) {
@@ -31,10 +32,12 @@ export default function HelpModal({ onClose }) {
           <strong>Hints</strong> unlock after a few guesses and are optional. Used hints show up in
           your shared result as 💡.
         </p>
+        {SEASONS_ENABLED && (
         <p>
           <strong>Season I only</strong> hides Season II characters everywhere and gives you a
           separate, spoiler-safe daily puzzle with its own streak.
         </p>
+        )}
         <p className="text-sm text-neutral-400">
           Progress and streaks are saved in this browser only.
         </p>

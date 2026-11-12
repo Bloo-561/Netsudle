@@ -1,3 +1,4 @@
+import { SEASONS_ENABLED } from "../lib/features";
 import { BarChart3, CircleHelp, Check } from "lucide-react";
 import { MODES } from "../lib/modes";
 import { useStore, setSetting } from "../lib/store";
@@ -44,6 +45,7 @@ export default function Navbar({ modeId, onMode, day, onStats, onHelp }) {
         </div>
 
         <div className="flex flex-row flex-wrap items-center justify-center gap-3 lg:ml-auto text-sm sm:text-base">
+          {SEASONS_ENABLED && (
           <label
             className="flex items-center gap-2 cursor-pointer"
             title="Hide Season II characters from every mode"
@@ -56,6 +58,7 @@ export default function Navbar({ modeId, onMode, day, onStats, onHelp }) {
             />
             Season I only
           </label>
+          )}
           {backgrounds.length > 1 && (
             <select
               value={background}

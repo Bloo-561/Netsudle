@@ -1,9 +1,9 @@
 // Shows a zoomed-in piece of an image and zooms out a little with each wrong guess.
-// Starts very close and opens up with each wrong guess. Edit to tune difficulty.
-const SCALES = [11, 8, 5.5, 3.8, 2.5, 1.6];
+// Starts very close and opens up with each wrong guess. Each mode sets its own steps in modes.js.
+const DEFAULT_SCALES = [11, 8, 5.5, 3.8, 2.5, 1.6];
 const BOX = 3 / 4; // width / height of the frame
 
-export default function ZoomImage({ src, fx, fy, w, h, step, revealed, alt }) {
+export default function ZoomImage({ src, fx, fy, w, h, step, revealed, alt, scales = DEFAULT_SCALES }) {
   // The image is letterboxed inside the frame; turn the focal point (given in
   // percent of the image) into percent of the frame.
   const ratio = w && h ? w / h : BOX;
@@ -16,7 +16,7 @@ export default function ZoomImage({ src, fx, fy, w, h, step, revealed, alt }) {
     const used = (ratio / BOX) * 100;
     ox = (100 - used) / 2 + (fx * used) / 100;
   }
-  const scale = revealed ? 1 : SCALES[Math.min(step, SCALES.length - 1)];
+  const scale = revealed ? 1 : scales[Math.min(step, scales.length - 1)];
 
   return (
     <div

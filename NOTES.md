@@ -39,8 +39,8 @@ ZERO, Althea, Roman Reise Arnor, Reinfield Reise Arnor, Salene Reise Arnor, Ronn
 No art anywhere: Violet, Liz, Jazelle, Becky Wickets, Sergei, Millisent, Lucia (Netsu iF art only).
 
 ## Things to check
-- **Debut season** was guessed: a character counts as Season I if they have a card in the "Guess Who V2 / Netsu 1" deck, otherwise Season II. This drives the Season I only switch and the Debut column. Fix any wrong ones via `debut` in `netsu.json`.
-- **Lore clues** were pulled from the wiki automatically (124 characters). Some are short or awkward; edit `src/data/lore.json` freely. Clues are listed hardest first.
+- **Debut season** is switched off (`src/lib/features.js`) until it is fact-checked. It was guessed: a character counts as Season I if they have a card in the "Guess Who V2 / Netsu 1" deck, otherwise Season II. This drives the Season I only switch and the Debut column. Fix any wrong ones via `debut` in `netsu.json`.
+- **Lore clues** are hand-written in `tools/lore_clues.py` (62 characters, five clues each, hardest first). Edit that file and run `python3 tools/lore_clues.py` to rebuild `src/data/lore.json`.
 - **Splash** covers 134 characters. Missing or too small to use: Captain Flufflekins, Emily Thatcher, Samwell Owayne, Tobias, Zak Satyr, and everyone without a Character Art folder.
 - **Card** uses 121 Netsu iF cards from 13 characters. Swimsuit variants and unowned cards (Artes and so on) are left out.
 - Classic is still light on clues for townsfolk: 97 characters have weapon N/A and 25 have age Unknown.
