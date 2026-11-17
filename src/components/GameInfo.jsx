@@ -3,6 +3,8 @@ import { CalendarDays, Infinity as InfinityIcon } from "lucide-react";
 import Search from "./Search";
 import ZoomImage from "./ZoomImage";
 import LoreClues from "./LoreClues";
+import CardClues from "./CardClues";
+import { answersOf } from "../lib/modes";
 import Hints from "./Hints";
 import ResultPanel from "./ResultPanel";
 import { setSetting } from "../lib/store";
@@ -14,7 +16,7 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
   const { game, puzzle, play, season1Only, state } = g;
   const [logo] = useState(() => LOGOS[Math.floor(Math.random() * LOGOS.length)]);
   const finished = game.status !== "playing";
-  const wrong = game.guesses.filter((id) => !(puzzle.chars || [puzzle.char]).includes(id)).length;
+  const wrong = game.guesses.filter((id) => !answersOf(puzzle).includes(id)).length;
   const stats = statsFor(state, mode.id, season1Only);
   const streak = play === "daily" ? currentStreak(stats, clock.day) : stats.uStreak;
   const best = play === "daily" ? stats.best : stats.uBest;
@@ -71,7 +73,7 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
         {(mode.id === "splash" || mode.id === "card") && (
           <ZoomImage
             key={puzzle.key}
-            src={puzzle.src}
+            src={mode.answerKind === "card" && !finished ? puzzle.art : puzzle.src}
             fx={focal.fx}
             fy={focal.fy}
             w={focal.w}
@@ -79,7 +81,7 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
             step={wrong}
             scales={mode.zoom}
             revealed={finished}
-            alt={mode.id === "card" ? `${answer.name}'s card` : `Art of ${answer.name}`}
+            alt={mode.id === "card" ? `The card ${answer.name}` : `Art of ${answer.name}`}
           />
         )}
         {mode.id === "lore" && season1Only && (
@@ -88,6 +90,9 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
           </p>
         )}
         {mode.id === "lore" && <LoreClues clues={puzzle.clues} step={wrong} revealed={finished} />}
+        {mode.answerKind === "card" && (
+          <CardClues clues={puzzle.clues} step={wrong} revealed={finished} />
+        )}
 
         <Hints mode={mode} game={game} answer={answer} onHint={g.hint} />
 
@@ -96,6 +101,7 @@ export default function GameInfo({ mode, g, answer, candidates, clock, onMode })
             onGuess={(c) => g.guess(c.id)}
             candidates={candidates}
             guessed={game.guesses}
+            placeholder={mode.answerKind === "card" ? "Enter card name..." : "Enter character name..."}
             disabled={finished}
           />
         )}

@@ -4,7 +4,7 @@ import Guess from "./Guess";
 import GuessHeader from "./GuessHeader";
 import { byId } from "../lib/characters";
 import { columnsFor } from "../lib/compare";
-import { candidatesFor, puzzlesFor, answersOf } from "../lib/modes";
+import { candidatesFor, puzzlesFor, answersOf, lookupFor } from "../lib/modes";
 import { pickDaily } from "../lib/daily";
 import { variantKey } from "../lib/engine";
 import { useGame } from "../lib/hooks";
@@ -14,11 +14,16 @@ export default function GameContainer({ mode, clock, onMode }) {
   const g = useGame(mode, clock.day);
   const { game, puzzle, play, season1Only } = g;
   const answers = answersOf(puzzle);
-  // On a pair card the character you named counts as the answer.
-  const answer = byId[game.guesses.find((id) => answers.includes(id)) || puzzle.char];
+  const lookup = lookupFor(mode, season1Only);
+  // In Card mode the answer is the card's name. Elsewhere it is a character;
+  // on a pair card the character you named counts as the answer.
+  const answer =
+    mode.answerKind === "card"
+      ? lookup[answers[0]]
+      : byId[game.guesses.find((id) => answers.includes(id)) || puzzle.char];
   const candidates = candidatesFor(mode, season1Only);
   const columns = columnsFor(season1Only);
-  const guesses = [...game.guesses].reverse().map((id) => byId[id]); // newest first
+  const guesses = [...game.guesses].reverse().map((id) => lookup[id]).filter(Boolean); // newest first
 
   // Only the guess that was just made flips in; restored guesses appear at once.
   const seen = useRef({ key: `${play}:${game.key}`, count: game.guesses.length });
@@ -77,8 +82,12 @@ export default function GameContainer({ mode, clock, onMode }) {
                   right ? "border-[#0d7835] bg-green-600" : "border-[#6e3343] bg-[#93374f]"
                 }`}
               >
-                <Icon char={guess} className="h-12 w-12 rounded-l-sm" />
-                <span>{guess.name}</span>
+                {guess.icon ? (
+                  <Icon char={guess} className="h-12 w-12 rounded-l-sm" />
+                ) : (
+                  <span className="pl-3" />
+                )}
+                <span className={guess.icon ? "" : "py-2"}>{guess.name}</span>
                 <span aria-label={right ? "correct" : "wrong"}>{right ? "✓" : "✗"}</span>
               </li>
             );
@@ -89,10 +98,12 @@ export default function GameContainer({ mode, clock, onMode }) {
       {yesterday && (
         <p className="flex items-center gap-2 bg-neutral-900/90 rounded px-4 py-2 text-sm sm:text-base">
           Yesterday&apos;s {mode.name} answer (#{clock.day - 1}) was
-          <Icon char={byId[yesterday.char]} className="h-8 w-8 rounded" />
+          {mode.answerKind !== "card" && (
+            <Icon char={byId[yesterday.char]} className="h-8 w-8 rounded" />
+          )}
           <strong>
             {answersOf(yesterday)
-              .map((id) => byId[id].name)
+              .map((id) => lookup[id]?.name)
               .join(" & ")}
           </strong>
         </p>

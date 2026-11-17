@@ -31,13 +31,22 @@ export default function ResultPanel({ mode, g, answer, clock, onMode }) {
       }`}
     >
       <div className="flex items-center gap-4">
-        <Icon char={answer} className="h-20 w-20 rounded" />
+        {mode.answerKind === "card" ? (
+          <img src={puzzle.src} alt="" className="h-28 rounded" />
+        ) : (
+          <Icon char={answer} className="h-20 w-20 rounded" />
+        )}
         <p className="text-left">
           {won
             ? `You got it in ${game.guesses.length} ${game.guesses.length === 1 ? "guess" : "guesses"}!`
             : "Out of guesses."}
           <br />
-          {answersOf(puzzle).length > 1 ? (
+          {mode.answerKind === "card" ? (
+            <>
+              The card was <strong>{puzzle.name}</strong>, a {puzzle.type} card used by{" "}
+              {puzzle.chars.map((id) => byId[id].name).join(" & ")}.
+            </>
+          ) : answersOf(puzzle).length > 1 ? (
             <>
               The card shows{" "}
               <strong>

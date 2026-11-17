@@ -6,6 +6,50 @@ function loreClues(char) {
   return [...(lore[char.id] || []), `Group: ${char.group}.`].slice(0, 6);
 }
 
+// ----- Card mode: guess the card's name -----
+const slug = (t) =>
+  t
+    .toLowerCase()
+    .replace(/'/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+export const cardId = (name) => `card-${slug(name)}`;
+
+const isLetter = (ch) => /[a-z0-9]/i.test(ch);
+// "Echo Flash" -> "_ _ _ _   _ _ _ _ _"; punctuation stays visible.
+function pattern(name, reveal) {
+  return name
+    .split(" ")
+    .map((word) => {
+      let shown = false;
+      return [...word]
+        .map((ch) => {
+          if (!isLetter(ch)) return ch;
+          const keep = !shown && reveal(word);
+          shown = true;
+          return keep ? ch.toUpperCase() : "_";
+        })
+        .join(" ");
+    })
+    .join("   ");
+}
+
+// NPC cards: the blue Skill cards plus burdens, enemy and special cards.
+// Everything else belongs to a party member's own deck.
+const NPC_TYPES = new Set(["Skill", "Burden", "Enemy", "Special"]);
+
+// Clues shown one per wrong guess, vaguest first.
+function cardClues(card, chars) {
+  const firstWord = card.name.split(" ").find((w) => [...w].some(isLetter));
+  return [
+    { label: "Character or NPC card", value: NPC_TYPES.has(card.type) ? "NPC" : "Character" },
+    { label: "Card type", value: card.type },
+    { label: "Used by", value: chars.map((id) => byId[id].name).join(" & ") },
+    { label: "The name", value: pattern(card.name, (w) => w === firstWord), mono: true },
+    { label: "Every word's first letter", value: pattern(card.name, () => true), mono: true },
+  ];
+}
+
 export const MODES = [
   {
     id: "classic",
@@ -36,19 +80,19 @@ export const MODES = [
   {
     id: "card",
     name: "Card",
-    blurb: "Whose Netsu iF card is this?",
+    blurb: "Name the Netsu iF card from a piece of its art.",
     max: 6,
-    // The card images are small, so the first steps stop short of the Splash zoom.
-    zoom: [8, 6, 4.2, 3, 2.1, 1.5],
-    ownersOnly: true,
-    hints: [
-      { after: 2, kind: "weapon", label: "Weapon" },
-      { after: 4, kind: "letter", label: "First letter" },
-    ],
+    // The image is the art only (no title or text box), so it can open all the way up.
+    zoom: [5, 3.6, 2.6, 1.9, 1.35, 1],
+    answerKind: "card",
+    hints: [],
     build: () =>
       cards
         .filter((c) => byId[c.char])
-        .map((c) => ({ ...c, chars: (c.chars || [c.char]).filter((id) => byId[id]) })),
+        .map((c) => {
+          const chars = (c.chars || [c.char]).filter((id) => byId[id]);
+          return { ...c, chars, answers: [cardId(c.name)], clues: cardClues(c, chars) };
+        }),
   },
   {
     id: "lore",
@@ -68,8 +112,10 @@ export const MODES = [
 
 export const modeById = Object.fromEntries(MODES.map((m) => [m.id, m]));
 
-// Characters that count as a correct guess (pair cards accept either person).
-export const answersOf = (puzzle) => puzzle.chars || [puzzle.char];
+// Ids that count as a correct guess: card names in Card mode, otherwise
+// characters (pair cards in other modes accept either person).
+export const answersOf = (puzzle) => puzzle.answers || puzzle.chars || [puzzle.char];
+const peopleOf = (puzzle) => puzzle.chars || [puzzle.char];
 
 const cache = {};
 // Puzzles a mode can pick as the answer. "Season I only" removes Season II characters.
@@ -78,19 +124,33 @@ export function puzzlesFor(mode, season1Only) {
   if (!cache[k]) {
     const all = mode.build();
     cache[k] = season1Only
-      ? all.filter((p) => answersOf(p).every((id) => byId[id].debut === 1))
+      ? all.filter((p) => peopleOf(p).every((id) => byId[id].debut === 1))
       : all;
   }
   return cache[k];
 }
 
-// Characters offered in the search box.
+// Options offered in the search box: card names in Card mode, otherwise characters.
+const cardCache = {};
 export function candidatesFor(mode, season1Only) {
-  if (mode.ownersOnly) {
-    const owners = new Set(puzzlesFor(mode, season1Only).flatMap((p) => answersOf(p)));
-    return characters.filter((c) => owners.has(c.id));
+  if (mode.answerKind === "card") {
+    const k = season1Only ? 1 : 0;
+    if (!cardCache[k]) {
+      const names = new Map();
+      for (const p of puzzlesFor(mode, season1Only)) names.set(p.answers[0], p.name);
+      cardCache[k] = [...names]
+        .map(([id, name]) => ({ id, name }))
+        .sort((x, y) => x.name.replace(/\W/g, "").localeCompare(y.name.replace(/\W/g, "")));
+    }
+    return cardCache[k];
   }
   return season1Only ? characters.filter((c) => c.debut === 1) : characters;
+}
+
+// Look up a guess id (a character, or a card name in Card mode).
+export function lookupFor(mode, season1Only) {
+  if (mode.answerKind !== "card") return byId;
+  return Object.fromEntries(candidatesFor(mode, season1Only).map((o) => [o.id, o]));
 }
 
 export function hintText(kind, char) {

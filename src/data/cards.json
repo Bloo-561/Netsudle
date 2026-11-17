@@ -1,2236 +1,2794 @@
 [
  {
   "key": "art-axiom",
+  "name": "Axiom",
+  "type": "Skill",
   "char": "prish-capulet",
   "chars": [
    "prish-capulet"
   ],
   "src": "/assets/cards/c001.webp",
+  "art": "/assets/cards/a001.webp",
   "fx": 39.5,
-  "fy": 21.2,
-  "w": 224,
-  "h": 384
+  "fy": 29.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-brace",
+  "name": "Brace",
+  "type": "Skill",
   "char": "adin-cross",
   "chars": [
    "adin-cross"
   ],
   "src": "/assets/cards/c002.webp",
+  "art": "/assets/cards/a002.webp",
   "fx": 72.0,
-  "fy": 21.5,
-  "w": 224,
-  "h": 384
+  "fy": 30.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-burden-debt",
+  "name": "Generous Donation",
+  "type": "Burden",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius",
    "venus-daytona"
   ],
   "src": "/assets/cards/c003.webp",
+  "art": "/assets/cards/a003.webp",
   "fx": 29.1,
-  "fy": 36.8,
-  "w": 224,
-  "h": 384
+  "fy": 52.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-burden-serpent",
+  "name": "Serpent's Glare",
+  "type": "Burden",
   "char": "venus-daytona",
   "chars": [
    "venus-daytona"
   ],
   "src": "/assets/cards/c004.webp",
+  "art": "/assets/cards/a004.webp",
   "fx": 45.8,
-  "fy": 41.5,
-  "w": 224,
-  "h": 384
+  "fy": 59.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-calamitymark",
+  "name": "Calamity Mark",
+  "type": "Enemy",
   "char": "johan-christin",
   "chars": [
    "johan-christin"
   ],
   "src": "/assets/cards/c005.webp",
+  "art": "/assets/cards/a005.webp",
   "fx": 36.3,
-  "fy": 35.8,
-  "w": 224,
-  "h": 384
+  "fy": 51.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-calculatedmove",
+  "name": "Calculated Move",
+  "type": "Skill",
   "char": "rudy-sinclair",
   "chars": [
    "rudy-sinclair"
   ],
   "src": "/assets/cards/c006.webp",
+  "art": "/assets/cards/a006.webp",
   "fx": 42.8,
-  "fy": 38.0,
-  "w": 224,
-  "h": 384
+  "fy": 54.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-divider",
+  "name": "Luminous Divider",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c007.webp",
+  "art": "/assets/cards/a007.webp",
   "fx": 61.6,
-  "fy": 34.1,
-  "w": 224,
-  "h": 384
+  "fy": 48.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-divider-swimsuit",
+  "name": "Luminous Divider",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c008.webp",
+  "art": "/assets/cards/a008.webp",
   "fx": 63.6,
-  "fy": 19.5,
-  "w": 224,
-  "h": 384
+  "fy": 27.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-edge",
+  "name": "Opening Edge",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c009.webp",
+  "art": "/assets/cards/a009.webp",
   "fx": 37.3,
-  "fy": 46.8,
-  "w": 224,
-  "h": 384
+  "fy": 67.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-edge-swimsuit",
+  "name": "Opening Edge",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c010.webp",
+  "art": "/assets/cards/a010.webp",
   "fx": 70.2,
-  "fy": 29.8,
-  "w": 224,
-  "h": 384
+  "fy": 42.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-focus",
+  "name": "Focused Stance",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c011.webp",
+  "art": "/assets/cards/a011.webp",
   "fx": 64.4,
-  "fy": 47.8,
-  "w": 224,
-  "h": 384
+  "fy": 68.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-focus-swimsuit",
+  "name": "Focused Stance",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c012.webp",
+  "art": "/assets/cards/a012.webp",
   "fx": 52.7,
-  "fy": 33.4,
-  "w": 224,
-  "h": 384
+  "fy": 47.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-fujin",
+  "name": "Fujin",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c013.webp",
+  "art": "/assets/cards/a013.webp",
   "fx": 32.0,
-  "fy": 26.4,
-  "w": 224,
-  "h": 384
+  "fy": 37.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-fujin-swimsuit",
+  "name": "Fujin",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c014.webp",
+  "art": "/assets/cards/a014.webp",
   "fx": 25.1,
-  "fy": 50.8,
-  "w": 224,
-  "h": 384
+  "fy": 73.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-morningmoon",
+  "name": "Morning Moon",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c015.webp",
+  "art": "/assets/cards/a015.webp",
   "fx": 27.7,
-  "fy": 32.0,
-  "w": 224,
-  "h": 384
+  "fy": 45.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-morningmoon-swimsuit",
+  "name": "Morning Moon",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c016.webp",
+  "art": "/assets/cards/a016.webp",
   "fx": 56.9,
-  "fy": 49.2,
-  "w": 224,
-  "h": 384
+  "fy": 70.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-raijin",
+  "name": "Raijin",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c017.webp",
+  "art": "/assets/cards/a017.webp",
   "fx": 71.8,
-  "fy": 22.4,
-  "w": 224,
-  "h": 384
+  "fy": 31.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-raijin-swimsuit",
+  "name": "Raijin",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c018.webp",
+  "art": "/assets/cards/a018.webp",
   "fx": 50.9,
-  "fy": 22.5,
-  "w": 224,
-  "h": 384
+  "fy": 31.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-s-craft",
+  "name": "Sakura Morning Moon",
+  "type": "S-Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c019.webp",
+  "art": "/assets/cards/a019.webp",
   "fx": 56.8,
-  "fy": 22.0,
-  "w": 224,
-  "h": 384
+  "fy": 30.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-s-craft-swimsuit",
+  "name": "Sakura Morning Moon",
+  "type": "S-Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c020.webp",
+  "art": "/assets/cards/a020.webp",
   "fx": 71.4,
-  "fy": 39.9,
-  "w": 224,
-  "h": 384
+  "fy": 57.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-stance",
+  "name": "Defensive Stance",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c021.webp",
+  "art": "/assets/cards/a021.webp",
   "fx": 52.7,
-  "fy": 19.5,
-  "w": 224,
-  "h": 384
+  "fy": 27.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-stance-swimsuit",
+  "name": "Defensive Stance",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c022.webp",
+  "art": "/assets/cards/a022.webp",
   "fx": 26.9,
-  "fy": 26.1,
-  "w": 224,
-  "h": 384
+  "fy": 36.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-thunder",
+  "name": "Thunder Strike",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c023.webp",
+  "art": "/assets/cards/a023.webp",
   "fx": 30.8,
-  "fy": 32.1,
-  "w": 224,
-  "h": 384
+  "fy": 45.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cecilia-thunder-swimsuit",
+  "name": "Thunder Strike",
+  "type": "Craft",
   "char": "cecilia-richter",
   "chars": [
    "cecilia-richter"
   ],
   "src": "/assets/cards/c024.webp",
+  "art": "/assets/cards/a024.webp",
   "fx": 71.0,
-  "fy": 18.6,
-  "w": 224,
-  "h": 384
+  "fy": 25.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-dragonfist",
+  "name": "Dragon Fist",
+  "type": "Skill",
   "char": "elizabeth-bernadotte",
   "chars": [
    "elizabeth-bernadotte"
   ],
   "src": "/assets/cards/c025.webp",
+  "art": "/assets/cards/a025.webp",
   "fx": 29.6,
-  "fy": 33.4,
-  "w": 224,
-  "h": 384
+  "fy": 47.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-endurancetraining",
+  "name": "Endurance Training",
+  "type": "Skill",
   "char": "harie-bellby",
   "chars": [
    "harie-bellby"
   ],
   "src": "/assets/cards/c026.webp",
+  "art": "/assets/cards/a026.webp",
   "fx": 37.8,
-  "fy": 44.6,
-  "w": 224,
-  "h": 384
+  "fy": 64.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-bp",
+  "name": "Battlefield Prescence",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c027.webp",
+  "art": "/assets/cards/a027.webp",
   "fx": 47.2,
-  "fy": 47.2,
-  "w": 224,
-  "h": 384
+  "fy": 67.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-control",
+  "name": "Battlefield Control",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c028.webp",
+  "art": "/assets/cards/a028.webp",
   "fx": 34.8,
-  "fy": 22.6,
-  "w": 224,
-  "h": 384
+  "fy": 31.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-fuzzy",
+  "name": "Fuzzy Friend",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c029.webp",
+  "art": "/assets/cards/a029.webp",
   "fx": 29.2,
-  "fy": 42.3,
-  "w": 224,
-  "h": 384
+  "fy": 60.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-ggr",
+  "name": "Go Get Em' Ronnie!",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c030.webp",
+  "art": "/assets/cards/a030.webp",
   "fx": 40.4,
-  "fy": 23.0,
-  "w": 224,
-  "h": 384
+  "fy": 32.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-guard",
+  "name": "Noble Guard",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c031.webp",
+  "art": "/assets/cards/a031.webp",
   "fx": 54.8,
-  "fy": 39.8,
-  "w": 224,
-  "h": 384
+  "fy": 57.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-rallying",
+  "name": "Rallying Cry",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c032.webp",
+  "art": "/assets/cards/a032.webp",
   "fx": 52.6,
-  "fy": 34.0,
-  "w": 224,
-  "h": 384
+  "fy": 48.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-s-craft",
+  "name": "Ronnie Stampede",
+  "type": "S-Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c033.webp",
+  "art": "/assets/cards/a033.webp",
   "fx": 31.5,
-  "fy": 24.8,
-  "w": 224,
-  "h": 384
+  "fy": 35.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-spear",
+  "name": "Noble Spear",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c034.webp",
+  "art": "/assets/cards/a034.webp",
   "fx": 55.3,
-  "fy": 38.0,
-  "w": 224,
-  "h": 384
+  "fy": 54.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-eustace-ygt",
+  "name": "You Got This!",
+  "type": "Craft",
   "char": "eustace-sinclair",
   "chars": [
    "eustace-sinclair"
   ],
   "src": "/assets/cards/c035.webp",
+  "art": "/assets/cards/a035.webp",
   "fx": 59.0,
-  "fy": 30.1,
-  "w": 224,
-  "h": 384
+  "fy": 42.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-cross",
+  "name": "Northern Cross",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c036.webp",
+  "art": "/assets/cards/a036.webp",
   "fx": 73.2,
-  "fy": 27.8,
-  "w": 224,
-  "h": 384
+  "fy": 39.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-dipper",
+  "name": "Star Dipper",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c037.webp",
+  "art": "/assets/cards/a037.webp",
   "fx": 31.6,
-  "fy": 35.1,
-  "w": 224,
-  "h": 384
+  "fy": 50.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-iron",
+  "name": "Iron Fist of Flan",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c038.webp",
+  "art": "/assets/cards/a038.webp",
   "fx": 42.0,
-  "fy": 18.1,
-  "w": 224,
-  "h": 384
+  "fy": 25.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-polaris",
+  "name": "Polaris Alignment",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c039.webp",
+  "art": "/assets/cards/a039.webp",
   "fx": 67.7,
-  "fy": 19.3,
-  "w": 224,
-  "h": 384
+  "fy": 26.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-s-craft1",
+  "name": "Stigmata Install",
+  "type": "S-Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c040.webp",
+  "art": "/assets/cards/a040.webp",
   "fx": 56.3,
-  "fy": 42.0,
-  "w": 224,
-  "h": 384
+  "fy": 60.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-s-craft2",
+  "name": "O' Stars, Seize the Divine Future!",
+  "type": "S-Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c041.webp",
+  "art": "/assets/cards/a041.webp",
   "fx": 67.4,
-  "fy": 30.4,
-  "w": 224,
-  "h": 384
+  "fy": 43.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-shield",
+  "name": "Holy Shield",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c042.webp",
+  "art": "/assets/cards/a042.webp",
   "fx": 63.1,
-  "fy": 36.0,
-  "w": 224,
-  "h": 384
+  "fy": 51.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-shining",
+  "name": "Shining Knuckle",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c043.webp",
+  "art": "/assets/cards/a043.webp",
   "fx": 32.0,
-  "fy": 39.7,
-  "w": 224,
-  "h": 384
+  "fy": 57.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-star",
+  "name": "Guiding Star",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c044.webp",
+  "art": "/assets/cards/a044.webp",
   "fx": 46.1,
-  "fy": 21.1,
-  "w": 224,
-  "h": 384
+  "fy": 29.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-flan-stellar",
+  "name": "Stellar Strike",
+  "type": "Craft",
   "char": "flan-returna",
   "chars": [
    "flan-returna"
   ],
   "src": "/assets/cards/c045.webp",
+  "art": "/assets/cards/a045.webp",
   "fx": 33.4,
-  "fy": 18.8,
-  "w": 224,
-  "h": 384
+  "fy": 26.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-fortunereading",
+  "name": "Fortune Reading",
+  "type": "Skill",
   "char": "falce-wickes",
   "chars": [
    "falce-wickes"
   ],
   "src": "/assets/cards/c046.webp",
+  "art": "/assets/cards/a046.webp",
   "fx": 72.3,
-  "fy": 30.5,
-  "w": 224,
-  "h": 384
+  "fy": 43.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-gamblerchance",
+  "name": "Gambler's Chance",
+  "type": "Skill",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c047.webp",
+  "art": "/assets/cards/a047.webp",
   "fx": 30.3,
-  "fy": 43.3,
-  "w": 224,
-  "h": 384
+  "fy": 62.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-gentlemelody",
+  "name": "Gentle Melody",
+  "type": "Skill",
   "char": "mary-hopewell",
   "chars": [
    "mary-hopewell"
   ],
   "src": "/assets/cards/c048.webp",
+  "art": "/assets/cards/a048.webp",
   "fx": 64.6,
-  "fy": 46.6,
-  "w": 224,
-  "h": 384
+  "fy": 67.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-guardstance",
+  "name": "Guard Stance",
+  "type": "Skill",
   "char": "adin-cross",
   "chars": [
    "adin-cross"
   ],
   "src": "/assets/cards/c049.webp",
+  "art": "/assets/cards/a049.webp",
   "fx": 34.2,
-  "fy": 22.3,
-  "w": 224,
-  "h": 384
+  "fy": 31.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-blue",
+  "name": "Resonance Dagger",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c050.webp",
+  "art": "/assets/cards/a050.webp",
   "fx": 65.3,
-  "fy": 35.1,
-  "w": 224,
-  "h": 384
+  "fy": 50.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-bow",
+  "name": "Orbal Bow",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c051.webp",
+  "art": "/assets/cards/a051.webp",
   "fx": 65.1,
-  "fy": 44.4,
-  "w": 224,
-  "h": 384
+  "fy": 63.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-fatal",
+  "name": "Fatal Return",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c052.webp",
+  "art": "/assets/cards/a052.webp",
   "fx": 59.2,
-  "fy": 38.4,
-  "w": 224,
-  "h": 384
+  "fy": 55.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-horizon",
+  "name": "Spatial Horizon",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c053.webp",
+  "art": "/assets/cards/a053.webp",
   "fx": 48.3,
-  "fy": 39.5,
-  "w": 224,
-  "h": 384
+  "fy": 56.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-manifest",
+  "name": "Manifest",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c054.webp",
+  "art": "/assets/cards/a054.webp",
   "fx": 62.4,
-  "fy": 27.8,
-  "w": 224,
-  "h": 384
+  "fy": 39.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-red",
+  "name": "Assault Dagger",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c055.webp",
+  "art": "/assets/cards/a055.webp",
   "fx": 50.3,
-  "fy": 40.7,
-  "w": 224,
-  "h": 384
+  "fy": 58.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-relay",
+  "name": "Psychic Relay",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c056.webp",
+  "art": "/assets/cards/a056.webp",
   "fx": 44.9,
-  "fy": 33.3,
-  "w": 224,
-  "h": 384
+  "fy": 47.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-s-craft",
+  "name": "Quiet Firefly, Gleaming Blitz",
+  "type": "S-Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c057.webp",
+  "art": "/assets/cards/a057.webp",
   "fx": 65.6,
-  "fy": 28.1,
-  "w": 224,
-  "h": 384
+  "fy": 39.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-silent",
+  "name": "Silent Flow",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c058.webp",
+  "art": "/assets/cards/a058.webp",
   "fx": 62.0,
-  "fy": 47.2,
-  "w": 224,
-  "h": 384
+  "fy": 68.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-smoke",
+  "name": "Orbal Smoke Screen",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c059.webp",
+  "art": "/assets/cards/a059.webp",
   "fx": 72.8,
-  "fy": 34.8,
-  "w": 224,
-  "h": 384
+  "fy": 49.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-whispers",
+  "name": "Psychic Whispers",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c060.webp",
+  "art": "/assets/cards/a060.webp",
   "fx": 69.5,
-  "fy": 26.8,
-  "w": 224,
-  "h": 384
+  "fy": 38.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-juel-yellow",
+  "name": "Inspiration Dagger",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c061.webp",
+  "art": "/assets/cards/a061.webp",
   "fx": 35.3,
-  "fy": 49.0,
-  "w": 224,
-  "h": 384
+  "fy": 70.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-laststand",
+  "name": "Wall of Force",
+  "type": "Skill",
   "char": "tina-aesira",
   "chars": [
    "tina-aesira"
   ],
   "src": "/assets/cards/c062.webp",
+  "art": "/assets/cards/a062.webp",
   "fx": 48.7,
-  "fy": 20.2,
-  "w": 224,
-  "h": 384
+  "fy": 28.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-barrier",
+  "name": "Orbal Barrier",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c063.webp",
+  "art": "/assets/cards/a063.webp",
   "fx": 54.9,
-  "fy": 23.7,
-  "w": 224,
-  "h": 384
+  "fy": 33.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-barrier-swimsuit",
+  "name": "Orbal Barrier",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c064.webp",
+  "art": "/assets/cards/a064.webp",
   "fx": 71.4,
-  "fy": 23.7,
-  "w": 224,
-  "h": 384
+  "fy": 33.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-battery",
+  "name": "Battery Core",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c065.webp",
+  "art": "/assets/cards/a065.webp",
   "fx": 32.0,
-  "fy": 45.2,
-  "w": 224,
-  "h": 384
+  "fy": 65.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-battery-swimsuit",
+  "name": "Battery Core",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c066.webp",
+  "art": "/assets/cards/a066.webp",
   "fx": 37.3,
-  "fy": 32.0,
-  "w": 224,
-  "h": 384
+  "fy": 45.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-blaze",
+  "name": "Resonance Blaze",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c067.webp",
+  "art": "/assets/cards/a067.webp",
   "fx": 73.2,
-  "fy": 20.2,
-  "w": 224,
-  "h": 384
+  "fy": 28.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-blaze-swimsuit",
+  "name": "Resonance Blaze",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c068.webp",
+  "art": "/assets/cards/a068.webp",
   "fx": 65.7,
-  "fy": 26.6,
-  "w": 224,
-  "h": 384
+  "fy": 37.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-board",
+  "name": "Flux Board: Board Tricks",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c069.webp",
+  "art": "/assets/cards/a069.webp",
   "fx": 39.3,
-  "fy": 52.0,
-  "w": 224,
-  "h": 384
+  "fy": 74.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-board-swimsuit",
+  "name": "Flux Board: Board Tricks",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c070.webp",
+  "art": "/assets/cards/a070.webp",
   "fx": 50.8,
-  "fy": 42.6,
-  "w": 224,
-  "h": 384
+  "fy": 61.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-energy",
+  "name": "Energy Shard",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c071.webp",
+  "art": "/assets/cards/a071.webp",
   "fx": 53.0,
-  "fy": 19.6,
-  "w": 224,
-  "h": 384
+  "fy": 27.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-energy-swimsuit",
+  "name": "Energy Shard",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c072.webp",
+  "art": "/assets/cards/a072.webp",
   "fx": 36.0,
-  "fy": 38.6,
-  "w": 224,
-  "h": 384
+  "fy": 55.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-fire",
+  "name": "Firing Fragment",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c073.webp",
+  "art": "/assets/cards/a073.webp",
   "fx": 65.8,
-  "fy": 28.7,
-  "w": 224,
-  "h": 384
+  "fy": 40.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-fire-swimsuit",
+  "name": "Firing Fragment",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c074.webp",
+  "art": "/assets/cards/a074.webp",
   "fx": 58.1,
-  "fy": 44.9,
-  "w": 224,
-  "h": 384
+  "fy": 64.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-osex",
+  "name": "Orbal Shield EX",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c075.webp",
+  "art": "/assets/cards/a075.webp",
   "fx": 57.1,
-  "fy": 44.6,
-  "w": 224,
-  "h": 384
+  "fy": 64.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-osex-swimsuit",
+  "name": "Orbal Shield EX",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c076.webp",
+  "art": "/assets/cards/a076.webp",
   "fx": 67.9,
-  "fy": 30.6,
-  "w": 224,
-  "h": 384
+  "fy": 43.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-rainstorm",
+  "name": "Flux Board: Rain Storm",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c077.webp",
+  "art": "/assets/cards/a077.webp",
   "fx": 54.2,
-  "fy": 43.3,
-  "w": 224,
-  "h": 384
+  "fy": 62.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-rainstormog",
+  "name": "Flux Board: Rain Storm",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c078.webp",
+  "art": "/assets/cards/a078.webp",
   "fx": 56.5,
-  "fy": 46.2,
-  "w": 224,
-  "h": 384
+  "fy": 66.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-rainstormog-swimsuit",
+  "name": "Flux Board: Rain Storm",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c079.webp",
+  "art": "/assets/cards/a079.webp",
   "fx": 44.8,
-  "fy": 32.2,
-  "w": 224,
-  "h": 384
+  "fy": 45.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-rainstorm-swimsuit",
+  "name": "Flux Board: Rain Storm",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c080.webp",
+  "art": "/assets/cards/a080.webp",
   "fx": 61.2,
-  "fy": 37.6,
-  "w": 224,
-  "h": 384
+  "fy": 53.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-rapid",
+  "name": "Rapid Construction",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c081.webp",
+  "art": "/assets/cards/a081.webp",
   "fx": 39.5,
-  "fy": 27.4,
-  "w": 224,
-  "h": 384
+  "fy": 38.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-rapid-swimsuit",
+  "name": "Rapid Construction",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c082.webp",
+  "art": "/assets/cards/a082.webp",
   "fx": 41.2,
-  "fy": 41.0,
-  "w": 224,
-  "h": 384
+  "fy": 58.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-s-craft",
+  "name": "Heat Haze Wave",
+  "type": "S-Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c083.webp",
+  "art": "/assets/cards/a083.webp",
   "fx": 39.3,
-  "fy": 31.8,
-  "w": 224,
-  "h": 384
+  "fy": 45.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-scarlet",
+  "name": "Scarlet Pin of VII",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c084.webp",
+  "art": "/assets/cards/a084.webp",
   "fx": 30.4,
-  "fy": 30.5,
-  "w": 224,
-  "h": 384
+  "fy": 43.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-scarlet-swimsuit",
+  "name": "Scarlet Pin of VII",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c085.webp",
+  "art": "/assets/cards/a085.webp",
   "fx": 49.4,
-  "fy": 45.2,
-  "w": 224,
-  "h": 384
+  "fy": 65.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-shot",
+  "name": "Twin Shot",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c086.webp",
+  "art": "/assets/cards/a086.webp",
   "fx": 74.6,
-  "fy": 29.0,
-  "w": 224,
-  "h": 384
+  "fy": 41.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-siege",
+  "name": "Siege Fragment",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c087.webp",
+  "art": "/assets/cards/a087.webp",
   "fx": 36.1,
-  "fy": 29.2,
-  "w": 224,
-  "h": 384
+  "fy": 41.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-siege-swimsuit",
+  "name": "Siege Fragment",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c088.webp",
+  "art": "/assets/cards/a088.webp",
   "fx": 48.9,
-  "fy": 49.0,
-  "w": 224,
-  "h": 384
+  "fy": 70.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-sparkling",
+  "name": "Sparking Eyes",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c089.webp",
+  "art": "/assets/cards/a089.webp",
   "fx": 65.0,
-  "fy": 46.3,
-  "w": 224,
-  "h": 384
+  "fy": 66.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-sparkling-swimsuit",
+  "name": "Sparking Eyes",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c090.webp",
+  "art": "/assets/cards/a090.webp",
   "fx": 61.6,
-  "fy": 43.1,
-  "w": 224,
-  "h": 384
+  "fy": 61.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-twinshot",
+  "name": "Twin Shot",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c091.webp",
+  "art": "/assets/cards/a091.webp",
   "fx": 68.7,
-  "fy": 29.0,
-  "w": 224,
-  "h": 384
+  "fy": 41.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-leticia-twinshot-swimsuit",
+  "name": "Twin Shot",
+  "type": "Craft",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c092.webp",
+  "art": "/assets/cards/a092.webp",
   "fx": 27.6,
-  "fy": 27.2,
-  "w": 224,
-  "h": 384
+  "fy": 38.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-caller",
+  "name": "Phantasmal Caller",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c093.webp",
+  "art": "/assets/cards/a093.webp",
   "fx": 31.6,
-  "fy": 36.9,
-  "w": 224,
-  "h": 384
+  "fy": 52.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-clones",
+  "name": "Phantasmal Clones",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c094.webp",
+  "art": "/assets/cards/a094.webp",
   "fx": 40.0,
-  "fy": 18.4,
-  "w": 224,
-  "h": 384
+  "fy": 25.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-cure",
+  "name": "Cure Wounds",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c095.webp",
+  "art": "/assets/cards/a095.webp",
   "fx": 73.2,
-  "fy": 33.9,
-  "w": 224,
-  "h": 384
+  "fy": 48.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-healing",
+  "name": "Healing Word",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c096.webp",
+  "art": "/assets/cards/a096.webp",
   "fx": 37.3,
-  "fy": 25.5,
-  "w": 224,
-  "h": 384
+  "fy": 36.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-lyre",
+  "name": "Orbal Lyre",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c097.webp",
+  "art": "/assets/cards/a097.webp",
   "fx": 34.5,
-  "fy": 19.0,
-  "w": 224,
-  "h": 384
+  "fy": 26.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-pcheck",
+  "name": "Performance Check",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c098.webp",
+  "art": "/assets/cards/a098.webp",
   "fx": 70.6,
-  "fy": 45.2,
-  "w": 224,
-  "h": 384
+  "fy": 65.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-s-craft1",
+  "name": "Song of Life",
+  "type": "S-Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c099.webp",
+  "art": "/assets/cards/a099.webp",
   "fx": 36.4,
-  "fy": 20.0,
-  "w": 224,
-  "h": 384
+  "fy": 28.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-s-craft2",
+  "name": "Song of Death",
+  "type": "S-Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c100.webp",
+  "art": "/assets/cards/a100.webp",
   "fx": 69.8,
-  "fy": 20.9,
-  "w": 224,
-  "h": 384
+  "fy": 29.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-touch",
+  "name": "Touch of Death",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c101.webp",
+  "art": "/assets/cards/a101.webp",
   "fx": 38.1,
-  "fy": 29.9,
-  "w": 224,
-  "h": 384
+  "fy": 42.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-twilight",
+  "name": "Twilight Performance",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c102.webp",
+  "art": "/assets/cards/a102.webp",
   "fx": 54.0,
-  "fy": 36.3,
-  "w": 224,
-  "h": 384
+  "fy": 52.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-lila-wounds",
+  "name": "Inflict Wounds",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c103.webp",
+  "art": "/assets/cards/a103.webp",
   "fx": 31.7,
-  "fy": 42.7,
-  "w": 224,
-  "h": 384
+  "fy": 61.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-bless",
+  "name": "Bless",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c104.webp",
+  "art": "/assets/cards/a104.webp",
   "fx": 61.2,
-  "fy": 18.3,
-  "w": 224,
-  "h": 384
+  "fy": 25.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-cinder",
+  "name": "Cinder's Wrath",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c105.webp",
+  "art": "/assets/cards/a105.webp",
   "fx": 44.6,
-  "fy": 22.8,
-  "w": 224,
-  "h": 384
+  "fy": 32.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-crane",
+  "name": "Paper Crane",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c106.webp",
+  "art": "/assets/cards/a106.webp",
   "fx": 36.2,
-  "fy": 21.3,
-  "w": 224,
-  "h": 384
+  "fy": 29.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-fireball",
+  "name": "Fireball",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c107.webp",
+  "art": "/assets/cards/a107.webp",
   "fx": 68.2,
-  "fy": 33.3,
-  "w": 224,
-  "h": 384
+  "fy": 47.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-flame",
+  "name": "Flame Strike",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c108.webp",
+  "art": "/assets/cards/a108.webp",
   "fx": 28.8,
-  "fy": 32.3,
-  "w": 224,
-  "h": 384
+  "fy": 46.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-gladiolus",
+  "name": "Gladiolus",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c109.webp",
+  "art": "/assets/cards/a109.webp",
   "fx": 68.9,
-  "fy": 35.0,
-  "w": 224,
-  "h": 384
+  "fy": 49.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-rending",
+  "name": "Rending Slash",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c110.webp",
+  "art": "/assets/cards/a110.webp",
   "fx": 38.3,
-  "fy": 45.9,
-  "w": 224,
-  "h": 384
+  "fy": 66.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-rep",
+  "name": "Ashen Reprisal",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c111.webp",
+  "art": "/assets/cards/a111.webp",
   "fx": 52.4,
-  "fy": 47.7,
-  "w": 224,
-  "h": 384
+  "fy": 68.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-s-craft",
+  "name": "Crimson Retribution",
+  "type": "S-Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c112.webp",
+  "art": "/assets/cards/a112.webp",
   "fx": 30.3,
-  "fy": 19.0,
-  "w": 224,
-  "h": 384
+  "fy": 26.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-liliana-scorching",
+  "name": "Scorching Rebuke",
+  "type": "Craft",
   "char": "liliana-filius",
   "chars": [
    "liliana-filius"
   ],
   "src": "/assets/cards/c113.webp",
+  "art": "/assets/cards/a113.webp",
   "fx": 29.9,
-  "fy": 35.3,
-  "w": 224,
-  "h": 384
+  "fy": 50.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-multislash",
+  "name": "Multi-Slash",
+  "type": "Skill",
   "char": "naoto",
   "chars": [
    "naoto"
   ],
   "src": "/assets/cards/c114.webp",
+  "art": "/assets/cards/a114.webp",
   "fx": 32.1,
-  "fy": 41.4,
-  "w": 224,
-  "h": 384
+  "fy": 59.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-black",
+  "name": "Black Hole",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c115.webp",
+  "art": "/assets/cards/a115.webp",
   "fx": 41.0,
-  "fy": 45.6,
-  "w": 224,
-  "h": 384
+  "fy": 65.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-burst",
+  "name": "Hellburst",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c116.webp",
+  "art": "/assets/cards/a116.webp",
   "fx": 73.1,
-  "fy": 25.0,
-  "w": 224,
-  "h": 384
+  "fy": 35.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-devour",
+  "name": "Devour",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c117.webp",
+  "art": "/assets/cards/a117.webp",
   "fx": 45.4,
-  "fy": 40.9,
-  "w": 224,
-  "h": 384
+  "fy": 58.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-fang",
+  "name": "Demon Fang",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c118.webp",
+  "art": "/assets/cards/a118.webp",
   "fx": 39.4,
-  "fy": 23.9,
-  "w": 224,
-  "h": 384
+  "fy": 33.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-fist",
+  "name": "Devil Fist",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c119.webp",
+  "art": "/assets/cards/a119.webp",
   "fx": 25.4,
-  "fy": 40.3,
-  "w": 224,
-  "h": 384
+  "fy": 57.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-hopeless",
+  "name": "Hopelessness",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c120.webp",
+  "art": "/assets/cards/a120.webp",
   "fx": 60.2,
-  "fy": 33.3,
-  "w": 224,
-  "h": 384
+  "fy": 47.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-nihil",
+  "name": "Annihilation",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c121.webp",
+  "art": "/assets/cards/a121.webp",
   "fx": 45.4,
-  "fy": 31.0,
-  "w": 224,
-  "h": 384
+  "fy": 44.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-s-craft",
+  "name": "Echoes of Futility",
+  "type": "S-Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c122.webp",
+  "art": "/assets/cards/a122.webp",
   "fx": 45.5,
-  "fy": 19.8,
-  "w": 224,
-  "h": 384
+  "fy": 27.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-sacrifice",
+  "name": "Sacrifice",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c123.webp",
+  "art": "/assets/cards/a123.webp",
   "fx": 68.1,
-  "fy": 43.1,
-  "w": 224,
-  "h": 384
+  "fy": 61.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-noah-self",
+  "name": "Selfless Regeneration",
+  "type": "Craft",
   "char": "noah-swallowtail",
   "chars": [
    "noah-swallowtail"
   ],
   "src": "/assets/cards/c124.webp",
+  "art": "/assets/cards/a124.webp",
   "fx": 44.4,
-  "fy": 44.2,
-  "w": 224,
-  "h": 384
+  "fy": 63.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-orbalconstruction",
+  "name": "Orbal Construction",
+  "type": "Passive",
   "char": "leticia-r-khemia",
   "chars": [
    "leticia-r-khemia"
   ],
   "src": "/assets/cards/c125.webp",
+  "art": "/assets/cards/a125.webp",
   "fx": 74.3,
-  "fy": 51.3,
-  "w": 224,
-  "h": 384
+  "fy": 74.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ourfuture",
+  "name": "Our Future",
+  "type": "Special",
   "char": "eren-rowden",
   "chars": [
    "eren-rowden",
    "mary-hopewell"
   ],
   "src": "/assets/cards/c126.webp",
+  "art": "/assets/cards/a126.webp",
   "fx": 61.0,
-  "fy": 45.0,
-  "w": 224,
-  "h": 384
+  "fy": 64.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-overdrive",
+  "name": "Overdrive",
+  "type": "Skill",
   "char": "reinhardt-camelot",
   "chars": [
    "reinhardt-camelot"
   ],
   "src": "/assets/cards/c127.webp",
+  "art": "/assets/cards/a127.webp",
   "fx": 45.2,
-  "fy": 25.8,
-  "w": 224,
-  "h": 384
+  "fy": 36.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-pdagger",
+  "name": "Psychic Dagger",
+  "type": "Craft",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c128.webp",
+  "art": "/assets/cards/a128.webp",
   "fx": 57.9,
-  "fy": 19.5,
-  "w": 224,
-  "h": 384
+  "fy": 27.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-perfectservice",
+  "name": "Perfect Service",
+  "type": "Skill",
   "char": "sophia",
   "chars": [
    "sophia"
   ],
   "src": "/assets/cards/c129.webp",
+  "art": "/assets/cards/a129.webp",
   "fx": 51.8,
-  "fy": 34.3,
-  "w": 224,
-  "h": 384
+  "fy": 49.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-phantomveil",
+  "name": "Phantom Veil",
+  "type": "Skill",
   "char": "melia-dawn",
   "chars": [
    "melia-dawn"
   ],
   "src": "/assets/cards/c130.webp",
+  "art": "/assets/cards/a130.webp",
   "fx": 73.0,
-  "fy": 29.9,
-  "w": 224,
-  "h": 384
+  "fy": 42.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-prank",
+  "name": "Prank Gone Right",
+  "type": "Skill",
   "char": "rinne-monroe",
   "chars": [
    "rinne-monroe"
   ],
   "src": "/assets/cards/c131.webp",
+  "art": "/assets/cards/a131.webp",
   "fx": 74.6,
-  "fy": 32.9,
-  "w": 224,
-  "h": 384
+  "fy": 46.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-presidentpriv",
+  "name": "President's Privledge",
+  "type": "Skill",
   "char": "haru-mcdowell",
   "chars": [
    "haru-mcdowell"
   ],
   "src": "/assets/cards/c132.webp",
+  "art": "/assets/cards/a132.webp",
   "fx": 34.1,
-  "fy": 42.5,
-  "w": 224,
-  "h": 384
+  "fy": 61.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-quietresolve",
+  "name": "Quiet Youth",
+  "type": "Skill",
   "char": "juel-owayne",
   "chars": [
    "juel-owayne"
   ],
   "src": "/assets/cards/c133.webp",
+  "art": "/assets/cards/a133.webp",
   "fx": 47.8,
-  "fy": 32.4,
-  "w": 224,
-  "h": 384
+  "fy": 46.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-raginggale",
+  "name": "Raging Gale",
+  "type": "Skill",
   "char": "nrin-worzel",
   "chars": [
    "nrin-worzel"
   ],
   "src": "/assets/cards/c134.webp",
+  "art": "/assets/cards/a134.webp",
   "fx": 43.3,
-  "fy": 43.9,
-  "w": 224,
-  "h": 384
+  "fy": 63.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-researchnotes",
+  "name": "\"Research\" Notes",
+  "type": "Skill",
   "char": "doris-mclovin",
   "chars": [
    "doris-mclovin"
   ],
   "src": "/assets/cards/c135.webp",
+  "art": "/assets/cards/a135.webp",
   "fx": 65.0,
-  "fy": 46.0,
-  "w": 224,
-  "h": 384
+  "fy": 66.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-rhapsody",
+  "name": "Rhapsody",
+  "type": "Craft",
   "char": "lila-baskerville",
   "chars": [
    "lila-baskerville"
   ],
   "src": "/assets/cards/c136.webp",
+  "art": "/assets/cards/a136.webp",
   "fx": 50.2,
-  "fy": 45.3,
-  "w": 224,
-  "h": 384
+  "fy": 65.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-artisteye",
+  "name": "Artist's Eye",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c137.webp",
+  "art": "/assets/cards/a137.webp",
   "fx": 35.8,
-  "fy": 32.0,
-  "w": 224,
-  "h": 384
+  "fy": 45.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-artisticinspiration",
+  "name": "Artistic Inspiration",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c138.webp",
+  "art": "/assets/cards/a138.webp",
   "fx": 31.6,
-  "fy": 22.7,
-  "w": 224,
-  "h": 384
+  "fy": 31.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-bleedingshot",
+  "name": "Bleeding Shot",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c139.webp",
+  "art": "/assets/cards/a139.webp",
   "fx": 39.9,
-  "fy": 27.5,
-  "w": 224,
-  "h": 384
+  "fy": 38.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-breakshot",
+  "name": "Break Shot",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c140.webp",
+  "art": "/assets/cards/a140.webp",
   "fx": 28.9,
-  "fy": 31.9,
-  "w": 224,
-  "h": 384
+  "fy": 45.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-breakshotex",
+  "name": "Break Shot",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c141.webp",
+  "art": "/assets/cards/a141.webp",
   "fx": 38.7,
-  "fy": 24.9,
-  "w": 224,
-  "h": 384
+  "fy": 35.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-peaceofmind",
+  "name": "Peace of Mind",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c142.webp",
+  "art": "/assets/cards/a142.webp",
   "fx": 39.7,
-  "fy": 49.5,
-  "w": 224,
-  "h": 384
+  "fy": 71.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-quickshot",
+  "name": "Quick Shot",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c143.webp",
+  "art": "/assets/cards/a143.webp",
   "fx": 71.6,
-  "fy": 28.6,
-  "w": 224,
-  "h": 384
+  "fy": 40.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-recoil",
+  "name": "Recoil Movement",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c144.webp",
+  "art": "/assets/cards/a144.webp",
   "fx": 30.5,
-  "fy": 33.3,
-  "w": 224,
-  "h": 384
+  "fy": 47.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-s-craft",
+  "name": "Magnum Opus",
+  "type": "S-Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c145.webp",
+  "art": "/assets/cards/a145.webp",
   "fx": 38.9,
-  "fy": 29.0,
-  "w": 224,
-  "h": 384
+  "fy": 41.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-slowsteady",
+  "name": "Slow & Steady",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c146.webp",
+  "art": "/assets/cards/a146.webp",
   "fx": 63.8,
-  "fy": 36.7,
-  "w": 224,
-  "h": 384
+  "fy": 52.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-slowsteadyex",
+  "name": "Slow & Steady",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c147.webp",
+  "art": "/assets/cards/a147.webp",
   "fx": 28.7,
-  "fy": 51.3,
-  "w": 224,
-  "h": 384
+  "fy": 73.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-ronald-stunningink",
+  "name": "Stunning Ink",
+  "type": "Craft",
   "char": "ronald-aegir",
   "chars": [
    "ronald-aegir"
   ],
   "src": "/assets/cards/c148.webp",
+  "art": "/assets/cards/a148.webp",
   "fx": 26.1,
-  "fy": 33.4,
-  "w": 224,
-  "h": 384
+  "fy": 47.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sguard",
+  "name": "Spirit Guardians",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c149.webp",
+  "art": "/assets/cards/a149.webp",
   "fx": 38.2,
-  "fy": 38.6,
-  "w": 224,
-  "h": 384
+  "fy": 55.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-ark",
+  "name": "Ark Synthesis",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c150.webp",
+  "art": "/assets/cards/a150.webp",
   "fx": 75.0,
-  "fy": 52.0,
-  "w": 224,
-  "h": 384
+  "fy": 75.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-final",
+  "name": "Final Verdict",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c151.webp",
+  "art": "/assets/cards/a151.webp",
   "fx": 31.0,
-  "fy": 23.1,
-  "w": 224,
-  "h": 384
+  "fy": 32.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-flying",
+  "name": "Flying Raijin",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c152.webp",
+  "art": "/assets/cards/a152.webp",
   "fx": 68.3,
-  "fy": 40.8,
-  "w": 224,
-  "h": 384
+  "fy": 58.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-misdirect",
+  "name": "Misdirection",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c153.webp",
+  "art": "/assets/cards/a153.webp",
   "fx": 47.9,
-  "fy": 20.1,
-  "w": 224,
-  "h": 384
+  "fy": 28.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-observer",
+  "name": "Observer",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c154.webp",
+  "art": "/assets/cards/a154.webp",
   "fx": 64.9,
-  "fy": 37.7,
-  "w": 224,
-  "h": 384
+  "fy": 53.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-peak",
+  "name": "Daydreamer's Peak",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c155.webp",
+  "art": "/assets/cards/a155.webp",
   "fx": 59.8,
-  "fy": 19.9,
-  "w": 224,
-  "h": 384
+  "fy": 27.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-pillow",
+  "name": "Special Pillow",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c156.webp",
+  "art": "/assets/cards/a156.webp",
   "fx": 74.6,
-  "fy": 34.6,
-  "w": 224,
-  "h": 384
+  "fy": 49.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-powernap",
+  "name": "Power Nap",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c157.webp",
+  "art": "/assets/cards/a157.webp",
   "fx": 36.5,
-  "fy": 35.2,
-  "w": 224,
-  "h": 384
+  "fy": 50.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-s-craft",
+  "name": "Dreamer's Revelation",
+  "type": "S-Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c158.webp",
+  "art": "/assets/cards/a158.webp",
   "fx": 27.3,
-  "fy": 51.4,
-  "w": 224,
-  "h": 384
+  "fy": 74.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sara-thrust",
+  "name": "Sleeping Thrust",
+  "type": "Craft",
   "char": "sara-oswell",
   "chars": [
    "sara-oswell"
   ],
   "src": "/assets/cards/c159.webp",
+  "art": "/assets/cards/a159.webp",
   "fx": 70.7,
-  "fy": 25.0,
-  "w": 224,
-  "h": 384
+  "fy": 35.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-aero",
+  "name": "Aero Seeker",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c160.webp",
+  "art": "/assets/cards/a160.webp",
   "fx": 44.1,
-  "fy": 19.2,
-  "w": 224,
-  "h": 384
+  "fy": 26.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-rage",
+  "name": "Ancestral Rage",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c161.webp",
+  "art": "/assets/cards/a161.webp",
   "fx": 33.7,
-  "fy": 18.3,
-  "w": 224,
-  "h": 384
+  "fy": 25.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-s-craft",
+  "name": "Tempest Hurricane",
+  "type": "S-Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c162.webp",
+  "art": "/assets/cards/a162.webp",
   "fx": 25.9,
-  "fy": 41.6,
-  "w": 224,
-  "h": 384
+  "fy": 59.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-scar",
+  "name": "Scar of the Wind",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c163.webp",
+  "art": "/assets/cards/a163.webp",
   "fx": 51.8,
-  "fy": 48.8,
-  "w": 224,
-  "h": 384
+  "fy": 70.2,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-shield",
+  "name": "Spirit Shield",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c164.webp",
+  "art": "/assets/cards/a164.webp",
   "fx": 65.0,
-  "fy": 32.1,
-  "w": 224,
-  "h": 384
+  "fy": 45.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-spiral",
+  "name": "Tempest Spiral",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c165.webp",
+  "art": "/assets/cards/a165.webp",
   "fx": 37.4,
-  "fy": 26.9,
-  "w": 224,
-  "h": 384
+  "fy": 38.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-strike",
+  "name": "Halberd Strike",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c166.webp",
+  "art": "/assets/cards/a166.webp",
   "fx": 48.8,
-  "fy": 21.1,
-  "w": 224,
-  "h": 384
+  "fy": 29.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-wind",
+  "name": "Guiding Wind",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c167.webp",
+  "art": "/assets/cards/a167.webp",
   "fx": 48.9,
-  "fy": 23.8,
-  "w": 224,
-  "h": 384
+  "fy": 33.5,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silica-zephyr",
+  "name": "Zephyr's Storm",
+  "type": "Craft",
   "char": "silica-worzel",
   "chars": [
    "silica-worzel"
   ],
   "src": "/assets/cards/c168.webp",
+  "art": "/assets/cards/a168.webp",
   "fx": 40.8,
-  "fy": 49.0,
-  "w": 224,
-  "h": 384
+  "fy": 70.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-silvercommand",
+  "name": "Silver Command",
+  "type": "Skill",
   "char": "noelle-ingram",
   "chars": [
    "noelle-ingram"
   ],
   "src": "/assets/cards/c169.webp",
+  "art": "/assets/cards/a169.webp",
   "fx": 67.9,
-  "fy": 50.7,
-  "w": 224,
-  "h": 384
+  "fy": 73.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-aqua",
+  "name": "Aqua's Dive",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c170.webp",
+  "art": "/assets/cards/a170.webp",
   "fx": 34.0,
-  "fy": 48.5,
-  "w": 224,
-  "h": 384
+  "fy": 69.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-arise",
+  "name": "Arise",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c171.webp",
+  "art": "/assets/cards/a171.webp",
   "fx": 74.0,
-  "fy": 46.1,
-  "w": 224,
-  "h": 384
+  "fy": 66.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-echo",
+  "name": "Echo Flash",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c172.webp",
+  "art": "/assets/cards/a172.webp",
   "fx": 31.9,
-  "fy": 28.0,
-  "w": 224,
-  "h": 384
+  "fy": 39.7,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-lovers",
+  "name": "Lover's Inspiration",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c173.webp",
+  "art": "/assets/cards/a173.webp",
   "fx": 70.8,
-  "fy": 26.5,
-  "w": 224,
-  "h": 384
+  "fy": 37.4,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-passion",
+  "name": "Passion Strike",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c174.webp",
+  "art": "/assets/cards/a174.webp",
   "fx": 61.4,
-  "fy": 18.6,
-  "w": 224,
-  "h": 384
+  "fy": 26.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-protect",
+  "name": "Protect",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c175.webp",
+  "art": "/assets/cards/a175.webp",
   "fx": 37.1,
-  "fy": 22.5,
-  "w": 224,
-  "h": 384
+  "fy": 31.6,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-rhythm",
+  "name": "Rhythm Cleave",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c176.webp",
+  "art": "/assets/cards/a176.webp",
   "fx": 57.3,
-  "fy": 26.3,
-  "w": 224,
-  "h": 384
+  "fy": 37.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-throw",
+  "name": "Shield Throw",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c177.webp",
+  "art": "/assets/cards/a177.webp",
   "fx": 64.1,
-  "fy": 20.7,
-  "w": 224,
-  "h": 384
+  "fy": 29.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-trace",
+  "name": "Trace Fortification",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c178.webp",
+  "art": "/assets/cards/a178.webp",
   "fx": 32.2,
-  "fy": 47.3,
-  "w": 224,
-  "h": 384
+  "fy": 68.1,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-soran-will",
+  "name": "Protective Will",
+  "type": "Craft",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c179.webp",
+  "art": "/assets/cards/a179.webp",
   "fx": 31.6,
-  "fy": 22.0,
-  "w": 224,
-  "h": 384
+  "fy": 30.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-sweet",
+  "name": "Sweet Delight",
+  "type": "Skill",
   "char": "vivian-pattisier",
   "chars": [
    "vivian-pattisier"
   ],
   "src": "/assets/cards/c180.webp",
+  "art": "/assets/cards/a180.webp",
   "fx": 49.6,
-  "fy": 38.3,
-  "w": 224,
-  "h": 384
+  "fy": 54.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-takethelead",
+  "name": "Take The Lead",
+  "type": "Skill",
   "char": "soran-shihei",
   "chars": [
    "soran-shihei"
   ],
   "src": "/assets/cards/c181.webp",
+  "art": "/assets/cards/a181.webp",
   "fx": 52.2,
-  "fy": 43.4,
-  "w": 224,
-  "h": 384
+  "fy": 62.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-thinkingofher",
+  "name": "Thinking of Her",
+  "type": "Skill",
   "char": "eren-rowden",
   "chars": [
    "eren-rowden"
   ],
   "src": "/assets/cards/c182.webp",
+  "art": "/assets/cards/a182.webp",
   "fx": 37.7,
-  "fy": 28.1,
-  "w": 224,
-  "h": 384
+  "fy": 39.8,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-undyingresolve",
+  "name": "Undying Resolve",
+  "type": "Skill",
   "char": "tobias-lysander",
   "chars": [
    "tobias-lysander"
   ],
   "src": "/assets/cards/c183.webp",
+  "art": "/assets/cards/a183.webp",
   "fx": 55.3,
-  "fy": 37.7,
-  "w": 224,
-  "h": 384
+  "fy": 53.9,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-upstaging",
+  "name": "Upstaging",
+  "type": "Skill",
   "char": "sebastian-antois",
   "chars": [
    "sebastian-antois"
   ],
   "src": "/assets/cards/c184.webp",
+  "art": "/assets/cards/a184.webp",
   "fx": 31.7,
-  "fy": 25.7,
-  "w": 224,
-  "h": 384
+  "fy": 36.3,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-venomchance",
+  "name": "Venom's Chance",
+  "type": "Skill",
   "char": "venus-daytona",
   "chars": [
    "venus-daytona"
   ],
   "src": "/assets/cards/c185.webp",
+  "art": "/assets/cards/a185.webp",
   "fx": 71.1,
-  "fy": 45.2,
-  "w": 224,
-  "h": 384
+  "fy": 65.0,
+  "w": 405,
+  "h": 540
  },
  {
   "key": "art-cue2cue",
+  "name": "Cue-to-Cue",
+  "type": "Skill",
   "char": "emily-thatcher",
   "chars": [
    "emily-thatcher"
   ],
   "src": "/assets/cards/c186.webp",
+  "art": "/assets/cards/a186.webp",
   "fx": 37.1,
-  "fy": 51.8,
-  "w": 224,
-  "h": 384
+  "fy": 74.7,
+  "w": 405,
+  "h": 540
  }
 ]

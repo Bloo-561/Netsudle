@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { ChevronDown } from "lucide-react";
 import Icon from "./Icon";
 
-export default function Search({ onGuess, candidates, guessed, disabled }) {
+export default function Search({ onGuess, candidates, guessed, disabled, placeholder }) {
   const [input, setInput] = useState("");
   const [open, setOpen] = useState(false);
   const [cursor, setCursor] = useState(0);
@@ -61,7 +61,7 @@ export default function Search({ onGuess, candidates, guessed, disabled }) {
         <input
           type="text"
           name="character-search"
-          placeholder={disabled ? "Finished" : "Enter character name..."}
+          placeholder={disabled ? "Finished" : placeholder || "Enter character name..."}
           autoComplete="off"
           value={input}
           onClick={() => setOpen(true)}
@@ -80,7 +80,7 @@ export default function Search({ onGuess, candidates, guessed, disabled }) {
         <button
           onClick={() => setOpen((v) => !v)}
           disabled={disabled}
-          aria-label="Show characters"
+          aria-label="Show options"
           className="absolute right-3 top-1/2 -translate-y-1/2"
         >
           <ChevronDown
@@ -108,7 +108,7 @@ export default function Search({ onGuess, candidates, guessed, disabled }) {
                   i === cursor ? "bg-neutral-600" : ""
                 }`}
               >
-                <Icon char={c} className="h-14 w-14 rounded" />
+                {c.icon && <Icon char={c} className="h-14 w-14 rounded" />}
                 <span className="flex-1 text-lg sm:text-xl">{c.name}</span>
               </li>
             ))}
@@ -116,7 +116,7 @@ export default function Search({ onGuess, candidates, guessed, disabled }) {
         )}
         {open && !disabled && suggestions.length === 0 && (
           <div className="absolute top-full left-0 right-0 bg-neutral-700 border border-gray-400 rounded p-3 z-20">
-            No character matches that.
+            Nothing matches that.
           </div>
         )}
       </div>

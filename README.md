@@ -9,7 +9,7 @@ Built with React, Vite, Tailwind and Framer Motion. Originally based on [Genshin
 |---|---|---|
 | **Classic** | 10 | Each guess shows which attributes match the answer: gender, region, group, weapon, affiliation, age and debut season. |
 | **Splash** | 6 | A zoomed-in piece of character art that zooms out with each wrong guess. |
-| **Card** | 6 | A zoomed-in Netsu iF card. Guess whose card it is. |
+| **Card** | 6 | A zoomed-in piece of a Netsu iF card's art. Name the card. Each wrong guess zooms out and unlocks a clue: Character or NPC card, card type, who uses it, the name as blanks with its first letter, then every word's first letter. |
 | **Lore** | 6 | Wiki clues with the name blanked out. Each wrong guess reveals another clue. |
 
 Every mode has:
@@ -29,7 +29,7 @@ Every mode has:
 | Classic columns (add, remove, reorder) | `COLUMNS` in `src/lib/compare.js` |
 | Guess limits, hints, mode text | `src/lib/modes.js` |
 | Splash art | `public/assets/splash/` and `src/data/splash.json` |
-| Cards | `public/assets/cards/` and `src/data/cards.json` |
+| Cards (names, types, who uses them) | `public/assets/cards/` and `src/data/cards.json`; card names come from the printed titles |
 | Lore clues | `src/data/lore.json` |
 | Daily reset time zone and puzzle #1 date | `src/lib/daily.js` |
 

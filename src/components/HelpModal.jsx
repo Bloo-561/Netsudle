@@ -21,7 +21,10 @@ export default function HelpModal({ onClose }) {
             with each wrong guess.
           </li>
           <li>
-            <strong>Card</strong> (6 guesses): a zoomed-in Netsu iF card or Memory Order. Guess who is on it. If two people are on the card, either one counts.
+            <strong>Card</strong> (6 guesses): a zoomed-in piece of a card&apos;s art from Netsu iF.
+            Name the card. Each wrong guess zooms out and unlocks a clue: Character or NPC card,
+            card type, who uses it, the name as blanks with its first letter, then every
+            word&apos;s first letter.
           </li>
           <li>
             <strong>Lore</strong> (6 guesses): wiki clues with the name blanked out. Each wrong
