@@ -7,7 +7,7 @@ export default function LoreClues({ clues, step, revealed }) {
       {clues.map((clue, i) => (
         <li
           key={i}
-          className={`rounded p-3 border-2 ${
+          className={`rounded p-2 sm:p-3 border-2 text-sm sm:text-base ${
             i < shown
               ? "bg-neutral-800 border-[#c24d68]"
               : "bg-neutral-800/50 border-neutral-700 text-neutral-400"

@@ -53,7 +53,7 @@ export default function Search({ onGuess, candidates, guessed, disabled, placeho
   };
 
   return (
-    <div ref={containerRef} className="relative flex flex-col items-center w-full mt-6">
+    <div ref={containerRef} className="relative flex flex-col items-center w-full mt-4 sm:mt-6">
       {/* Dummy fields to stop Safari autofill */}
       <input type="text" name="fake-name" style={{ display: "none" }} />
       <input type="password" name="fake-password" style={{ display: "none" }} />
@@ -95,7 +95,7 @@ export default function Search({ onGuess, candidates, guessed, disabled, placeho
             id="suggestions"
             ref={listRef}
             role="listbox"
-            className="absolute top-full left-0 right-0 max-h-80 overflow-y-auto bg-neutral-700 border border-gray-400 rounded w-full z-20 cursor-pointer text-left"
+            className="absolute top-full left-0 right-0 max-h-[45dvh] sm:max-h-80 overflow-y-auto bg-neutral-700 border border-gray-400 rounded w-full z-20 cursor-pointer text-left"
           >
             {suggestions.map((c, i) => (
               <li
@@ -108,8 +108,8 @@ export default function Search({ onGuess, candidates, guessed, disabled, placeho
                   i === cursor ? "bg-neutral-600" : ""
                 }`}
               >
-                {c.icon && <Icon char={c} className="h-14 w-14 rounded" />}
-                <span className="flex-1 text-lg sm:text-xl">{c.name}</span>
+                {c.icon && <Icon char={c} className="h-11 w-11 sm:h-14 sm:w-14 rounded" />}
+                <span className="flex-1 text-base sm:text-xl py-1">{c.name}</span>
               </li>
             ))}
           </ul>

@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <div
-      className="flex flex-col h-screen w-screen gap-y-5 overflow-y-auto pb-10"
+      className="flex flex-col h-dvh w-screen gap-y-3 sm:gap-y-5 overflow-y-auto pb-10"
       style={{
         backgroundImage: `url(${state.settings.background})`,
         backgroundSize: "cover",

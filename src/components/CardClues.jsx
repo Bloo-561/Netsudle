@@ -4,11 +4,11 @@ import { Lock } from "lucide-react";
 export default function CardClues({ clues, step, revealed }) {
   const shown = revealed ? clues.length : Math.min(step, clues.length);
   return (
-    <ol className="flex flex-col gap-2 w-full text-left mt-4">
+    <ol className="flex flex-col gap-2 w-full text-left mt-3 sm:mt-4">
       {clues.map((clue, i) => (
         <li
           key={clue.label}
-          className={`rounded p-3 border-2 ${
+          className={`rounded p-2 sm:p-3 border-2 text-sm sm:text-base ${
             i < shown
               ? "bg-neutral-800 border-[#c24d68]"
               : "bg-neutral-800/50 border-neutral-700 text-neutral-400"

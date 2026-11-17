@@ -9,6 +9,7 @@ import { pickDaily } from "../lib/daily";
 import { variantKey } from "../lib/engine";
 import { useGame } from "../lib/hooks";
 import Icon from "./Icon";
+import GuessCard from "./GuessCard";
 
 export default function GameContainer({ mode, clock, onMode }) {
   const g = useGame(mode, clock.day);
@@ -49,7 +50,25 @@ export default function GameContainer({ mode, clock, onMode }) {
       />
 
       {guesses.length > 0 && mode.id === "classic" && (
-        <div className="flex flex-col p-2 rounded bg-neutral-800 w-11/12 sm:w-auto max-w-[95vw] overflow-x-auto">
+        <ul className="sm:hidden flex flex-col gap-2 w-[94%]">
+          {guesses.map((guess, index) => (
+            <GuessCard
+              key={guess.id}
+              guess={guess}
+              answer={answer}
+              columns={columns}
+              animate={isNew(index)}
+            />
+          ))}
+          <li className="text-xs text-neutral-200 bg-neutral-900/80 rounded px-2 py-1 text-left">
+            <span className="text-green-400">Green</span> correct ·{" "}
+            <span className="text-yellow-400">yellow</span> partly ·{" "}
+            <span className="text-[#e58aa0]">red</span> wrong · arrows point to the answer&apos;s age
+          </li>
+        </ul>
+      )}
+      {guesses.length > 0 && mode.id === "classic" && (
+        <div className="hidden sm:flex flex-col p-2 rounded bg-neutral-800 w-auto max-w-[95vw] overflow-x-auto">
           <div className="min-w-min">
             <GuessHeader columns={columns} />
             {guesses.map((guess, index) => (
@@ -72,7 +91,7 @@ export default function GameContainer({ mode, clock, onMode }) {
       )}
 
       {guesses.length > 0 && mode.id !== "classic" && (
-        <ul className="flex flex-row flex-wrap justify-center gap-2 w-11/12 sm:w-8/12">
+        <ul className="flex flex-row flex-wrap justify-center gap-2 w-[94%] sm:w-8/12">
           {guesses.map((guess) => {
             const right = answers.includes(guess.id);
             return (
@@ -96,7 +115,7 @@ export default function GameContainer({ mode, clock, onMode }) {
       )}
 
       {yesterday && (
-        <p className="flex items-center gap-2 bg-neutral-900/90 rounded px-4 py-2 text-sm sm:text-base">
+        <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 bg-neutral-900/90 rounded px-3 py-2 mx-3 text-sm sm:text-base">
           Yesterday&apos;s {mode.name} answer (#{clock.day - 1}) was
           {mode.answerKind !== "card" && (
             <Icon char={byId[yesterday.char]} className="h-8 w-8 rounded" />

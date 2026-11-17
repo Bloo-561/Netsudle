@@ -20,7 +20,7 @@ export default function ZoomImage({ src, fx, fy, w, h, step, revealed, alt, scal
 
   return (
     <div
-      className="relative overflow-hidden rounded-md bg-neutral-900 border-4 border-[#6e3343] mx-auto w-full max-w-xs"
+      className="relative overflow-hidden rounded-md bg-neutral-900 border-4 border-[#6e3343] mx-auto w-full max-w-[15rem] sm:max-w-xs"
       style={{ aspectRatio: "3 / 4" }}
     >
       <img

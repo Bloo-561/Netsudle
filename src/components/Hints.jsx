@@ -5,7 +5,7 @@ import Icon from "./Icon";
 
 export default function Hints({ mode, game, answer, onHint }) {
   return (
-    <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-2 w-full mt-4 text-base">
+    <div className="grid grid-cols-2 sm:flex sm:flex-row sm:flex-wrap justify-center gap-2 w-full mt-3 sm:mt-4 text-sm sm:text-base">
       {mode.hints.map((h) => {
         const used = game.hints.includes(h.kind);
         const unlocked = hintUnlocked(game, h);
@@ -13,7 +13,7 @@ export default function Hints({ mode, game, answer, onHint }) {
           return (
             <div
               key={h.kind}
-              className="flex items-center gap-2 bg-neutral-800 border-2 border-yellow-500 rounded px-3 py-2 text-left"
+              className="flex items-center gap-2 bg-neutral-800 border-2 border-yellow-500 rounded px-2 sm:px-3 py-2 text-left col-span-2"
             >
               <Lightbulb size={18} className="text-yellow-400 flex-shrink-0" />
               {h.kind === "portrait" ? (
@@ -38,12 +38,17 @@ export default function Hints({ mode, game, answer, onHint }) {
             key={h.kind}
             disabled={!unlocked}
             onClick={() => onHint(h.kind)}
-            className="flex items-center justify-center gap-2 bg-neutral-800 border-2 border-neutral-600 rounded px-3 py-2 cursor-pointer enabled:hover:border-yellow-500 disabled:cursor-default disabled:opacity-60"
+            className="flex items-center justify-center gap-1.5 sm:gap-2 bg-neutral-800 border-2 border-neutral-600 rounded px-2 sm:px-3 py-2 cursor-pointer enabled:hover:border-yellow-500 disabled:cursor-default disabled:opacity-60"
           >
             <Lightbulb size={18} />
-            {unlocked
-              ? `Show hint: ${h.label}`
-              : `${h.label} hint in ${left} ${left === 1 ? "guess" : "guesses"}`}
+            {unlocked ? (
+              `Show hint: ${h.label}`
+            ) : (
+              <span>
+                {h.label} <span className="hidden sm:inline">hint </span>in {left}
+                <span className="hidden sm:inline"> {left === 1 ? "guess" : "guesses"}</span>
+              </span>
+            )}
           </button>
         );
       })}

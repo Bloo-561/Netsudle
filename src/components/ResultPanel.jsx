@@ -21,20 +21,20 @@ export default function ResultPanel({ mode, g, answer, clock, onMode }) {
 
   const nextMode = MODES.find((m) => m.id !== mode.id && !dailyDone(state, m, season1Only, clock.day));
   const s = clock.seconds;
-  const button = "border-2 px-4 py-2 rounded cursor-pointer font-semibold flex items-center gap-2";
+  const button = "border-2 px-3 sm:px-4 py-2 rounded cursor-pointer font-semibold flex items-center gap-2 text-base";
 
   return (
     <div
       role="status"
-      className={`w-full py-6 px-4 sm:px-12 flex flex-col gap-4 items-center text-lg sm:text-xl rounded-md ${
+      className={`w-full py-4 px-3 sm:py-6 sm:px-12 flex flex-col gap-3 sm:gap-4 items-center text-base sm:text-xl rounded-md ${
         won ? "bg-green-400/95 text-black" : "bg-[#7e1919]/90 text-white"
       }`}
     >
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3 sm:gap-4">
         {mode.answerKind === "card" ? (
-          <img src={puzzle.src} alt="" className="h-28 rounded" />
+          <img src={puzzle.src} alt="" className="h-24 sm:h-28 rounded flex-shrink-0" />
         ) : (
-          <Icon char={answer} className="h-20 w-20 rounded" />
+          <Icon char={answer} className="h-16 w-16 sm:h-20 sm:w-20 rounded flex-shrink-0" />
         )}
         <p className="text-left">
           {won
